@@ -1,0 +1,42 @@
+.buybar {
+    zoom: 98%;
+    display: flex;
+    background-image: url("../../../public/assets/img/backgroundBuybar.png");
+    font-size: 12px;
+    height: 50px;
+    background-color: #262626;
+    z-index: 100;
+    line-height: 54px; 
+    justify-content: space-between;
+}
+
+.envatologo{
+    zoom: 62%;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.botonbuybar{
+    /* margin: 10px;
+    margin-bottom: 25px; */
+    zoom: 95%;
+    margin-right: 15px;
+    box-shadow: 0 2px 0 #6f9a37;
+    position: relative;
+    background-color: #82b440;
+    color: white;
+    font-size: 14px;
+    padding: 5px 20px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block; 
+    border: none;
+    border-radius: 4px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}

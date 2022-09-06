@@ -1,0 +1,107 @@
+.banner {
+    background-image: url("../../public/assets/img/banner.jpg");
+    background-size: cover;
+    padding: 70px 0 80px 0;
+}
+
+.sliderh1 {
+    font-size: 60px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 0;
+    text-align: center;
+}
+
+.inputform {
+
+    border: none !important;
+    outline: none !important;
+    border-style: none !important;
+    font-size: 14px !important;
+    border-radius: 0 !important;
+    height: 48px !important;
+    position: relative;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    margin-bottom: 0;
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    box-sizing: border-box;
+}
+
+.divinputform {
+    width: 25% !important;
+}
+
+.formbanner {
+    padding: 6% !important;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+.buttonsearch {
+    margin: 10px;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: bold;
+    background: #ffb900;
+    color: #000;
+    font-weight: bold;
+    padding: 0px 26px;
+    display: block;
+    height: 100% !important;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: bold;
+    /* padding: 13px 97px 12px 0; */
+    background: #ffb900;
+    color: #000;
+    font-weight: bold;
+    padding: 0px 38px;
+    display: block;
+    text-align: center;
+    height: 100% !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.text1{
+
+}
+
+.footerclass {
+    color: white;
+    display: flex;
+    height: 240px !important;
+    background: #121111;
+    padding: 50px 0 20px 0;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+}

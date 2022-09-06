@@ -1,25 +1,37 @@
-import logo from './logo.svg';
+
+  
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Buybar from './components/Buybar/Buybar';
+import Contactbar from './components/Contactbar/Contactbar';
+import Navigationbar from './components/Navigationbar/Navigationbar'; 
+
+import Footer from './pages/Footer'; 
+
+// import { CartContext } from './context/CartContext';
+// import CartProvider from './context/CartContext';  
+
+ 
 import './App.css';
+import Home from './pages/Home';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Editsss <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+   <>
+      {/* <CartProvider > */}
+        <BrowserRouter>
+              <Buybar />
+              <Contactbar />
+              <Navigationbar />
+              <Routes>
+              
+              <Route path="/" element={<Home />} />
+              </Routes>
+              <Footer /> 
+            </BrowserRouter>
+          {/* </CartProvider> */}
+
+        </>
+        );
 }
 
-export default App;
+        export default App;

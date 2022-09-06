@@ -1,0 +1,52 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Contactbar {
+    display: flex;
+    font-size: 12px;
+    height: 42px;
+    background: #41444c;
+    z-index: 100;
+    line-height: 14px;
+    margin-bottom: 1px;
+    justify-content: space-around;
+}
+
+
+.bothtogether {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+}
+
+
+.submitprop {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: bold;
+    background: #ffb900;
+    color: #000;
+    font-weight: bold;
+    padding: 0px 26px;
+    display: block;
+    height: 100% !important;
+
+}
+
+.phone {
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px !important;
+}
+
+.socialmedia {
+    line-height: 44px;
+}
