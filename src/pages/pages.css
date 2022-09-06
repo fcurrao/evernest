@@ -98,6 +98,7 @@
 .text1 {}
 
 .footerclass {
+    zoom: 80%;
     font-size: 22px;
     text-transform: capitalize;
     text-align: left;
@@ -106,12 +107,12 @@
     display: flex;
     height: 240px !important;
     background: #121111;
-    padding: 50px 0 20px 0;
+    padding: 3%;
     flex-direction: row;
     flex-wrap: nowrap;
     align-content: space-around;
-    justify-content: space-around;
     align-items: center;
+    justify-content: center;
 }
 
 .listabox {
@@ -191,17 +192,17 @@
     margin-top: -3%;
 }
 
-.featuredprop{
+.featuredprop {
     margin: 50px;
 }
 
-.featuredproptext{
-margin-bottom: 40px;
+.featuredproptext {
+    margin-bottom: 40px;
 }
 
-.titletext{
+.titletext {
     font-size: 46px;
-    color: #000; 
+    color: #000;
     font-family: 'Poppins', sans-serif;
     margin: 0px;
     padding: 0px;
@@ -209,20 +210,20 @@ margin-bottom: 40px;
     line-height: 1.2;
 }
 
-.text2{
+.text2 {
     font-size: 16px;
-    color: #000; 
+    color: #000;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
     margin: 0px;
     padding: 0px;
 }
 
-.buyorsell{
+.buyorsell {
     display: flex;
     background: url(http://malikhassan.com/html/evernest/images/house-bg.jpg) no-repeat top;
     text-align: center;
-    background-size: cover; 
+    background-size: cover;
     padding: 70px 0 80px 0;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -231,7 +232,7 @@ margin-bottom: 40px;
     align-items: center;
 }
 
-.divbuttonsbuyorsell{ 
+.divbuttonsbuyorsell {
     display: flex;
     flex-wrap: nowrap;
     align-content: flex-end;
@@ -240,7 +241,7 @@ margin-bottom: 40px;
     flex-direction: row;
 }
 
-.text4{
+.text4 {
     text-decoration: none;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
@@ -248,14 +249,65 @@ margin-bottom: 40px;
     color: #000;
     display: inline-block;
     font-weight: 400;
-    background: #ffb900; 
+    background: #ffb900;
 }
 
-.popularplaces{
+.popularplaces {
     margin-top: 5%
 }
 
 
-.proptorent{
+.proptorent {
     margin-top: 5%
+}
+
+.footer1 {
+    width: 25%;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.text14 {
+    font-size: 14px;
+}
+
+.buttonch {
+    margin: 10px;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    background: #ffb900;
+    color: white;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    height: 100% !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 100%;
+}
+
+
+
+.footer2 {
+    width: 25%;
+    margin-right: 50px;
+}
+
+.footer3 {
+    width: 25%;
+    margin-right: 50px;
+}
+
+
+.footer4 {
+    width: 25%;
+    margin-right: 50px;
 }

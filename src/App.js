@@ -19,7 +19,7 @@ function App() {
    <>
       {/* <CartProvider > */}
         <BrowserRouter>
-              <Buybar />
+              {/* <Buybar /> */}
               <Contactbar />
               <Navigationbar />
               <Routes>
