@@ -21,11 +21,11 @@
 
 .sliderh2 {
     font-size: 46px;
-    color: #fff !important; 
+    color: #fff !important;
     font-weight: bold;
 }
 
-.textwhite{
+.textwhite {
     color: #fff !important;
     font-size: 14px;
     font-style: italic;
@@ -237,10 +237,10 @@
 
 
 
-.pictureProp:hover { 
+.pictureProp:hover {
     -webkit-transform: scale(1);
     transform: scale(1.05);
-    -webkit-transition: all 0.5s ease 0s;  
+    -webkit-transition: all 0.5s ease 0s;
 }
 
 .featuredprop {
@@ -308,8 +308,8 @@
 .popularplaces {
     zoom: 90%;
     margin-top: 5%;
-     margin-left: 10%;
-     margin-right: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 
@@ -523,3 +523,50 @@
     width: 25%;
     margin-right: 50px;
 }
+
+.aboutus {
+    background-image: url('https://www.ankararealestate.mx/wp-content/uploads/2022/01/modern-interior-meeting-room-of-marketing-office-with-evening-sunset-empty-large-loft-style-conference-space-with-chairs-and-tables-furniture-and-clean-glass-windows-scaled.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 170px 0px;
+    margin: 0px !important;
+}
+
+
+.textaboutus {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 24px;
+    background: #2A2A2A;
+    border-bottom: 4px solid #ECAC48;
+    display: inline-block;
+    font-weight: bold;
+    padding: 9px 45px;
+}
+
+.baloon{
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  width: 20%;
+  height: 15%;
+}
+
+.whtsimag{ 
+    color: #25D366;
+  vertical-align: middle;
+  width: 5%;
+  border-style: none;
+  position: fixed;
+  right: 20px;
+  bottom: 74px;
+  z-index: 7000;
+}
+
+
+
+
+
+
+
+
