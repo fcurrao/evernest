@@ -21,6 +21,7 @@
     text-transform: uppercase;
     margin-right: 1.5%;
     margin-left: 1.5%;
+    text-decoration: none !important;
 }
 
 .textlinkbar:hover{
@@ -30,6 +31,7 @@
 
 .textlinkbar:focus{
     color: #E6A213;
+    
 }
 
 .optionbar{

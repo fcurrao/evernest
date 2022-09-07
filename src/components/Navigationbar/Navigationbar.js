@@ -1,4 +1,5 @@
 import './Navigationbar.css'
+import { Link } from 'react-router-dom'
 
 const Navigationbar = () => {
 
@@ -14,10 +15,10 @@ const Navigationbar = () => {
         
 
 <div className='optionbar'>
-    <a  className='textlinkbar'>  HOME </a>
-    <a className='textlinkbar'>  NOSOTROS </a>
-    <a className='textlinkbar'>  PROPIEDADES </a>
-    <a className='textlinkbar'>  CONTACTO </a>
+<Link to="/home"  className='textlinkbar'>  HOME </Link>
+    <Link to="/nosotros"  className='textlinkbar'>  NOSOTROS </Link>
+        <a className='textlinkbar'>  PROPIEDADES </a>
+    <Link to="/contacto"  className='textlinkbar'>  CONTACTO </Link>
 
     </div>  
         
