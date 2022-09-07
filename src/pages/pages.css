@@ -12,11 +12,26 @@
 
 .sliderh1 {
     font-size: 60px;
-    color: #fff;
+    color: #fff !important;
     text-transform: uppercase;
     font-weight: 600;
     margin-top: 0;
     text-align: center;
+}
+
+.sliderh2 {
+    font-size: 46px;
+    color: #fff !important; 
+    font-weight: bold;
+}
+
+.textwhite{
+    color: #fff !important;
+    font-size: 14px;
+    font-style: italic;
+    padding: 0 150px;
+    line-height: 26px;
+    margin-top: 25px;
 }
 
 .inputform {
@@ -64,6 +79,44 @@
 
 
 
+.socialmedia {
+    zoom: 80%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-left: 5%;
+    padding-right: 1px;
+    color: white;
+}
+
+.sm {
+    margin-right: 3px;
+    font-size: 14px;
+    color: #fff;
+    border: 1px solid #fff;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 100%;
+}
+
+.divphone {
+    display: flex;
+    align-items: center;
+}
+
+
+.smp {
+    margin-right: 3px;
+    font-size: 14px;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
 
 .buttonsearch {
     margin: 10px;
@@ -83,7 +136,6 @@
     text-decoration: none;
     font-size: 0.9rem;
     font-weight: bold;
-    /* padding: 13px 97px 12px 0; */
     background: #ffb900;
     color: #000;
     font-weight: bold;
@@ -175,25 +227,26 @@
     margin-bottom: 5%;
 }
 
-.pictureProp {
-
-    width: 90%;
-}
-
 .margintop5 {
     margin-top: 5%;
 }
 
-.pictureProp:hover {
+.pictureProp {
+    width: 90%;
+}
+
+
+
+.pictureProp:hover { 
     -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-transition: all 0.5s ease 0s;
-    width: 100%;
-    margin-top: -3%;
+    transform: scale(1.05);
+    -webkit-transition: all 0.5s ease 0s;  
 }
 
 .featuredprop {
     margin: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .featuredproptext {
@@ -253,12 +306,17 @@
 }
 
 .popularplaces {
-    margin-top: 5%
+    zoom: 90%;
+    margin-top: 5%;
+     margin-left: 10%;
+     margin-right: 10%;
 }
 
 
 .proptorent {
-    margin-top: 5%
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .footer1 {
@@ -274,6 +332,160 @@
 .text14 {
     font-size: 14px;
 }
+
+.subtitle {
+    cursor: pointer;
+    text-align: start;
+    margin-left: 18px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+    font-weight: normal;
+}
+
+
+.subtitle:hover {
+    transition: all .3s ease;
+    color: #ffb900;
+}
+
+.location {
+    margin-left: 5px;
+    text-align: start;
+    font-size: 14px;
+    color: #b9b9b9;
+}
+
+.price {
+    text-align: start;
+    font-size: 20px;
+    color: #ffb900;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.hearticon {
+    font-size: 14px;
+    color: #a5a5a5;
+    width: 30px;
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    height: 30px;
+    border: 1px solid #f0efef;
+    background: #f9f9f9;
+    margin: 3px;
+}
+
+.priceandheart {
+    display: flex;
+    margin-left: 5px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.properinfo {
+    text-align: start;
+    font-size: 12px;
+    margin-bottom: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+    margin-top: 5px;
+}
+
+.displaynone {
+    display: none;
+}
+
+.opacitytransp {
+    opacity: 0;
+}
+
+
+
+.threeparts {
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.t1 {
+    /* background-color: yellow; */
+}
+
+.t2 {
+    /* background-color: blue; */
+    display: flex;
+
+}
+
+.t3 {
+    /* background-color: red; */
+
+}
+
+.p12 {
+    /* background-color: red; */
+    width: 500% !important;
+
+}
+
+.p3 {
+    /* background-color: rgb(72, 0, 255); */
+    width: 231%;
+
+}
+
+.imglit {
+    width: 98.8%;
+    margin-bottom: 4%;
+    margin-left: 5%;
+}
+
+.imglit2 {
+    width: 92.5%;
+    margin: 2%;
+}
+
+.imgbig {
+    width: 96%;
+}
+
+
+/* .mask {
+    position: absolute;
+    width: 648px;
+    height: 391px;
+    transform: translate(30px, 20px) rotate(90deg);
+    
+} */
+
+
+.mask:hover {
+    opacity: 0.5;
+    /* position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: -270px;
+    content: "";
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 0;
+    width: 96%;
+    -webkit-transform: skewX(-36.01deg);
+    -ms-transform: skewX(-36.01deg);
+    transform: skewX(-36.01deg);
+    -webkit-transition: all .5s ease 0s;
+    -o-transition: all .5s ease 0s;
+    transition: all .5s ease 0s;
+    z-index: 0; */
+}
+
+
+
 
 .buttonch {
     margin: 10px;

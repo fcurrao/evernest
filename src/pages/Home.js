@@ -92,55 +92,44 @@ const Home = () => {
                         <h3 className="text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3> </div>
                     <div >
                         <ul className="listabox">
-                            <li className="listaclassbox">
-
+                        <li className="listaclassbox">
                                 <div className="margintop5"> <img className="pictureProp" src="./assets/img/others/propertyImg01.jpg" alt="pictureProp" /></div>
-                                <div> Upper portion Apartment for sale </div>
-                                <div>  Staten Island / Queens</div>
-                                <div> $ 488.00 </div>
-                                <div> Bedrooms 3 - Bathrooms 2 - Garage 1</div>
-                                <div> a </div>
+                                <div className="divsubtitle"> <p className="subtitle" > Upper portion Apartment for sale</p> </div>
+                                <div className="location"> <a className="location" ><i class='fas fa-map-marker-alt'></i> Staten Island / Queens </a></div>
+                                <div className="priceandheart" > <a className="hearticon"> <i class='fas fa-heart'></i></a>  <a className="hearticon"><i class='fas fa-exchange-alt'></i></a>  <p className="price"> $ 488.00 </p></div>
+                                <div> <p className="properinfo" > Bedrooms 3 - Bathrooms 2 - Garage 1 </p></div>
+
                                 <div className="buttonb">
                                     <div className="stylebutton1"> a </div>
                                     <div className="diagonalstyle"> a </div>
-
                                 </div>
-                            </li>
-
+                            </li>   
 
                             <li className="listaclassbox">
-
-
                                 <div className="margintop5"> <img className="pictureProp" src="./assets/img/others/propertyImg02.jpg" alt="pictureProp" /></div>
-                                <div> Upper portion Apartment for sale </div>
-                                <div>  Staten Island / Queens</div>
-                                <div> $ 488.00 </div>
-                                <div> Bedrooms 3 - Bathrooms 2 - Garage 1</div>
-                                <div> a </div>
+                                <div className="divsubtitle"> <p className="subtitle" > Upper portion Apartment for sale</p> </div>
+                                <div className="location"> <a className="location" ><i class='fas fa-map-marker-alt'></i> Staten Island / Queens </a></div>
+                                <div className="priceandheart" > <a className="hearticon"> <i class='fas fa-heart'></i></a>  <a className="hearticon"><i class='fas fa-exchange-alt'></i></a>  <p className="price"> $ 488.00 </p></div>
+                                <div> <p className="properinfo" > Bedrooms 3 - Bathrooms 2 - Garage 1 </p></div>
+
                                 <div className="buttonb">
                                     <div className="stylebutton1"> a </div>
                                     <div className="diagonalstyle"> a </div>
-
                                 </div>
                             </li>
 
                             <li className="listaclassbox">
+                                <div className="margintop5"> <img className="pictureProp" src="./assets/img/others/propertyImg03.jpg" alt="pictureProp" /></div>
+                                <div className="divsubtitle"> <p className="subtitle" > Upper portion Apartment for sale</p> </div>
+                                <div className="location"> <a className="location" ><i class='fas fa-map-marker-alt'></i> Staten Island / Queens </a></div>
+                                <div className="priceandheart" > <a className="hearticon"> <i class='fas fa-heart'></i></a>  <a className="hearticon"><i class='fas fa-exchange-alt'></i></a>  <p className="price"> $ 488.00 </p></div>
+                                <div> <p className="properinfo" > Bedrooms 3 - Bathrooms 2 - Garage 1 </p></div>
 
-
-                                <div className="margintop5">  <img className="pictureProp" src="./assets/img/others/propertyImg03.jpg" alt="pictureProp" /></div>
-                                <div> Upper portion Apartment for sale </div>
-                                <div>  Staten Island / Queens</div>
-                                <div> $ 488.00 </div>
-                                <div> Bedrooms 3 - Bathrooms 2 - Garage 1</div>
-                                <div> a </div>
                                 <div className="buttonb">
                                     <div className="stylebutton1"> a </div>
                                     <div className="diagonalstyle"> a </div>
-
                                 </div>
                             </li>
-
-
                         </ul>
 
                     </div>
@@ -148,16 +137,16 @@ const Home = () => {
 
 
                 <section className="buyorsell">
-                <h1 className="sliderh1">Buy or sell your house</h1>
-<p>Donec placerat dolor id neque pretium placerat. Donec in facilisis risus.
- In sollicitudin magna luctus sem ultrices convallis. Sed quis ex vel tellus ullamcorper malesuada. 
- Aenean facilisis ex dolor, id vehicula nisl consectetur dapibus. Phasellus mollis mauris semper placerat convallis. 
- Morbi varius facilisis dignissim. Donec eu sollicitudin nunc. 
-Aliquam in nisi id arcu gravida vehicula quis nec sapien. Fusce at dolor ex.</p>
+                    <h1 className="sliderh2">Buy or sell your house</h1>
+                    <p className="textwhite">Donec placerat dolor id neque pretium placerat. Donec in facilisis risus.
+                        In sollicitudin magna luctus sem ultrices convallis. Sed quis ex vel tellus ullamcorper malesuada.
+                        Aenean facilisis ex dolor, id vehicula nisl consectetur dapibus. Phasellus mollis mauris semper placerat convallis.
+                        Morbi varius facilisis dignissim. Donec eu sollicitudin nunc.
+                        Aliquam in nisi id arcu gravida vehicula quis nec sapien. Fusce at dolor ex.</p>
 
-<div className="divbuttonsbuyorsell">
-                            <button className="buttonsearch">    <p className="text4"> Start Search Now  </p> </button> <button className="buttonsearch">    <p className="text4"> Browse Properties </p> </button>
-                        </div>
+                    <div className="divbuttonsbuyorsell">
+                        <button className="buttonsearch">    <p className="text4"> Start Search Now  </p> </button> <button className="buttonsearch">    <p className="text4"> Browse Properties </p> </button>
+                    </div>
 
                 </section>
 
@@ -167,133 +156,111 @@ Aliquam in nisi id arcu gravida vehicula quis nec sapien. Fusce at dolor ex.</p>
 
                 <section className="popularplaces">
 
-                <div className="featuredproptext"> <h1 className="titletext">POPULAR PLACES</h1>
+                    <div className="featuredproptext"> <h1 className="titletext">POPULAR PLACES</h1>
 
-<h3 className="text2">Lorem ipsum dolor sit amet consectetur</h3> </div>
-<div >
-    <ul className="listabox">
-        <li className="listaclassbox">
-
-            <div className="margintop5"> <img className="pictureProp" src="./assets/img/others/propertyImg01.jpg" alt="pictureProp" /></div>
-            <div> Upper portion Apartment for sale </div>
-            <div>  Staten Island / Queens</div>
-            <div> $ 488.00 </div>
-            <div> Bedrooms 3 - Bathrooms 2 - Garage 1</div>
-            <div> a </div>
-            <div className="buttonb">
-                <div className="stylebutton1"> a </div>
-                <div className="diagonalstyle"> a </div>
-
-            </div>
-        </li>
-
-
-        <li className="listaclassbox">
-
-
-            <div className="margintop5"> <img className="pictureProp" src="./assets/img/others/propertyImg02.jpg" alt="pictureProp" /></div>
-            <div> Upper portion Apartment for sale </div>
-            <div>  Staten Island / Queens</div>
-            <div> $ 488.00 </div>
-            <div> Bedrooms 3 - Bathrooms 2 - Garage 1</div>
-            <div> a </div>
-            <div className="buttonb">
-                <div className="stylebutton1"> a </div>
-                <div className="diagonalstyle"> a </div>
-
-            </div>
-        </li>
-
-        <li className="listaclassbox">
-
-
-            <div className="margintop5">  <img className="pictureProp" src="./assets/img/others/propertyImg03.jpg" alt="pictureProp" /></div>
-            <div> Upper portion Apartment for sale </div>
-            <div>  Staten Island / Queens</div>
-            <div> $ 488.00 </div>
-            <div> Bedrooms 3 - Bathrooms 2 - Garage 1</div>
-            <div> a </div>
-            <div className="buttonb">
-                <div className="stylebutton1"> a </div>
-                <div className="diagonalstyle"> a </div>
-
-            </div>
-        </li>
-
-
-    </ul>
-
-</div>
-</section>
+                        <h3 className="text2">Lorem ipsum dolor sit amet consectetur</h3> </div>
 
 
 
 
+                    <section className="threeparts" >
+                        <section className="p12" >
+                            <div className="t1">
+                      
+                            <div className="mask "> 
+                                <img className="imgbig imghovdiag" src="http://malikhassan.com/html/evernest/images/california.jpg" ></img> 
+                                </div> 
+                                
+                            </div>
 
 
+                            <div className="t2">
+                                
+                                
+                            <div className="mask "> 
+                            <img className="imglit2 imghovdiag" src="http://malikhassan.com/html/evernest/images/san_francisco.jpg" ></img>
+                            </div>
+                            <div className="mask "> 
+                                <img className="imglit2 imghovdiag" src="http://malikhassan.com/html/evernest/images/dubai.jpg" ></img>
+                                </div>    
+                                
+                                
+                                 </div>
+                        </section>
+                        <section className="p3" >
+
+                            <div className="t3">
+                                
+                            <div className="mask "> 
+                             <img className="imglit imghovdiag" src="http://malikhassan.com/html/evernest/images/new_york.jpg" ></img>
+                             </div>
+                             <div className="mask "> 
+                                 <img className="imglit imghovdiag" src="http://malikhassan.com/html/evernest/images/miami.jpg" ></img>
+                                 </div>
+                                     <div className="mask "> 
+                                    <img className="imglit imghovdiag" src="http://malikhassan.com/html/evernest/images/australia.jpg" ></img>
+                                    </div>
+                                
+                                
+                                </div>
+                        </section>
+                    </section>
 
 
+                </section>
 
- <section className="proptorent">
+                <section className="proptorent">
 
-<div className="featuredproptext"> <h1 className="titletext">Properties For Rent</h1>
+                    <div className="featuredproptext"> <h1 className="titletext">Properties For Rent</h1>
 
-    <h3 className="text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3> </div>
-<div >
-    <ul className="listabox">
-        <li className="listaclassbox">
+                        <h3 className="text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3> </div>
+                    <div >
+                    <ul className="listabox">
+                    <li className="listaclassbox">
+                                <div className="margintop5"> <img className="pictureProp" src="./assets/img/others/propertyImg01.jpg" alt="pictureProp" /></div>
+                                <div className="divsubtitle"> <p className="subtitle" > Upper portion Apartment for sale</p> </div>
+                                <div className="location"> <a className="location" ><i class='fas fa-map-marker-alt'></i> Staten Island / Queens </a></div>
+                                <div className="priceandheart" > <a className="hearticon"> <i class='fas fa-heart'></i></a>  <a className="hearticon"><i class='fas fa-exchange-alt'></i></a>  <p className="price"> $ 488.00 </p></div>
+                                <div> <p className="properinfo" > Bedrooms 3 - Bathrooms 2 - Garage 1 </p></div>
 
-            <div className="margintop5"> <img className="pictureProp" src="./assets/img/others/propertyImg01.jpg" alt="pictureProp" /></div>
-            <div> Upper portion Apartment for sale </div>
-            <div>  Staten Island / Queens</div>
-            <div> $ 488.00 </div>
-            <div> Bedrooms 3 - Bathrooms 2 - Garage 1</div>
-            <div> a </div>
-            <div className="buttonb">
-                <div className="stylebutton1"> a </div>
-                <div className="diagonalstyle"> a </div>
-
-            </div>
-        </li>
-
-
-        <li className="listaclassbox">
+                                <div className="buttonb">
+                                    <div className="stylebutton1"> a </div>
+                                    <div className="diagonalstyle"> a </div>
+                                </div>
+                            </li>
 
 
-            <div className="margintop5"> <img className="pictureProp" src="./assets/img/others/propertyImg02.jpg" alt="pictureProp" /></div>
-            <div> Upper portion Apartment for sale </div>
-            <div>  Staten Island / Queens</div>
-            <div> $ 488.00 </div>
-            <div> Bedrooms 3 - Bathrooms 2 - Garage 1</div>
-            <div> a </div>
-            <div className="buttonb">
-                <div className="stylebutton1"> a </div>
-                <div className="diagonalstyle"> a </div>
+                            <li className="listaclassbox">
+                                <div className="margintop5"> <img className="pictureProp" src="./assets/img/others/propertyImg02.jpg" alt="pictureProp" /></div>
+                                <div className="divsubtitle"> <p className="subtitle" > Upper portion Apartment for sale</p> </div>
+                                <div className="location"> <a className="location" ><i class='fas fa-map-marker-alt'></i> Staten Island / Queens </a></div>
+                                <div className="priceandheart" > <a className="hearticon"> <i class='fas fa-heart'></i></a>  <a className="hearticon"><i class='fas fa-exchange-alt'></i></a>  <p className="price"> $ 488.00 </p></div>
+                                <div> <p className="properinfo" > Bedrooms 3 - Bathrooms 2 - Garage 1 </p></div>
 
-            </div>
-        </li>
+                                <div className="buttonb">
+                                    <div className="stylebutton1"> a </div>
+                                    <div className="diagonalstyle"> a </div>
+                                </div>
+                            </li>
+                           
 
-        <li className="listaclassbox">
+                            <li className="listaclassbox">
+                                <div className="margintop5"> <img className="pictureProp" src="./assets/img/others/propertyImg03.jpg" alt="pictureProp" /></div>
+                                <div className="divsubtitle"> <p className="subtitle" > Upper portion Apartment for sale</p> </div>
+                                <div className="location"> <a className="location" ><i class='fas fa-map-marker-alt'></i> Staten Island / Queens </a></div>
+                                <div className="priceandheart" > <a className="hearticon"> <i class='fas fa-heart'></i></a>  <a className="hearticon"><i class='fas fa-exchange-alt'></i></a>  <p className="price"> $ 488.00 </p></div>
+                                <div> <p className="properinfo" > Bedrooms 3 - Bathrooms 2 - Garage 1 </p></div>
+
+                                <div className="buttonb">
+                                    <div className="stylebutton1"> a </div>
+                                    <div className="diagonalstyle"> a </div>
+                                </div>
+                            </li>
+                        </ul>
 
 
-            <div className="margintop5">  <img className="pictureProp" src="./assets/img/others/propertyImg03.jpg" alt="pictureProp" /></div>
-            <div> Upper portion Apartment for sale </div>
-            <div>  Staten Island / Queens</div>
-            <div> $ 488.00 </div>
-            <div> Bedrooms 3 - Bathrooms 2 - Garage 1</div>
-            <div> a </div>
-            <div className="buttonb">
-                <div className="stylebutton1"> a </div>
-                <div className="diagonalstyle"> a </div>
-
-            </div>
-        </li>
-
-
-    </ul>
-
-</div>
-</section>
+                    </div>
+                </section>
 
 
 
@@ -304,7 +271,7 @@ Aliquam in nisi id arcu gravida vehicula quis nec sapien. Fusce at dolor ex.</p>
                     meetouragents
                 </section>
 
-                
+
 
 
 
