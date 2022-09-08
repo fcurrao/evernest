@@ -1,5 +1,6 @@
 
 import './pages.css'
+import { Link } from 'react-router-dom'
 
 
 const Footer = () => {
@@ -12,29 +13,31 @@ const Footer = () => {
 
 
 <section className="footer1">
-<div className="margintop5"> <img className="logo" src="https://www.ankararealestate.mx/wp-content/uploads/2022/01/logo-ankara.pngx" alt="pictureProp" /></div>
+<div className="margintop5"> <img className="logo" src="https://www.ankararealestate.mx/wp-content/uploads/2022/01/logo-ankara.png" alt="pictureProp" /></div>
 
-<p className='text14'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean urna magna, mattis at ullamcorper in, pharetra in lorem. Etiam mollis.</p>
-<button className="buttonch">    <p className="text1"> SEARCH </p> </button>
+ 
 </section>
 
 
 <section className="footer2">
-Quick Links
-
-    
-</section>
-
+ <div className='linkfooter'>
+    <Link to="/home"  className='textlinkbar'>  HOME </Link>
+    <Link to="/nosotros"  className='textlinkbar'>  NOSOTROS </Link> 
+    <Link to="/contacto"  className='textlinkbar'>  CONTACTO </Link>
+    </div>
 <section className="footer3">
 
-Recent Properties
 
+Copyright © Ankara 2022. Todos los derechos reservados.
+
+<h4 className="footer3">
+<a  className="footer3" href='https://www.github.com/fcurrao'  target="_blank">  Sitio desarrollado by GQUE 
+<img className="githubimag" src="https://www.svgrepo.com/show/343674/github.svg"></img></a>
+</h4>
+ 
 </section>
-
-<section className="footer4">
-
-Contact info
 </section>
+ 
 
 
 

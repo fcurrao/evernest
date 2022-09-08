@@ -17,7 +17,7 @@ const Navigationbar = () => {
 <div className='optionbar'>
 <Link to="/home"  className='textlinkbar'>  HOME </Link>
     <Link to="/nosotros"  className='textlinkbar'>  NOSOTROS </Link>
-        <a className='textlinkbar'>  PROPIEDADES </a>
+    <Link to="/propiedades"  className='textlinkbar'>  PROPIEDADES </Link>
     <Link to="/contacto"  className='textlinkbar'>  CONTACTO </Link>
 
     </div>  

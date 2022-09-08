@@ -31,10 +31,10 @@ e.preventDefault()
       return (
  
            
-
+         
 <section className="center contactcontainer">
  
-<h1 className="titulo center">Contacto</h1>
+<h1 className="titulo centrado">Contacto</h1>
 
 ¿Te interesa alguna propiedad premium?
 NOS COMUNICAMOS CONTIGO
