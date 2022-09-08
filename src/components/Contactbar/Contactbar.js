@@ -14,10 +14,9 @@ const Contactbar = () => {
 
                 <section className="socialmedia">
                     <div>
-                    <i class='sm fab fa-facebook-f' style={{ fontSize: "16px" }} ></i>
-                    <i class='sm fab fa-twitter' style={{ fontSize: "16px" }} ></i>
-                    <i class='sm fab fa-linkedin-in' style={{ fontSize: "16px" }} ></i>
-                    <i class='sm fab fa-youtube' style={{ fontSize: "16px" }} ></i>
+                    <a href="https://www.facebook.com/AnkraRealEstate/"  target="_blank" class='sm fab fa-facebook-f' style={{ fontSize: "16px" }} ></a> 
+                    <a href="https://www.instagram.com/ankrarealestate/" target="_blank" class='sm fab fa-instagram' style={{ fontSize: "17px" }} ></a>
+                    <a href="https://www.youtube.com/channel/UCVwCSszh8_MTmZ55k5fztqg" target="_blank" class='sm fab fa-youtube' style={{ fontSize: "16px" }} ></a>
                     
                      
 
@@ -28,7 +27,7 @@ const Contactbar = () => {
                 <section className="bothtogether">
                     <section className="phone">
                         <div className="divphone">
-                        <i class='smp fas fa-phone-alt' style={{ fontSize: "18px" }} ></i> <p>(770) 123 4657</p>
+                        <i class='smp fas fa-phone-alt' style={{ fontSize: "18px" }} ></i> <p>(+52 ) 55 1510 8737</p>
                         </div>
                     </section>
                     <section className="submitprop">
