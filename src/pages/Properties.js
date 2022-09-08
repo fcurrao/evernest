@@ -123,40 +123,10 @@ const Properties = () => {
                 Más fotos de
 
 
-
-
-                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-
-                        {btng4 == 1 ? <>    <div class="carousel-item active">
-                            <img src="./assets/img/others/car.png" class="d-block w-100" alt="..." />
-                        </div>
-                        </> : <></>}
-
-
-
-                        {btng4 == 2 ? <>    <div class="carousel-item active">
-                            <img src="./assets/img/others/bed.png" class="d-block w-100" alt="..." />
-                        </div>
-                        </> : <></>}
-
-                        {btng4 == 3 ? <>    <div class="carousel-item active">
-                            <img src="./assets/img/others/toilet.png" class="d-block w-100" alt="..." />
-                        </div>
-                        </> : <></>}
-
-
-                        {btng4 == 4 ? <>    <div class="carousel-item active">
-                            <img src="./assets/img/others/home.png" class="d-block w-100" alt="..." />
-                        </div>
-                        </> : <></>}
-
-
-                    </div>
-
+                <div className="bottongallery">
                     <button onClick={() => changeBtng(1)} class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">baño</span>
+                        <span class="visually-hidden">car</span>
                     </button>
                     <button onClick={() => changeBtng(2)} class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -164,12 +134,41 @@ const Properties = () => {
                     </button>
                     <button onClick={() => changeBtng(3)} class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">car</span>
+                        <span class="visually-hidden">baño</span>
                     </button>
                     <button onClick={() => changeBtng(4)} class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">home</span>
                     </button>
+                    </div>
+
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+
+                        {btng4 == 1 ? <>    <div class="carousel-item active">
+                            <img src="https://www.ankararealestate.mx/wp-content/uploads/2022/01/Casa_Los-Arboles-03-670x417.jpg" class="d-block w-100" alt="..." />
+                        </div>
+                        </> : <></>}
+
+                        {btng4 == 2 ? <>    <div class="carousel-item active">
+                            <img src="https://www.ankararealestate.mx/wp-content/uploads/2022/01/Casa_Los-Arboles-09-670x417.jpg" class="d-block w-100" alt="..." />
+                        </div>
+                        </> : <></>}
+
+                        {btng4 == 3 ? <>    <div class="carousel-item active">
+                            <img src="https://www.ankararealestate.mx/wp-content/uploads/2022/01/WhatsApp-Image-2022-06-28-at-1.27.58-PM-670x417.jpeg" class="d-block w-100" alt="..." />
+                        </div>
+                        </> : <></>}
+
+                        {btng4 == 4 ? <>    <div class="carousel-item active">
+                            <img src="https://www.ankararealestate.mx/wp-content/uploads/2022/01/Casa_Los-Arboles-06-670x417.jpg" class="d-block w-100" alt="..." />
+                        </div>
+                        </> : <></>}
+
+
+                    </div>
+
+
                 </div >
 
                 {
