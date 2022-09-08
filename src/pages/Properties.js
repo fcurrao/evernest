@@ -1,8 +1,17 @@
 import Contactbar from "./Contactbar"
+import { useState } from "react"
 
 
 const Properties = () => {
 
+
+    const [btng4, setBtng4] = useState(1)
+
+    const changeBtng = (n) => {
+        setBtng4(n)
+        console.log("esto es n" ,n)
+        console.log("esto es btng4" ,btng4)
+    }
 
 
     return (
@@ -64,23 +73,23 @@ const Properties = () => {
 
             <section className="iconspropr">
                 <ul className="uliconprop">
-                    <il className="liicon"> 
-                    <img className="iconprop" src="./assets/img/others/toilet.png" alt="iconprop" />
+                    <il className="liicon">
+                        <img className="iconprop" src="./assets/img/others/toilet.png" alt="iconprop" />
                         <h4 className="center">BAÑOS</h4>
                         <h4 className="center">3</h4>
                     </il>
-                    <il className="liicon"> 
-                    <img className="iconprop" src="./assets/img/others/bed.png" alt="iconprop" />
+                    <il className="liicon">
+                        <img className="iconprop" src="./assets/img/others/bed.png" alt="iconprop" />
                         <h4 className="center">HABITACIONES</h4>
                         <h4 className="center">3</h4>
                     </il>
-                    <il className="liicon"> 
-                    <img className="iconprop" src="./assets/img/others/car.png" alt="iconprop" />
+                    <il className="liicon">
+                        <img className="iconprop" src="./assets/img/others/car.png" alt="iconprop" />
                         <h4 className="center">ESTACIONAMIENTOS</h4>
                         <h4 className="center">4</h4>
                     </il>
-                    <il className="liicon"> 
-                    <img className="iconprop" src="./assets/img/others/home.png" alt="iconprop" />
+                    <il className="liicon">
+                        <img className="iconprop" src="./assets/img/others/home.png" alt="iconprop" />
                         <h4 className="center" >METROS DE CONSTRUCCION</h4>
                         <h4 className="center">540m</h4>
                     </il>
@@ -103,7 +112,7 @@ const Properties = () => {
 
 
             <section className="exclusive center">
-            Que hace exclusiva y funcional a la
+                Que hace exclusiva y funcional a la
 
             </section>
 
@@ -111,26 +120,85 @@ const Properties = () => {
 
 
             <section className="morepicture center">
-            Más fotos de
+                Más fotos de
 
-            </section>
+
+
+
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+
+                        {btng4 == 1 ? <>    <div class="carousel-item active">
+                            <img src="./assets/img/others/car.png" class="d-block w-100" alt="..." />
+                        </div>
+                        </> : <></>}
+
+
+
+                        {btng4 == 2 ? <>    <div class="carousel-item active">
+                            <img src="./assets/img/others/bed.png" class="d-block w-100" alt="..." />
+                        </div>
+                        </> : <></>}
+
+                        {btng4 == 3 ? <>    <div class="carousel-item active">
+                            <img src="./assets/img/others/toilet.png" class="d-block w-100" alt="..." />
+                        </div>
+                        </> : <></>}
+
+
+                        {btng4 == 4 ? <>    <div class="carousel-item active">
+                            <img src="./assets/img/others/home.png" class="d-block w-100" alt="..." />
+                        </div>
+                        </> : <></>}
+
+
+                    </div>
+
+                    <button onClick={() => changeBtng(1)} class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">baño</span>
+                    </button>
+                    <button onClick={() => changeBtng(2)} class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">cama</span>
+                    </button>
+                    <button onClick={() => changeBtng(3)} class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">car</span>
+                    </button>
+                    <button onClick={() => changeBtng(4)} class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">home</span>
+                    </button>
+                </div >
+
+                {
+
+
+
+
+}
+
+
+
+            </section >
 
 
             <section className=" center margin10">
                 <h3 className="textitalic center"> "En decoración coloca siempre una pieza controvertida.
-Dará tema de conversación a tus invitados." </h3>
+                    Dará tema de conversación a tus invitados." </h3>
             </section>
 
 
             <section className="psold center">
-            Total de propiedades vendidas en los últimos 6 meses:
+                Total de propiedades vendidas en los últimos 6 meses:
             </section>
 
 
 
 
             <section className="brochure center margin10">
-            DESCARGA EL BROCHURE
+                DESCARGA EL BROCHURE
 
             </section>
 

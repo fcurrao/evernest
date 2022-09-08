@@ -746,3 +746,11 @@
 .liicon{
     padding-right: 8%  !important;
 }
+
+.carousel-item {
+display: none;
+}
+
+.active{
+    display: block !important;
+}
