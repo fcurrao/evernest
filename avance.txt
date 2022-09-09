@@ -9,6 +9,7 @@
 -HOME
 -DETAIL
 -PROPIEDADES (templaid GRID > con un Descargar Brochure(templaid sumitPropiety))
+-PROPIEDADES  (filtros : categorias/recent/keywords NO! ||| location/propotype 2 OPTIONS  || price: range (libreria) -----0---- )
 -api (back and)
 
 

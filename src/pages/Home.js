@@ -58,7 +58,7 @@ const Home = () => {
                 <section className="banner">
 
                     <div className="containerS">
-                        <h1 className="sliderh1">FIND YOUR DREAM HOME</h1>
+                        <h1 className="sliderh1">Encontra la casa de tus sueños</h1>
                     </div>
 
 
@@ -87,9 +87,9 @@ const Home = () => {
 
                 <section className="featuredprop">
 
-                    <div className="featuredproptext"> <h1 className="titletext">Featured Properties</h1>
+                    <div className="featuredproptext"> <h1 className="titletext">Propiedades destacadas</h1>
 
-                        <h3 className="text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3> </div>
+                        <h3 className="text2">Nuestros clientes son lo mas importante para nosotros.</h3> </div>
                     <div >
                         <ul className="listabox">
                             <li className="listaclassbox">
@@ -158,9 +158,9 @@ const Home = () => {
 
                 <section className="popularplaces">
 
-                    <div className="featuredproptext"> <h1 className="titletext">POPULAR PLACES</h1>
+                    <div className="featuredproptext"> <h1 className="titletext">Los mas populares</h1>
 
-                        <h3 className="text2">Lorem ipsum dolor sit amet consectetur</h3> </div>
+                        <h3 className="text2">El hogar que siempre soñaste esta en Ankara</h3> </div>
 
 
 
@@ -213,9 +213,9 @@ const Home = () => {
 
                 <section className="proptorent">
 
-                    <div className="featuredproptext"> <h1 className="titletext">Properties For Rent</h1>
+                    <div className="featuredproptext"> <h1 className="titletext">Propiedades disponibles</h1>
 
-                        <h3 className="text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3> </div>
+                        <h3 className="text2">Encontra tu hogar de tus sueños en Ankara</h3> </div>
                     <div >
                         <ul className="listabox">
                             <li className="listaclassbox">
