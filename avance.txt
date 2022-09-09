@@ -1,45 +1,34 @@
-    
+***********************************************************************************************************************
 ---------------------------HACIENDO / POR HACER ----------------------------------------------------------------------
 >>> VER CUADERNO 'ESPN'
-OURTEAM (...dificil)
-letras
-HOME
-DETAIL
-PROPIEDADES
+-OURTEAM (...dificil)
+-letras (fuentes popis y tamaños)
+-todo al español
+-verificar todo igual
+-navbar(a mejorar)
+-HOME
+-DETAIL
+-PROPIEDADES (templaid GRID > con un Descargar Brochure(templaid sumitPropiety))
+-api (back and)
 
------------------------------------------------------------------------------------------------------------------------
-
-
-contact (a mejorar -> que se envie el formulario , sin la pagina servidor de por medio(https://formsubmit.co/)...)
-navbar(a mejorar)
-
-
-
-----------------------------NO ECHO-----------------------------------------------------------------------------------
-api
-todo lo que respecta a api(propiedades)
-limpieza de codigo
-abajo de 800px se rompe (hacer responsive)
-
----------------------------RESPONSIVE----------------------------------------------------------------------------------
-*1050 para abajo:
-fotos de NOSOTROS(se rompe) 
-
-*800px para abajo:
-todo! (se rompe)
 
 ***********************************************************************************************************************
------------------------------------------------------------------------------------------------------------------------ 
----------------------------ECHO----------------------------------------------------------------------------------------
+----------------------------NO ECHO-----------------------------------------------------------------------------------
+-api (back and)
+-todo lo que respecta a api(propiedades)
+-limpieza de codigo
+-contact (a mejorar -> que se envie el formulario , sin la pagina servidor de por medio(https://formsubmit.co/)...)
+
+-de 800px para abajo se rompe (hacer responsive)-------RESPONSIVE-------  
+-de 1050px para abajo: fotos de NOSOTROS(se rompe) -------RESPONSIVE-------
+ 
+
+
+***********************************************************************************************************************
+---------------------------------ECHO--------------------------------------------------------------------------------- 
 about us/ nosotros (V)
 footer (v)
 404 (v)
-
-
-
-
-
-
 
 
 
