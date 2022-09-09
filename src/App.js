@@ -8,6 +8,7 @@ import Contact from './pages/Contact'
 import Footer from './pages/Footer';
 import Home from './pages/Home';
 import Aboutus from './pages/Aboutus';
+import Error404 from './pages/Error404';
 import Properties from './pages/Properties';
 
 // import { CartContext } from './context/CartContext';
@@ -31,7 +32,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
 
-          <Route path="*" element={<h1>ERROR 404 - PAGINA NO ENCONTRADA</h1>} />
+          <Route path="*" element={<Error404 />}   />
         </Routes>
 
         <div className="baloonwhp">

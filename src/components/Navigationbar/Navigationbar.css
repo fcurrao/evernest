@@ -1,7 +1,7 @@
 .navbar{
     opacity: 0.85;
     display: flex;
-    background-color: #edebeb;
+    background-color: #f9f7f7;
     flex-direction: row;
     align-content: space-around;
     justify-content: space-between;
@@ -25,12 +25,17 @@
 }
 
 .textlinkbar:hover{
+    background-color:#ffb900 ;
     cursor: pointer;
     color: #E6A213 !important; 
+    color: white !important;
+    text-decoration: white;
 }
 
 .textlinkbar:focus{
-    color: #E6A213;
+    
+    background-color:#ffb900 ;
+    color: white;
     
 }
 
@@ -40,3 +45,7 @@
     justify-content: space-between;
     align-items: center;
 }
+
+
+
+ 

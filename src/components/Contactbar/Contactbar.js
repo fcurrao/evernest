@@ -33,7 +33,7 @@ const Contactbar = () => {
                     <section className="submitprop">
                         <div>
 
-                            <p >Submit Property</p>
+                            <p >Nuevas Propiedades</p>
                         </div>
 
                     </section>

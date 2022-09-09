@@ -1,4 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&display=swap');
+
+.h1{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.h2{
+    font-family: 'Poppins', sans-serif;
+}
+
+.h3{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.h4{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.h5{
+    font-family: 'Poppins', sans-serif;
+}
+
+.p{
+    font-family: 'Poppins', sans-serif;
+}
+
 .banner {
     background-image: url("../../public/assets/img/banner.jpg");
     background-size: cover;
@@ -31,6 +59,11 @@
     font-size: 46px;
     color: #fff !important;
     font-weight: bold;
+}
+
+.z125 {
+    padding-top: 2%;
+    zoom: 125%;
 }
 
 .textwhite {
@@ -96,6 +129,7 @@
     margin-left: 5%;
     padding-right: 1px;
     color: white;
+    z-index: 3;
 }
 
 .sm {
@@ -117,6 +151,15 @@
     align-items: center;
 }
 
+.divemail {
+    zoom: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.svgspacing {
+    margin-right: 3% !important;
+}
 
 .smp {
     margin-right: 3px;
@@ -129,6 +172,7 @@
 }
 
 .buttonsearch {
+    cursor: pointer;
     margin: 10px;
     border: none;
     font-family: 'Open Sans', sans-serif;
@@ -157,9 +201,63 @@
     align-items: center;
 }
 
+.iconblanco {
+    color: white !important;
+}
+
+.buttonsearch2 {
+    cursor: pointer;
+    margin: 6px;
+    height: 80% !important;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: bold;
+    background: #ffb900;
+    color: #000;
+    font-weight: bold;
+    display: block;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: bold;
+    background: #ffb900;
+    color: #000;
+    font-weight: bold;
+    padding: 0px 30px;
+    display: block;
+    text-align: center;
+    height: 100% !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonsearch:hover {
+    background-color: black;
+}
+
+.buttonsearch2:hover {
+    background-color: black;
+}
+
+.text5 {
+    color: white;
+    margin: 20% 0%;
+}
+
+.flex {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin-bottom: 5%;
+}
+
 .text1 {}
 
 .footerclass {
+    padding-bottom: 5% !important;
     zoom: 80%;
     font-size: 22px;
     text-transform: capitalize;
@@ -204,7 +302,7 @@
 }
 
 
-.listaclassbox2{
+.listaclassbox2 {
     list-style: none;
     visibility: visible;
     width: 42%;
@@ -321,6 +419,27 @@
     flex-direction: row;
 }
 
+.textlinkbar {
+    font-size: 14px;
+    padding: 12px 16px;
+    color: #727280;
+    text-transform: uppercase;
+    z-index: 1000;
+    font-weight: bold;
+}
+
+.textlinkbar:hover {
+    background-color: #ffb900;
+    color: white;
+    text-decoration: white;
+    font-size: 14px;
+    padding: 12px 16px;
+    color: #727280;
+    text-transform: uppercase;
+    z-index: 1000;
+    font-weight: bold;
+}
+
 .text4 {
     text-decoration: none;
     font-size: 16px;
@@ -347,12 +466,43 @@
 }
 
 .footer1 {
-    width: 25%;
+    width: 20%;
     margin-right: 50px;
     display: flex;
     flex-direction: column;
     align-content: space-around;
     justify-content: space-between;
+    align-items: flex-start;
+}
+
+.pfoot {
+    text-transform: initial;
+    font-size: 16px;
+    margin: 0%;
+    width: 130%;
+}
+
+.psm {
+    text-transform: initial;
+    margin: 0%;
+    padding: 0%;
+}
+
+.footer15imp {
+    font-family: 'Poppins', sans-serif !important;
+    width: 100%;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    display: flex;
+    width: 100%;
+    color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-content: flex-start;
     align-items: flex-start;
 }
 
@@ -493,22 +643,6 @@
 
 .mask:hover {
     opacity: 0.5;
-    /* position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: -270px;
-    content: "";
-    background-color: rgba(0, 0, 0, 0.6);
-    width: 0;
-    width: 96%;
-    -webkit-transform: skewX(-36.01deg);
-    -ms-transform: skewX(-36.01deg);
-    transform: skewX(-36.01deg);
-    -webkit-transition: all .5s ease 0s;
-    -o-transition: all .5s ease 0s;
-    transition: all .5s ease 0s;
-    z-index: 0; */
 }
 
 
@@ -544,7 +678,7 @@
     align-content: space-around;
     justify-content: space-around;
     align-items: center;
-    color: #6B6B6B;
+    color: white;
     font-size: 16px;
     margin: 0;
     line-height: 50px;
@@ -562,11 +696,40 @@
 }
 
 .linkfooter {
+    display: flex;
     width: 90%;
     color: #6B6B6B !important;
     border-bottom-style: solid;
     border-bottom-width: 1px;
 }
+
+.linkfooter2 {
+    display: flex;
+    width: 100%;
+    color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    align-items: flex-start;
+    padding-bottom: 3%;
+    margin-top: 20%;
+}
+
+.linkfooter22 {
+    display: flex;
+    width: 100%;
+    color: white;
+    border: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+
 
 
 .footer4 {
@@ -574,12 +737,24 @@
     margin-right: 50px;
 }
 
+.ptextfooter {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 8%;
+}
+
 .aboutus {
-    background-image: url('https://www.ankararealestate.mx/wp-content/uploads/2022/01/modern-interior-meeting-room-of-marketing-office-with-evening-sunset-empty-large-loft-style-conference-space-with-chairs-and-tables-furniture-and-clean-glass-windows-scaled.jpg');
-    background-position: center;
-    background-size: cover;
-    padding: 170px 0px;
-    margin: 0px !important;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 3%;
+    padding-bottom: 12%;
+    padding-left: 10%;
+    padding-right: 12%;
 }
 
 
@@ -595,10 +770,73 @@
 }
 
 .infoaboutus {
-    background-image: url('https://www.ankararealestate.mx/wp-content/themes/apartvilla/img/resources/gray-texture.jpg');
-    padding: 45px 0px;
+    width: 70%;
+    padding-right: 5%;
+}
+
+.imgab {
+    width: 105%;
+}
+
+.divimgab {}
+
+.font {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.italic {
+    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+}
+
+.titt {
+    font-size: 1.75rem;
+}
+
+.stitt {
+    font-size: 1rem;
+}
+
+.buttonsearch4 {
+
+    cursor: pointer;
+    margin: 10px;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: bold;
+    background: #ffb900;
+    color: #000;
+    font-weight: bold;
+    padding: 0px 26px;
+    display: block;
+    height: 100% !important;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: bold;
+    background: #ffb900;
+    color: #000;
+    font-weight: bold;
+    padding: 0px 38px;
+    display: block;
+    text-align: center;
+    height: 100% !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonsearch4:hover {
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
 
 }
+
+
+.text44:hover {}
 
 
 
@@ -700,7 +938,7 @@
     justify-content: space-between;
     align-items: center;
     margin: 10%;
-    padding-left: 10%; 
+    padding-left: 10%;
 }
 
 .imgpropimag {
@@ -710,7 +948,7 @@
 .descriptiongraltotal {
     padding-left: 8%;
     padding-right: 8%;
-    padding-top: 3%; 
+    padding-top: 3%;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -736,17 +974,22 @@
     margin-left: 16%;
 }
 
-.contactcontainer{
-    background: #EAEBED;
-        padding: 80px 0;
+.contactcontainer {
+    background: #ffffff;
+    padding-bottom: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
-.imgpropimag2{
+.imgpropimag2 {
     position: absolute;
     padding-top: 1%;
 }
 
-.iconspropr{
+.iconspropr {
     zoom: 85%;
     width: 95%;
     display: flex;
@@ -758,24 +1001,24 @@
     justify-content: flex-end;
 }
 
-.uliconprop{
+.uliconprop {
     display: flex;
     justify-content: flex-end;
 }
 
-.liicon{
-    padding-right: 8%  !important;
+.liicon {
+    padding-right: 8% !important;
 }
 
 .carousel-item {
-display: none;
+    display: none;
 }
 
-.active{
+.active {
     display: block !important;
 }
 
-.total{
+.total {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -784,23 +1027,23 @@ display: none;
     justify-content: space-evenly;
 }
 
-.ifilters{
+.ifilters {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.listabox2{
+.listabox2 {
     display: flex;
     justify-content: space-evenly;
     align-content: space-between;
-    flex-direction: row; 
+    flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
 }
 
-.pages{
-    margin: 7% 10%; 
+.pages {
+    margin: 7% 10%;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -808,7 +1051,7 @@ display: none;
     flex-direction: row;
 }
 
-.circlepages{
+.circlepages {
     font-size: 14px;
     border-radius: 50%;
     padding: 2%;
@@ -819,9 +1062,358 @@ display: none;
     padding-right: 2.5%;
 }
 
-.circlepages:hover{
+.circlepages:hover {
     cursor: pointer;
-color: white;
-background-color: #ffb900;
+    color: white;
+    background-color: #ffb900;
 
+}
+
+.ourteam {
+    zoom: 70%;
+}
+
+.totalour {
+    margin: 15% 0%;
+    display: flex;
+    justify-content: center;
+}
+
+.error404h1 {
+    text-align: center;
+    font-size: 220px;
+    color: #323040;
+    text-shadow: 0 0 20px rgb(0 0 0 / 21%);
+    font-weight: 800;
+    margin: 0%;
+}
+
+
+.error404h2 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 36px;
+    color: black;
+    text-shadow: 0 0 20px rgb(0 0 0 / 21%);
+    font-weight: 800;
+    letter-spacing: 10px;
+}
+
+.errorp {
+    font-family: 'Poppins', sans-serif;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    font-size: 16px;
+    color: black;
+    text-shadow: 0 0 20px rgb(0 0 0 / 21%);
+}
+
+
+
+.footer2c {
+    zoom: 110%;
+    padding-left: 5%;
+    color: black !important;
+    height: 400px;
+    width: 28%;
+    display: flex;
+    align-content: space-around;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.footer15c {
+    color: black !important;
+}
+
+.footer15impc {
+    color: black !important;
+}
+
+.smpc {
+    zoom: 125%;
+    text-decoration: none;
+    margin-right: 15%;
+}
+
+.w100 {
+    width: 190% !important;
+}
+
+.socialmedia2 {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-between;
+}
+
+.form-control {
+    zoom: 80%;
+    margin: 1%;
+    border-radius: 0;
+    height: 48px;
+    font-size: 14px;
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.15rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.form-control:focus {
+
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+}
+
+.divflex1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-around;
+    flex-wrap: nowrap;
+}
+
+.divflex2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-around;
+    flex-wrap: nowrap;
+}
+
+.inputtbig {
+    margin-top: 1%;
+    margin-bottom: 2%;
+    width: 95%;
+    height: 190px;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.textocont {
+    width: 60%;
+}
+
+.divtitulo {
+    background: url(http://malikhassan.com/html/evernest/images/innerHeading.jpg);
+    padding: 32px 0;
+    background-size: cover;
+    text-align: center;
+}
+
+.titulo {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.divmargin {
+ 
+}
+
+
+.divmargin2 {
+ 
+}
+
+.divmargin3 {
+
+}
+
+
+
+.bb {
+    cursor: pointer !important;
+    color: black !important;
+    margin: 0%;
+    font-size: 26px !important;
+}
+
+.agent1 { 
+    width: 267px;
+    height: 395px;
+    content: "";
+    border: 1px solid #ffb900;
+    position: absolute;
+    z-index: -1;
+    top: 1605px;
+}
+
+.agent2 {
+    margin-left: 50px;
+    padding-top: 20px;
+    border-style: dotted;
+    border: solid #ffb900;
+    width: 270px;
+    height: 367px;
+    content: "";
+    border: 2px solid #ffb900;
+    bottom: -1200px;
+    /* position: absolute; */
+    left: 717px;
+    z-index: -1;
+    margin-right: 30px;
+    padding-bottom: 5%;
+}
+
+.agent3 {
+    margin-left: 50px;
+    padding-top: 20px;
+    border-style: dotted;
+    border: solid #ffb900;
+    width: 270px;
+    height: 367px;
+    content: "";
+    border: 2px solid #ffb900;
+    bottom: -1200px;
+    /* position: absolute; */
+    left: 717px;
+    z-index: -2;
+    margin-right: 30px;
+    padding-bottom: 5%;
+}
+
+.socialagent {
+    display: flex;
+    align-content: space-around;
+    flex-wrap: nowrap;
+    /* padding-top: 330px; */
+    color: #ffb900;
+    /* padding-left: 120px; */
+    /* z-index: 3; */
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.socialmedia2 {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-between;
+    position: relative;
+    top: -75px;;
+}
+
+.picagent {
+    width: 260px;
+    height: 360px;
+    padding-left: 10%;
+    z-index: -1;
+}
+
+.ott{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-content: flex-end;
+    margin: 10% 5%;
+}
+
+.qone{
+width: 33%;
+
+}
+
+.qtwo{
+    width: 33%;
+}
+
+.qthree{
+    width: 33%;
+}
+
+.r1 {
+    display: flex;
+    align-content: flex-end;
+    justify-content: center;
+    align-items: center;
+}
+
+.r2{
+    display: flex;
+    align-content: flex-end;
+    justify-content: center;
+    align-items: center;
+}
+
+.r3 {
+    display: flex;
+    align-content: flex-end;
+    justify-content: center;
+    align-items: center;
+}
+
+.d1{
+    text-align: center;
+    margin: 0% 1%;
+    font-variant: all-small-caps;
+    font-family: 'Poppins', sans-serif;
+}
+ 
+
+.d2{
+    text-align: center;
+    margin: 0% 1%;
+    font-variant: all-small-caps;
+    font-family: 'Poppins', sans-serif;
+}
+
+.d3{
+    text-align: center;
+    margin: 0% 1%;
+    font-variant: all-small-caps;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nameagent{
+    /* background-color: #ffb900; */
+    margin: 0% 20%;
+    text-align: center;
+    justify-content: center;
+}
+
+.namea{
+    background: #ffb900;
+    color: #000;
+    font-size: 16px; 
+    bottom: 101px;
+    left: 15px;
+    font-weight: 400;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-content: space-between;
+    flex-direction: column;
 }

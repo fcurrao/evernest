@@ -1,4 +1,4 @@
-import Contactbar from "./Contactbar"
+ 
 import { useState } from "react"
 
 
@@ -38,7 +38,7 @@ const Properties = () => {
 
                                 <div className="buttonb">
                                     <div className="stylebutton1"> a </div>
-                                    <div className="diagonalstyle"> a </div>
+                                    {/* <div className="diagonalstyle"> a </div> */}
                                 </div>
                             </li>   
 
@@ -51,7 +51,7 @@ const Properties = () => {
 
                                 <div className="buttonb">
                                     <div className="stylebutton1"> a </div>
-                                    <div className="diagonalstyle"> a </div>
+                                    {/* <div className="diagonalstyle"> a </div> */}
                                 </div>
                             </li>
 
