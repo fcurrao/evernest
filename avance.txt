@@ -5,8 +5,7 @@
 -letras (fuentes popis y tamaños)
 -todo al español
 -verificar todo igual
--navbar(a mejorar)
--HOME
+-HOME (v)
 -DETAIL
 -PROPIEDADES (templaid GRID > con un Descargar Brochure(templaid sumitPropiety))
 -PROPIEDADES  (filtros : categorias/recent/keywords NO! ||| location/propotype 2 OPTIONS  || price: range (libreria) -----0---- )
@@ -30,6 +29,7 @@
 about us/ nosotros (V)
 footer (v)
 404 (v)
+navbar(v)
 
 
 

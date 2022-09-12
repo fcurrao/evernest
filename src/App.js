@@ -6,6 +6,7 @@ import Contactbar from './components/Contactbar/Contactbar';
 import Navigationbar from './components/Navigationbar/Navigationbar';
 import Contact from './pages/Contact'
 import Footer from './pages/Footer';
+import Details from './pages/Details';
 import Home from './pages/Home';
 import Aboutus from './pages/Aboutus';
 import Error404 from './pages/Error404';
@@ -31,7 +32,8 @@ function App() {
           <Route path="/propiedades" element={<Properties />} />
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
-
+          <Route path="/productos/details" element={<Details />} />
+          <Route path="/productos/:id" element={<Details />} />
           <Route path="*" element={<Error404 />}   />
         </Routes>
 

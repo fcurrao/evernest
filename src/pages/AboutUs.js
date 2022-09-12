@@ -63,7 +63,7 @@ const Aboutus = () => {
 
                 <div className="divbuttonsbuyorsell">
 
-<Link to="/propiedades" className='ptextfooter'>  <button className="buttonsearch4">    <p className="text44"> Buscar Propiedades  </p></button> </Link>
+<Link to="/propiedades" className='ptextfooter'>  <button className="buttonsearch4">    <p className="text44"> Propiedades  </p></button> </Link>
 <Link to="/contacto" className='ptextfooter'> <button className="buttonsearch4">    <p className="text44"> Contactenos </p> </button></Link>
 </div>
 
