@@ -1,39 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&display=swap');
 
-.h1{
+.h1 {
     font-family: 'Poppins', sans-serif !important;
 }
 
-body{
+body {
     font-family: 'Poppins', sans-serif !important;
-  }
-  
-  .body{
+}
+
+.body {
     font-family: 'Poppins', sans-serif !important;
-  }
+}
 
-.h2{
-    font-family: 'Poppins', sans-serif !important;}
+.h2 {
+    font-family: 'Poppins', sans-serif !important;
+}
 
-.h3{
-    font-family: 'Poppins', sans-serif !important;}
-
-
-.h4{
-    font-family: 'Poppins', sans-serif !important;}
+.h3 {
+    font-family: 'Poppins', sans-serif !important;
+}
 
 
-.h5{
-    font-family: 'Poppins', sans-serif !important;}
-
-.p{
-    font-family: 'Poppins', sans-serif !important;}
+.h4 {
+    font-family: 'Poppins', sans-serif !important;
+}
 
 
-.ptextn{
+.h5 {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.p {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+
+.ptextn {
     color: black !important;
     font-family: 'Poppins', sans-serif;
     border-bottom-style: none !important;
+}
+
+.espacing{
+    margin: 0% 10% !important;
+}
+.bottongallery {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 10%;
 }
 
 .banner {
@@ -42,7 +58,7 @@ body{
     background-size: cover;
     /* background-position: 100%; */
     padding: 175px 0 80px 0;
- 
+
 }
 
 
@@ -52,6 +68,9 @@ body{
     justify-content: center;
 }
 
+.carousel-item {
+    cursor: pointer;
+}
 .homeclass {
     text-align: center;
     justify-content: center;
@@ -59,12 +78,13 @@ body{
 
 }
 
-.boxyellow{
+.boxyellow {
     border: 1px solid #ffb900;
     width: 130%;
     padding: 15%;
 }
-.ff2{
+
+.ff2 {
     display: flex;
     flex-direction: row;
     align-content: space-around;
@@ -73,7 +93,7 @@ body{
     align-items: center;
 }
 
-.ptext3{
+.ptext3 {
     font-family: 'Poppins', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
@@ -81,7 +101,7 @@ body{
     width: 145%;
 }
 
-.ssss{
+.ssss {
     cursor: pointer;
     text-align: start;
     margin-left: 18px;
@@ -91,18 +111,21 @@ body{
     font-weight: normal;
 }
 
-a{
-    text-decoration: none !important;  
+a {
+    text-decoration: none !important;
 }
+
 .a:-webkit-any-link {
     text-decoration: none !important;
 }
-.rangess{
+
+.rangess {
     display: flex !important;
     justify-content: space-evenly !important;
 }
-.sss{
-    
+
+.sss {
+
     writing-mode: horizontal-tb !important;
     text-rendering: auto;
     color: fieldtext;
@@ -121,22 +144,23 @@ a{
     -webkit-rtl-ordering: logical;
 }
 
-.df{
+.df {
     display: flex;
     width: 25%;
     justify-content: center;
     align-items: center;
 }
-.ff{
+
+.ff {
     display: flex;
 }
 
-.mf{
+.mf {
     margin-right: 2%;
     width: 40%;
 }
 
-.bbt{
+.bbt {
     padding: 25% !important;
 }
 
@@ -334,10 +358,23 @@ a{
 
 .buttonsearch2:hover {
     background-color: black;
+    color: white;
 }
 
-.bb:hover{
+.bb:hover {
     zoom: 110%;
+}
+
+.btbt{
+    background: #ffb900;
+    color: #000;
+    padding: 6px 30px;
+}
+
+.btbt:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
 }
 
 .text5 {
@@ -353,9 +390,10 @@ a{
     margin-bottom: 5%;
 }
 
-.xd{ 
+.xd {
     margin: 10% 0% !important;
 }
+
 .text1 {}
 
 .footerclass {
@@ -387,9 +425,10 @@ a{
     padding-right: 5%;
 }
 
-.ml2{
+.ml2 {
     margin-left: 2% !important;
 }
+
 .listaclassbox {
     list-style: none;
     visibility: visible;
@@ -426,11 +465,11 @@ a{
 
 .stylebutton1 {
     margin-top: 3%;
-    color:  #2b2727;
+    color: #2b2727;
     content: "" !important;
     background: #ffb900;
-    width: 50% !important; 
-    height: 32px !important; 
+    width: 50% !important;
+    height: 32px !important;
     margin: 0% !important;
 }
 
@@ -439,14 +478,14 @@ a{
     color: #ffb900;
     content: "" !important;
     background: #2b2727;
-    width: 50% !important; 
-    height: 32px !important; 
+    width: 50% !important;
+    height: 32px !important;
     margin: 0% !important;
 }
 
 
 .stylebutton1:hover {
-    color:  #2b2727;
+    color: #2b2727;
     content: "" !important;
     background: #ffb900;
 }
@@ -457,14 +496,14 @@ a{
     background: #2b2727;
 }
 
-.tx{
+.tx {
     cursor: pointer;
     font-size: 15px;
     font-family: 'Poppins', sans-serif;
     position: absolute;
 }
 
-.twhite{
+.twhite {
     color: white;
 }
 
@@ -497,7 +536,7 @@ a{
 }
 
 
- 
+
 
 
 .margintop5 {
@@ -523,11 +562,11 @@ a{
     margin-right: 10% !important;
 }
 
-.ott2{
+.ott2 {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    align-content: flex-end; 
+    align-content: flex-end;
     margin: 5% 5% !important;
 }
 
@@ -535,7 +574,7 @@ a{
     margin-bottom: 40px;
 }
 
-.agent1x{
+.agent1x {
     width: 265px;
     height: 460px;
     content: "";
@@ -544,7 +583,7 @@ a{
     z-index: -1;
     /* top: 5070px; */
     margin-top: -21%;
-    margin-left: 5%; 
+    margin-left: 5%;
 }
 
 .titletext {
@@ -751,9 +790,7 @@ a{
     margin-right: 5%;
 }
 
-.t1 {
-    
-}
+.t1 {}
 
 .t2 {
     display: flex;
@@ -799,6 +836,7 @@ a{
     margin: 2% !important;
     margin-left: 12%;
 }
+
 .imgbig {
     width: 96%;
 }
@@ -971,14 +1009,14 @@ a{
 
 .buttonsearch4 {
     cursor: pointer;
-    margin: 10px; 
+    margin: 10px;
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
     font-size: 0.9rem;
     font-weight: bold;
     background: #ffb900;
     color: #000;
-    font-weight: bold; 
+    font-weight: bold;
     display: block;
     height: 100% !important;
     border: transparent;
@@ -1345,7 +1383,7 @@ a{
     margin: 1% !important;
     border-radius: 0 !important;
     height: 48px !important;
-    font-size: 14px !important; 
+    font-size: 14px !important;
     width: 100% !important;
     padding: 0.375rem 0.75rem !important;
     font-size: 1rem !important;
@@ -1406,7 +1444,7 @@ a{
     width: 60%;
 }
 
-.textocont2{
+.textocont2 {
     width: 80%;
     margin: 10% 2%;
 }
@@ -1418,9 +1456,9 @@ a{
     text-align: center;
 }
 
-.tittt{
+.tittt {
     font-size: 1.65rem;
-font-weight: 500;
+    font-weight: 500;
 }
 
 .titulo {
@@ -1430,18 +1468,12 @@ font-weight: 500;
     font-family: 'Poppins', sans-serif;
 }
 
-.divmargin {
- 
-}
+.divmargin {}
 
 
-.divmargin2 {
- 
-}
+.divmargin2 {}
 
-.divmargin3 {
-
-}
+.divmargin3 {}
 
 
 
@@ -1452,7 +1484,7 @@ font-weight: 500;
     font-size: 26px !important;
 }
 
-.agent1 { 
+.agent1 {
     width: 267px;
     height: 395px;
     content: "";
@@ -1517,7 +1549,8 @@ font-weight: 500;
     align-content: space-around;
     justify-content: space-between;
     position: relative;
-    top: -75px;;
+    top: -75px;
+    ;
 }
 
 .picagent {
@@ -1527,7 +1560,7 @@ font-weight: 500;
     z-index: -1;
 }
 
-.ott{
+.ott {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
@@ -1535,16 +1568,16 @@ font-weight: 500;
     margin: 10% 5%;
 }
 
-.qone{
-width: 33%;
+.qone {
+    width: 33%;
 
 }
 
-.qtwo{
+.qtwo {
     width: 33%;
 }
 
-.qthree{
+.qthree {
     width: 33%;
 }
 
@@ -1555,7 +1588,7 @@ width: 33%;
     align-items: center;
 }
 
-.r2{
+.r2 {
     display: flex;
     align-content: flex-end;
     justify-content: center;
@@ -1569,39 +1602,39 @@ width: 33%;
     align-items: center;
 }
 
-.d1{
-    text-align: center;
-    margin: 0% 1%;
-    font-variant: all-small-caps;
-    font-family: 'Poppins', sans-serif;
-}
- 
-
-.d2{
+.d1 {
     text-align: center;
     margin: 0% 1%;
     font-variant: all-small-caps;
     font-family: 'Poppins', sans-serif;
 }
 
-.d3{
+
+.d2 {
     text-align: center;
     margin: 0% 1%;
     font-variant: all-small-caps;
     font-family: 'Poppins', sans-serif;
 }
 
-.nameagent{
+.d3 {
+    text-align: center;
+    margin: 0% 1%;
+    font-variant: all-small-caps;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nameagent {
     /* background-color: #ffb900; */
     margin: 0% 20%;
     text-align: center;
     justify-content: center;
 }
 
-.namea{
+.namea {
     background: #ffb900;
     color: #000;
-    font-size: 16px; 
+    font-size: 16px;
     bottom: 101px;
     left: 15px;
     font-weight: 400;
@@ -1615,10 +1648,10 @@ width: 33%;
     flex-direction: column;
 }
 
- 
 
 
-.divproperinfot{
+
+.divproperinfot {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -1626,10 +1659,10 @@ width: 33%;
     justify-content: space-around;
     flex-wrap: nowrap;
     zoom: 98%;
-    margin-left: 5%;  
+    margin-left: 5%;
 }
 
-.properinfo { 
+.properinfo {
     align-items: center;
     zoom: 98%;
     display: flex;
@@ -1646,13 +1679,13 @@ width: 33%;
 
 
 
-.textt{
+.textt {
     margin-top: 2%;
 
 }
 
 
-.propiedad{ 
+.propiedad {
     zoom: 95%;
     width: 85%;
     padding: 0% 5%;
@@ -1662,29 +1695,31 @@ width: 33%;
     align-items: flex-start;
 }
 
-.treintaporc{
+.treintaporc {
     zoom: 90%;
 
     margin-top: 5% !important;
 }
 
-.infoproppp{
+.infoproppp {
     zoom: 90%;
 }
-.flexh{
+
+.flexh {
     display: flex;
     justify-content: space-between;
 }
 
-.ggg{
+.ggg {
     color: grey !important;
-    margin: 0%!important;
+    margin: 0% !important;
 }
 
-.sinmargin{
-    margin: 0%!important;
+.sinmargin {
+    margin: 0% !important;
 }
-.aaa{
+
+.aaa {
     font-weight: 600;
     font-size: 20px;
     color: #ffb900 !important;
@@ -1694,36 +1729,36 @@ width: 33%;
     margin-top: 10%;
 }
 
-.bbb{
+.bbb {
     font-size: 14px;
     line-height: 24px;
     color: #333;
 }
 
-.imgadd{
+.imgadd {
     width: 96% !important;
     padding: 2% 2% !important;
 }
 
 
-.setentaporc{
-width: 70% !important; 
+.setentaporc {
+    width: 70% !important;
 }
 
- 
 
-li{
+
+li {
     list-style: none;
 }
 
-.listadetalles{
+.listadetalles {
     display: flex;
     align-items: center;
     flex-direction: row;
     flex-wrap: nowrap;
 }
 
-.listadetalles2{
+.listadetalles2 {
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -1732,20 +1767,21 @@ li{
     justify-content: flex-start;
 }
 
-.margrigh{
+.margrigh {
     width: 230px;
     text-align: center;
     justify-content: center;
-    
+
 }
 
-.blbl{
+.blbl {
     font-weight: 550;
 }
-.margrigh2{
+
+.margrigh2 {
     text-align: center;
     justify-content: center;
-    
+
 }
 
 
@@ -1753,16 +1789,110 @@ li{
 
 .close {
     font-size: 1.5rem;
-  }
-  
-  .col-12 img {
+}
+
+.col-12 img {
     opacity: 0.7;
     cursor: pointer;
     margin: 2rem;
     width: 100%;
-  }
-  
-  .col-12 img:hover {
+}
+
+.col-12 img:hover {
     opacity: 1;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.botonimagen {
+    width: 220px;
+    height: 220px;
+    background-image: url("../../public/assets/img/others/fondomx.jpg");
+}
+
+.imgchiq {
+    width: 180px;
+    height: 120px;
+    cursor: pointer;
+}
+
+.oscurecer {
+    background-color: black !important;
+    color: black !important;
+    /* display: none; */
+    width: 100%;
+    height: 100%;
+    background: black;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.contenedordeModal{
+    background-color: white !important;
+    /* display: none; */
+    width: 85%;
+    height: 90%;
+    position: fixed;
+    left: 8%;
+    top: 8%;
+    z-index: 2;
+}
+
+.galeryprop{
+    width: 112% !important;
+    zoom: 96% !important;
+}
+
+.childrenmodal{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    margin: 1% 1%!important;
+    zoom: 113%;
+}
+
+.gallerias{
+    display: inline-flex;
+    flex-direction: row;
+}
+.mmmm{
+    margin: 5% 1%!important;
+    width: 115%;
+    height: 300px;
+}
+.ww95{
+    width: 90% !important; 
+}
+.modalbutton{
+    margin:1% !important;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+}
+
+.sinmarginmodal{
+    margin: 0% 15%!important;
+}
+
+.botonX{
+    font-size: 10px;
+    padding: 0.5%;
+    margin-left: 5%;
+    margin-top:1%;
+}
+
+.sectionArriba{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-between;
+    margin-left: 20%;
+    flex-direction: row;
+    height: 7%;
+}

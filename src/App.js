@@ -12,8 +12,8 @@ import Aboutus from './pages/Aboutus';
 import Error404 from './pages/Error404';
 import Properties from './pages/Properties';
 
-// import { CartContext } from './context/CartContext';
-// import CartProvider from './context/CartContext';  
+import { CartContext } from './context/CartContext';
+import CartProvider from './context/CartContext';  
 
 
 import './App.css';
@@ -21,7 +21,7 @@ import './App.css';
 function App() {
   return (
     <>
-      {/* <CartProvider > */}
+      <CartProvider >
       <BrowserRouter>
         {/* <Buybar /> */}
         <Contactbar />
@@ -51,7 +51,7 @@ function App() {
 
         <Footer />
       </BrowserRouter>
-      {/* </CartProvider> */}
+      </CartProvider>
 
     </>
   );

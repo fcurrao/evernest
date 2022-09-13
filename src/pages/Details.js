@@ -2,8 +2,20 @@
 
 import "./pages.css"
 import swal from 'sweetalert';
+import { useState } from "react";
+import Modal from '../components/Modal/Modal'
+import { useContext } from "react"
+import { CartContext } from "../context/CartContext"
+// import { Carousel } from "bootstrap";    
+import Carousel from 'react-bootstrap/Carousel'
+import Carrousel from "../components/Carrousel/Carrousel"
 
 const Details = () => {
+
+
+
+    const { textoParaFoto, setTextoParaFoto, modalOnOff, setModalOnOff, btng4, setBtng4,  changeBtng } = useContext(CartContext)
+
 
     const rangechange = () => {
         const putrange = document.getElementById('lbrange').value
@@ -21,7 +33,75 @@ const Details = () => {
 
 
 
+    const functionpic = (n) => {
+        
+        setModalOnOff(true);
+        changeBtng(n);
+    }
 
+
+
+
+    //////////////////////////////////
+
+
+    const cambiarfotomenos = () => {
+        // limite de fotos ( PONER EL LENGHT DE ARRAY DE FOTOS)
+         
+     
+
+        if (btng4 > 1) {
+            let counter = btng4
+            console.log("counter", counter)
+            console.log("btgn4 ", btng4)
+            counter--
+            setBtng4(counter)
+            console.log("counter", counter)
+            console.log("btgn4", btng4)
+        } else { }
+
+        
+        if(btng4==1){
+            setTextoParaFoto("Living")
+        }if( btng4==2){
+            setTextoParaFoto("Living")
+        } if(btng4==3){
+            setTextoParaFoto("Habitacion")
+        } if(btng4==4){
+            setTextoParaFoto("Patio")
+        }
+
+        console.log("XXXXXXXXXXXX",textoParaFoto )
+
+    }
+
+
+    const cambiarfotomas = () => {
+        // limite de fotos ( PONER EL LENGHT DE ARRAY DE FOTOS)
+        if (btng4 < 4) {
+            let counter = btng4
+            console.log("counter", counter)
+            console.log("btgn4 ", btng4)
+            counter++
+            setBtng4(counter)
+            console.log("counter", counter)
+            console.log("btgn4", btng4)
+        } else { }
+
+        if(btng4==1){
+            setTextoParaFoto("Habitacion")
+        }if( btng4==2){
+            setTextoParaFoto("Patio")
+        } if(btng4==3){
+            setTextoParaFoto("Living")
+                } if(btng4==4){
+            setTextoParaFoto("Living")
+                }
+
+        console.log("XXXXXXXXXXXX",textoParaFoto )
+    }
+
+    ///////////////////////////////////
 
 
 
@@ -69,79 +149,328 @@ const Details = () => {
             </div>
 
             <div className="setentaporc">
+
+
+
                 <div className="galeryprop">
-                    {/* {/* ////////////////////////////////////////////////////////// */}
-                    {/* {/* ////////////////////////////////////////////////////////// */}
-                    {/* {/* ////////////////////////////////////////////////////////// */}
-                    {/* {/* ////////////////////////////////////////////////////////// */}
-                    {/* {/* ////////////////////////////////////////////////////////// */}
-                    {/* {/* ////////////////////////////////////////////////////////// */}
-                    {/* {/* ////////////////////////////////////////////////////////// */}
-                    {/* {/* ////////////////////////////////////////////////////////// */}
-                    {/* {/* ////////////////////////////////////////////////////////// */}
-                    {/* {/* ////////////////////////////////////////////////////////// */}
 
 
-                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="http://malikhassan.com/html/evernest/images/propertyImg01.jpg" class="d-block w-100" alt="..."></img>
-      <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="http://malikhassan.com/html/evernest/images/propertyImg02.jpg" class="d-block w-100" alt="..."></img>
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="http://malikhassan.com/html/evernest/images/propertyImg03.jpg" class="d-block w-100" alt="..."></img>
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
-      </div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
+                    <section className="morepicture center">
+
+                        <div id="ww95 carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                            <div class="ww95 carousel-inner">
+
+                                {btng4 == 1 ? <>
+
+                                
+                                    <div onClick={() => functionpic(1)} class="ww95 carousel-item active">
+                                        <img src="https://www.ankararealestate.mx/wp-content/uploads/2022/01/Casa_Los-Arboles-03-670x417.jpg" class="mmmm childrenmodal d-block w-100" alt="..." />
+                                    </div>
+                                </> : <></>}
+
+                                {btng4 == 2 ? <>
+                                
+                                    <div onClick={() => functionpic(2)} class="ww95 carousel-item active">
+                                        <img src="https://www.ankararealestate.mx/wp-content/uploads/2022/01/Casa_Los-Arboles-09-670x417.jpg" class="mmmm childrenmodal d-block w-100" alt="..." />
+                                    </div>
+                                </> : <></>}
+
+                                {btng4 == 3 ? <>
+
+                                    
+                                    <div onClick={() => functionpic(3)} class="ww95 carousel-item active">
+                                        <img src="https://www.ankararealestate.mx/wp-content/uploads/2022/01/WhatsApp-Image-2022-06-28-at-1.27.58-PM-670x417.jpeg" class="mmmm childrenmodal d-block w-100" alt="..." />
+                                    </div>
+
+                                </> : <></>}
+
+                                {btng4 == 4 ? <>
+                                     
+
+                                    <div onClick={() => functionpic(4)} class="ww95 carousel-item active">
+                                        <img src="https://www.ankararealestate.mx/wp-content/uploads/2022/01/Casa_Los-Arboles-06-670x417.jpg" class="mmmm childrenmodal d-block w-100" alt="..." />
+                                    </div>
+
+                                </> : <></>}
 
 
 
 
+                            </div >
+                        </div>
 
 
 
-                    {/* {/* ////////////////////////////////////////////////////////// */}
-                    {/* {/* ////////////////////////////////////////////////////////// */}
-                    {/* {/* ////////////////////////////////////////////////////////// */}
-                    {/* {/* ////////////////////////////////////////////////////////// */}
-                    {/* {/* ////////////////////////////////////////////////////////// */}
-                    {/* {/* ////////////////////////////////////////////////////////// */}
-                    {/* {/* ////////////////////////////////////////////////////////// */}
-                    {/* {/* ////////////////////////////////////////////////////////// */}
-                    {/* {/* ////////////////////////////////////////////////////////// */}
-                    {/* {/* ////////////////////////////////////////////////////////// */}
+                        <div className="gallerias">
+                        <button className=" btbt buttonsearch2" onClick={() => cambiarfotomenos()}> Anterior </button> 
+                        <h1 className="sinmarginmodal">{textoParaFoto}</h1>  
+                        <button className="btbt buttonsearch2" onClick={() => cambiarfotomas()}> Siguiente </button>
 
-                    <img className="imgadd" src="http://malikhassan.com/html/evernest/images/slide1.jpg"></img>
+
+                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+
+                                    {btng4 == 1 && modalOnOff == true ? <>
+                                        <Modal textoParaFoto={<p className="sinmarginmodal">{textoParaFoto}</p>}>
+                                            <div class="carousel-item active">
+                                                <img src="https://www.ankararealestate.mx/wp-content/uploads/2022/01/Casa_Los-Arboles-03-670x417.jpg" class="childrenmodal d-block w-100" alt="..." />
+                                            </div>
+                                        </Modal>
+                                    </> : <></>}
+
+                                    {btng4 == 2 && modalOnOff == true ? <>
+                                        <Modal textoParaFoto={<p className="sinmarginmodal">{textoParaFoto}</p>}>
+                                            <div class="carousel-item active">
+                                                <img src="https://www.ankararealestate.mx/wp-content/uploads/2022/01/Casa_Los-Arboles-09-670x417.jpg" class="childrenmodal d-block w-100" alt="..." />
+                                            </div>
+                                        </Modal>
+                                    </> : <></>}
+
+                                    {btng4 == 3 && modalOnOff == true ? <>
+                                        <Modal textoParaFoto={<p className="sinmarginmodal">{textoParaFoto}</p>}>
+                                            <div class="carousel-item active">
+                                                <img src="https://www.ankararealestate.mx/wp-content/uploads/2022/01/WhatsApp-Image-2022-06-28-at-1.27.58-PM-670x417.jpeg" class="childrenmodal d-block w-100" alt="..." />
+                                            </div>
+                                        </Modal>
+                                    </> : <></>}
+
+                                    {btng4 == 4 && modalOnOff == true ? <>
+                                        <Modal textoParaFoto={<p className="sinmarginmodal">{textoParaFoto}</p>}>
+                                            <div class="carousel-item active">
+                                                <img src="https://www.ankararealestate.mx/wp-content/uploads/2022/01/Casa_Los-Arboles-06-670x417.jpg" class="childrenmodal d-block w-100" alt="..." />
+                                            </div>
+                                        </Modal>
+                                    </> : <></>}
+
+
+                                </div>
+
+
+                            </div >
+                        </div>
+
+
+
+
+                    </section >
+
 
 
                 </div>
+
+
+                        {/* ////////////////////////////////////////////// */}
+                        {/* ////////////////////////////////////////////// */}
+                        {/* ////////////////////////////////////////////// */}
+                        {/* ////////////////////////////////////////////// */}
+                        {/* ////////////////////////////////////////////// */}
+                        {/* ////////////////////////////////////////////// */}
+                        {/* ////////////////////////////////////////////// */}
+                        {/* ////////////////////////////////////////////// */}
+
+                        {/* PASARLO A UNA GALERIA */}
+
+
+                        {/* ////////////////////////////////////////////// 
+
+esto volver a verrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrR
+
+
+*/}
+
+
+                            {/*    <div className="bottongallery">
+                                <div onClick={() => changeBtng(1)} class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">
+                                        <img src="https://www.ankararealestate.mx/wp-content/uploads/2022/01/Casa_Los-Arboles-03-670x417.jpg" class="imgchiq d-block w-100" alt="..." />
+                                    </span>
+                                </div>
+                                <div onClick={() => changeBtng(2)} class="espacing carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">
+
+                                        <img src="https://www.ankararealestate.mx/wp-content/uploads/2022/01/Casa_Los-Arboles-09-670x417.jpg" class="imgchiq d-block w-100" alt="..." />
+
+                                    </span>
+                                </div>
+                                <div onClick={() => changeBtng(3)} class="espacing carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">
+                                        <img src="https://www.ankararealestate.mx/wp-content/uploads/2022/01/WhatsApp-Image-2022-06-28-at-1.27.58-PM-670x417.jpeg" class="imgchiq d-block w-100" alt="..." />
+
+                                    </span>
+                                </div>
+
+
+                                <div onClick={() => changeBtng(4)} class="espacing carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">
+                                        <img src="https://www.ankararealestate.mx/wp-content/uploads/2022/01/Casa_Los-Arboles-06-670x417.jpg" class="imgchiq d-block w-100" alt="..." />
+
+                                    </span>
+                                </div>
+
+                            </div>
+
+                            <div className="bottongallery">
+                                <div onClick={() => changeBtng(1)} class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">
+                                        <img src="https://www.ankararealestate.mx/wp-content/uploads/2022/01/Casa_Los-Arboles-03-670x417.jpg" class="imgchiq d-block w-100" alt="..." />
+                                    </span>
+                                </div>
+                                <div onClick={() => changeBtng(2)} class="espacing carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">
+
+                                        <img src="https://www.ankararealestate.mx/wp-content/uploads/2022/01/Casa_Los-Arboles-09-670x417.jpg" class="imgchiq d-block w-100" alt="..." />
+
+                                    </span>
+                                </div>
+                                <div onClick={() => changeBtng(3)} class="espacing carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">
+                                        <img src="https://www.ankararealestate.mx/wp-content/uploads/2022/01/WhatsApp-Image-2022-06-28-at-1.27.58-PM-670x417.jpeg" class="imgchiq d-block w-100" alt="..." />
+
+                                    </span>
+                                </div>
+
+
+                                <div onClick={() => changeBtng(4)} class="espacing carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">
+                                        <img src="https://www.ankararealestate.mx/wp-content/uploads/2022/01/Casa_Los-Arboles-06-670x417.jpg" class="imgchiq d-block w-100" alt="..." />
+
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div className="bottongallery">
+                                <div onClick={() => changeBtng(1)} class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">
+                                        <img src="https://www.ankararealestate.mx/wp-content/uploads/2022/01/Casa_Los-Arboles-03-670x417.jpg" class="imgchiq d-block w-100" alt="..." />
+                                    </span>
+                                </div>
+                                <div onClick={() => changeBtng(2)} class="espacing carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">
+
+                                        <img src="https://www.ankararealestate.mx/wp-content/uploads/2022/01/Casa_Los-Arboles-09-670x417.jpg" class="imgchiq d-block w-100" alt="..." />
+
+                                    </span>
+                                </div>
+                                <div onClick={() => changeBtng(3)} class="espacing carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">
+                                        <img src="https://www.ankararealestate.mx/wp-content/uploads/2022/01/WhatsApp-Image-2022-06-28-at-1.27.58-PM-670x417.jpeg" class="imgchiq d-block w-100" alt="..." />
+
+                                    </span>
+                                </div>
+
+
+                                <div onClick={() => changeBtng(4)} class="espacing carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">
+                                        <img src="https://www.ankararealestate.mx/wp-content/uploads/2022/01/Casa_Los-Arboles-06-670x417.jpg" class="imgchiq d-block w-100" alt="..." />
+
+                                    </span>
+                                </div>
+                            </div>
+ */}
+
+
+
+
+
+                            {/* ////////////////////////////////////////////// */}
+                            {/* ////////////////////////////////////////////// */}
+                            {/* ////////////////////////////////////////////// */}
+                            {/* ////////////////////////////////////////////// */}
+                            {/* ////////////////////////////////////////////// */}
+                            {/* ////////////////////////////////////////////// */}
+                            {/* ////////////////////////////////////////////// */}
+                            {/* ////////////////////////////////////////////// */}
+
+
+
+                       
+
+                            {/* ////////////////////////////////////////////// */}
+                            {/* ////////////////////////////////////////////// */}
+                            {/* ////////////////////////////////////////////// */}
+                            {/* ////////////////////////////////////////////// */}
+                            {/* ////////////////////////////////////////////// */}
+                            {/* ////////////////////////////////////////////// */}
+                            {/* ////////////////////////////////////////////// */}
+                            {/* ////////////////////////////////////////////// */}
+
+
+
+                            {/* ////////////////////////////////////////////// 
+
+esto volver a verrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrR
+
+
+*/}
+
+
+
+                          
+
+                            {/* <div className="sectionArriba">
+
+                                <div className="modalbutton">
+
+                                </div>                <button className="botonX btbt" onClick={() => setModalOnOff(false)}>X</button>
+                            </div> */}
+                            {/* <div className="childrenmodal"  >
+                                <div class="carousel-item active">
+                                    <img src="https://www.ankararealestate.mx/wp-content/uploads/2022/01/Casa_Los-Arboles-01-670x417.jpg" class="childrenmodal d-block w-100" alt="..." />
+                                </div>
+                            </div>
+
+                            <div className="sectionArriba">
+
+                                <div className="modalbutton">
+                                    <button className=" btbt buttonsearch2" onClick={() => cambiarfotomenos()}> Anterior </button> <h1 className="sinmarginmodal">textoParaFoto</h1>   <button className="btbt buttonsearch2" onClick={() => cambiarfotomas()}> Siguiente </button>
+                                </div>                <button className="botonX btbt" onClick={() => setModalOnOff(false)}>X</button>
+                            </div>
+                            <div className="childrenmodal"  >
+                                <div class="carousel-item active">
+                                    <img src="https://www.ankararealestate.mx/wp-content/uploads/2022/01/Casa_Los-Arboles-03-670x417.jpg" class="childrenmodal d-block w-100" alt="..." />
+                                </div>
+                            </div>
+
+                            <div className="sectionArriba">
+
+                                <div className="modalbutton">
+                                    <button className=" btbt buttonsearch2" onClick={() => cambiarfotomenos()}> Anterior </button> <h1 className="sinmarginmodal">textoParaFoto</h1>   <button className="btbt buttonsearch2" onClick={() => cambiarfotomas()}> Siguiente </button>
+                                </div>                <button className="botonX btbt" onClick={() => setModalOnOff(false)}>X</button>
+                            </div>
+                            <div className="childrenmodal"  >
+                                <div class="carousel-item active">
+                                    <img src="https://www.ankararealestate.mx/wp-content/uploads/2022/01/Casa_Los-Arboles-06-670x417.jpg" class="childrenmodal d-block w-100" alt="..." />
+                                </div>
+                            </div> */}
+
+
+
+                            {/* ////////////////////////////////////////////// */}
+                            {/* ////////////////////////////////////////////// */}
+                            {/* ////////////////////////////////////////////// */}
+                            {/* ////////////////////////////////////////////// */}
+                            {/* ////////////////////////////////////////////// */}
+                            {/* ////////////////////////////////////////////// */}
+                            {/* ////////////////////////////////////////////// */}
+                            {/* ////////////////////////////////////////////// */}
+
+                         
+
+
+
+
 
                 <div className="infoproppp">
                     <h2 className="sinmargin"> Casa Rincón</h2>

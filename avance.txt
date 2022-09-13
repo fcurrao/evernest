@@ -1,15 +1,16 @@
 ***********************************************************************************************************************
 ---------------------------HACIENDO / POR HACER ----------------------------------------------------------------------
->>> VER CUADERNO 'ESPN'
+-todo al español
+-VERIFICAR LETRAS
+
+-DETAIL (GALERIA y otros) -------  FALTA GALERIA DE FOTOS EN DETAIL ----- ------
 -OURTEAM (...dificil)
 -letras (fuentes popis y tamaños)
--todo al español
 -verificar todo igual
--HOME (v)
--DETAIL
 -PROPIEDADES (templaid GRID > con un Descargar Brochure(templaid sumitPropiety))
 -PROPIEDADES  (filtros : categorias/recent/keywords NO! ||| location/propotype 2 OPTIONS  || price: range (libreria) -----0---- )
 -api (back and)
+>>> VER CUADERNO 'ESPN'
 
 
 ***********************************************************************************************************************
@@ -30,7 +31,7 @@ about us/ nosotros (V)
 footer (v)
 404 (v)
 navbar(v)
-
+HOME (v)
 
 
 
