@@ -54,21 +54,32 @@ const Aboutus = () => {
 
 
             <section className="buyorsell">
-                <h1 className="sliderh2">Compre o Venda su casa</h1>
-                <p className="textwhite">
-                    Disfruta de comprar o vender, ahora mucho mas facil.<br></br>
-                    Tu hogar debe contar la historia de quién eres
-                    y ser una colección de lo que amas
-                </p>
+                    <h1 className="sliderh2">En decoración coloca siempre una pieza controvertida. </h1>
+                    <h1 className="sliderh2">Dará tema de conversación a tus invitados </h1>
+                    
+                        <br></br>  <br></br>
+                        <p className="textwhite">     Total de propiedades vendidas en los últimos 6 meses:
+                        </p>
+                       <div className="dflex "> 
+                     
+                        <div className="circll">  25 </div>
+                        <p className="mleft">  PROPIEDADES PREMIUM</p>
+                        </div>
+ 
 
-                <div className="divbuttonsbuyorsell">
-
-                    <Link to="/propiedades" className='ptextfooter'>  <button className="buttonsearch4">    <p className="text44"> Propiedades  </p></button> </Link>
-                    <Link to="/contacto" className='ptextfooter'> <button className="buttonsearch4">    <p className="text44"> Contactenos </p> </button></Link>
-                </div>
+                </section>
 
 
-            </section>
+
+
+
+                <section className="sold"> 
+                <img className="imggg imghovdiag" src=" https://www.ankararealestate.mx/wp-content/uploads/2022/01/WhatsApp-Image-2022-01-24-at-9.01.31-AM-480x331.jpeg" ></img>
+                <img className="imggg imghovdiag" src="https://www.ankararealestate.mx/wp-content/uploads/2022/01/WhatsApp-Image-2022-01-24-at-9.01.11-AM-480x331.jpeg" ></img>
+                <img className="imggg imghovdiag" src="https://www.ankararealestate.mx/wp-content/uploads/2022/01/WhatsApp-Image-2022-01-24-at-9.00.55-AM-480x331.jpeg" ></img>
+                <img className="imggg imghovdiag" src="https://www.ankararealestate.mx/wp-content/uploads/2022/01/WhatsApp-Image-2022-01-24-at-9.00.16-AM.jpeg" ></img>
+                       
+                </section>   
 
 
 

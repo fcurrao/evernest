@@ -87,7 +87,7 @@ const contact = () => {
                              
 
 
-                            <button type="submit" className="buttonsearch2"> <p className="text5">Enviar Consulta</p></button>
+                            <button type="submit" className="buttonsearch2"> <p className="text5">Enviar</p></button>
                           
                         </div>
 

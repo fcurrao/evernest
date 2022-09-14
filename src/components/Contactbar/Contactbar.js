@@ -26,14 +26,11 @@ const Contactbar = () => {
                 </section>
                 <section className="bothtogether">
                     <section className="phone">
-                        <div className="divphone">
-                        <i class='smp fas fa-phone-alt' style={{ fontSize: "18px" }} ></i> <p>(+52 ) 55 1510 8737</p>
-                        </div>
+                     
                     </section>
                     <section className="submitprop">
-                        <div>
-
-                            <p >Nuevas Propiedades</p>
+                    <div className="divphone">
+                        <i class='cbl smp fas fa-phone-alt' style={{ fontSize: "18px"}} ></i> <p>(+52 ) 55 1510 8737</p>
                         </div>
 
                     </section>

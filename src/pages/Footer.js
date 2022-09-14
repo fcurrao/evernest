@@ -22,7 +22,7 @@ const Footer = () => {
 
 
 <section className="footer15">
-<h3 className='linkfooter2' >Quick Links</h3>
+<h3 className='linkfooter2' >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Links</h3>
 <div className='linkfooter22'>
     <Link to="/home"  className='ptextfooter'> ► HOME </Link>
     <Link to="/propiedades"  className='ptextfooter'> ► PROPIEDADES </Link> 
@@ -37,7 +37,7 @@ const Footer = () => {
 
 <section className="footer2">
 <div className='footer15'>
-    <h3  className='footer15imp' >Contact Info</h3>
+    <h3  className='footer15imp' >Contáctanos</h3>
     </div>
  
 <p className="psm">Ankara Real Estate</p>
