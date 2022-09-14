@@ -104,7 +104,7 @@ const Properties = () => {
                                     <div className="buttonb"   onClick={()=>consoleLog()}>
                                     
                                         <button className="ff2 stylebutton1 buttonsearch2">   </button>
-                                           <a className="tx twhite"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Casa -   en venta  </a> 
+                                           <a className="tx twhite"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Casa &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; en venta  </a> 
                                         <button className="ff2 stylebutton2 buttonsearch2">   </button>
                  
                                     </div>
@@ -112,7 +112,7 @@ const Properties = () => {
 
                                 <li className="listaclassbox2">
                                     <div className="margintop5"> <img className="pictureProp" src="./assets/img/others/propertyImg01.jpg" alt="pictureProp" /></div>
-                                    <div className="divsubtitle"> <p className="subtitle" onClick={()=>consoleLog()}> CASA DE LOS ARBOLES</p> </div>
+                                    <Link to="/productos/details" ><div className="divsubtitle"> <p className="subtitle ssss" onClick={()=>consoleLog()}> CASA DE LOS ARBOLES</p> </div>  </Link>
                                     <div className="location"> <a className="location" ><i class='fas fa-map-marker-alt'></i> Toluca / Mexico </a></div>
                                     <div className="priceandheart" > <a  onClick={()=>consoleLog()} className="hearticon"> <i class='fas fa-heart'></i></a> 
                                      {/* <a className="hearticon"><i class='fas fa-exchange-alt'></i></a>   */}
@@ -135,7 +135,7 @@ const Properties = () => {
                                     <div className="buttonb"   onClick={()=>consoleLog()}>
                                     
                                         <button className="ff2 stylebutton1 buttonsearch2">   </button>
-                                           <a className="tx twhite"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Casa -   en venta  </a> 
+                                        <a className="tx twhite"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Casa &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; en venta  </a> 
                                         <button className="ff2 stylebutton2 buttonsearch2">   </button>
                  
                                     </div>

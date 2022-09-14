@@ -115,7 +115,7 @@ const Modal = ({ children }) => {
                <div className="sectionArriba"> 
 
                 <div  className="modalbutton">
-                    <button className=" btbt buttonsearch2"  onClick={() =>  cambiarfotomenos()}> Anterior </button> <h1 className="sinmarginmodal">{textoParaFoto}</h1>   <button className="btbt buttonsearch2"  onClick={() =>  cambiarfotomas()}> Siguiente </button>
+                    <button className="bttt aaa"  onClick={() =>  cambiarfotomenos()}> Anterior </button> <h1 className="sinmarginmodal">{textoParaFoto}</h1>   <button className="bttt aaa"  onClick={() =>  cambiarfotomas()}> Siguiente </button>
                     </div>                <button className="botonX btbt" onClick={() => setModalOnOff(false)}>X</button>
                     </div>
  <div className="childrenmodal"  > {children} </div> 

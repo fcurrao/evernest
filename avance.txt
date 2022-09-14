@@ -1,25 +1,26 @@
 ***********************************************************************************************************************
----------------------------HACIENDO / POR HACER ----------------------------------------------------------------------
--todo al español
--VERIFICAR LETRAS
+--------------------------- PROXIMA REUNION CON MELI  --------------------------------------------------------------
+- HACERES ::
+-limpieza de codigo
 
--DETAIL (GALERIA y otros) -------  FALTA GALERIA DE FOTOS EN DETAIL ----- ------
--OURTEAM (...dificil)
--letras (fuentes popis y tamaños)
--verificar todo igual
--PROPIEDADES (templaid GRID > con un Descargar Brochure(templaid sumitPropiety))
--PROPIEDADES  (filtros : categorias/recent/keywords NO! ||| location/propotype 2 OPTIONS  || price: range (libreria) -----0---- )
--api (back and)
->>> VER CUADERNO 'ESPN'
+
 
 
 ***********************************************************************************************************************
-----------------------------NO ECHO-----------------------------------------------------------------------------------
--api (back and)
--todo lo que respecta a api(propiedades)
--limpieza de codigo
--contact (a mejorar -> que se envie el formulario , sin la pagina servidor de por medio(https://formsubmit.co/)...)
+---------------------------HACIENDO / POR HACER ----------------------------------------------------------------------
+ 
 
+-DETAIL (GALERIA y otros)
+-OURTEAM (...dificil) 
+-api (back and)  /  todo lo que respecta a api(propiedades)
+ 
+
+**********************  **********************
+
+-mejorar GALERIA
+- mejorar CONTACT  (a mejorar -> que se envie el formulario , sin la pagina servidor de por medio(https://formsubmit.co/)...)
+
+-limpieza de codigo
 -de 800px para abajo se rompe (hacer responsive)-------RESPONSIVE-------  
 -de 1050px para abajo: fotos de NOSOTROS(se rompe) -------RESPONSIVE-------
  

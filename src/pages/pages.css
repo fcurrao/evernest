@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&display=swap');
 
-.h1 {
+h1 {
     font-family: 'Poppins', sans-serif !important;
 }
 
@@ -12,25 +12,25 @@ body {
     font-family: 'Poppins', sans-serif !important;
 }
 
-.h2 {
+h2 {
     font-family: 'Poppins', sans-serif !important;
 }
 
-.h3 {
-    font-family: 'Poppins', sans-serif !important;
-}
-
-
-.h4 {
+h3 {
     font-family: 'Poppins', sans-serif !important;
 }
 
 
-.h5 {
+h4 {
     font-family: 'Poppins', sans-serif !important;
 }
 
-.p {
+
+h5 {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+p {
     font-family: 'Poppins', sans-serif !important;
 }
 
@@ -186,6 +186,7 @@ a {
 }
 
 .textwhite {
+    text-transform: uppercase;
     color: #fff !important;
     font-size: 14px;
     font-style: italic;
@@ -690,7 +691,9 @@ a {
     width: 130%;
 }
 
+
 .psm {
+    font-family: 'Poppins', sans-serif !important;
     text-transform: initial;
     margin: 0%;
     padding: 0%;
@@ -995,6 +998,7 @@ a {
 }
 
 .italic {
+    color: #ffb900;
     font-style: italic;
     font-family: 'Poppins', sans-serif;
 }
@@ -1361,6 +1365,7 @@ a {
 }
 
 .form-control {
+    font-family: 'Poppins', sans-serif !important;
     zoom: 75% !important;
     margin: 1% !important;
     border-radius: 0 !important;
@@ -1426,11 +1431,21 @@ a {
 .inputtbig {
     margin-top: 1%;
     margin-bottom: 2%;
-    width: 95%;
-    height: 190px;
+    width: 95%!important;
+    height: 190px !important;
     font-family: inherit;
     font-size: inherit;
     line-height: inherit;
+}
+
+.bttt{
+    border: none;
+    background-color: transparent;
+    padding: 0% !important;
+    margin: 0% !important;
+    cursor: pointer;
+    text-decoration: underline;
+    border-bottom: none !important;
 }
 
 .textarea {
@@ -1603,6 +1618,7 @@ a {
 }
 
 .d1 {
+    padding-right: 25% !important;
     text-align: center;
     margin: 0% 1%;
     font-variant: all-small-caps;
@@ -1611,6 +1627,7 @@ a {
 
 
 .d2 {
+    padding-right: 25% !important;
     text-align: center;
     margin: 0% 1%;
     font-variant: all-small-caps;
@@ -1618,6 +1635,7 @@ a {
 }
 
 .d3 {
+    padding-right: 25% !important;
     text-align: center;
     margin: 0% 1%;
     font-variant: all-small-caps;
@@ -1716,7 +1734,7 @@ a {
 }
 
 .sinmargin {
-    margin: 0% !important;
+    margin: 0% !important; 
 }
 
 .aaa {
@@ -1860,6 +1878,7 @@ li {
 }
 .mmmm{
     margin: 5% 1%!important;
+    margin-bottom: 1% !important;
     width: 115%;
     height: 300px;
 }
@@ -1878,6 +1897,8 @@ li {
 
 .sinmarginmodal{
     margin: 0% 15%!important;
+    font-weight: 500;
+    font-size: 26px;
 }
 
 .botonX{

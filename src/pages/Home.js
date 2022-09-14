@@ -125,7 +125,7 @@ const Home = () => {
                                     <div className="buttonb"   onClick={()=>consoleLog()}>
                                     
                                         <button className="ff2 stylebutton1 buttonsearch2">   </button>
-                                           <a className="tx twhite"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Casa -   en venta  </a> 
+                                        <a className="tx twhite"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Casa &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; en venta  </a> 
                                         <button className="ff2 stylebutton2 buttonsearch2">   </button>
                  
                                     </div>
@@ -155,7 +155,7 @@ const Home = () => {
                                     <div className="buttonb"   onClick={()=>consoleLog()}>
                                     
                                         <button className="ff2 stylebutton1 buttonsearch2">   </button>
-                                           <a className="tx twhite"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Casa -   en venta  </a> 
+                                        <a className="tx twhite"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Casa &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; en venta  </a> 
                                         <button className="ff2 stylebutton2 buttonsearch2">   </button>
                  
                                     </div>
@@ -185,7 +185,7 @@ const Home = () => {
                                     <div className="buttonb"   onClick={()=>consoleLog()}>
                                     
                                         <button className="ff2 stylebutton1 buttonsearch2">   </button>
-                                           <a className="tx twhite"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Casa -   en venta  </a> 
+                                        <a className="tx twhite"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Casa &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; en venta  </a> 
                                         <button className="ff2 stylebutton2 buttonsearch2">   </button>
                  
                                     </div>
@@ -303,7 +303,7 @@ const Home = () => {
                                     <div className="buttonb"   onClick={()=>consoleLog()}>
                                     
                                         <button className="ff2 stylebutton1 buttonsearch2">   </button>
-                                           <a className="tx twhite"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Casa -   en venta  </a> 
+                                        <a className="tx twhite"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Casa &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; en venta  </a> 
                                         <button className="ff2 stylebutton2 buttonsearch2">   </button>
                  
                                     </div>
@@ -334,7 +334,7 @@ const Home = () => {
                                     <div className="buttonb"   onClick={()=>consoleLog()}>
                                     
                                         <button className="ff2 stylebutton1 buttonsearch2">   </button>
-                                           <a className="tx twhite"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Casa -   en venta  </a> 
+                                        <a className="tx twhite"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Casa &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; en venta  </a> 
                                         <button className="ff2 stylebutton2 buttonsearch2">   </button>
                  
                                     </div>
@@ -366,7 +366,7 @@ const Home = () => {
                                     <div className="buttonb"   onClick={()=>consoleLog()}>
                                     
                                         <button className="ff2 stylebutton1 buttonsearch2">   </button>
-                                           <a className="tx twhite"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Casa -   en venta  </a> 
+                                        <a className="tx twhite"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Casa &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; en venta  </a> 
                                         <button className="ff2 stylebutton2 buttonsearch2">   </button>
                  
                                     </div>

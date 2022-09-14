@@ -23,7 +23,7 @@ const Aboutus = () => {
 
                 <div className="infoaboutus">
                     <p className=" font titt"> Nuestra experiencia</p>
-                    <h3 className="italic stitt font">HACEMOS LO QUE AMAMOS DE UNA MANERA DIFERENTE</h3>
+                    <h3 className="italic stitt font">Hacemos lo que amamos de una manera diferente</h3>
                     <p>
                         Ankara es una empresa que nace de la necesidad de crear una experiencia exclusiva al cliente en una búsqueda de un hogar único,
                         exclusivo y prestigioso.
@@ -63,9 +63,9 @@ const Aboutus = () => {
 
                 <div className="divbuttonsbuyorsell">
 
-<Link to="/propiedades" className='ptextfooter'>  <button className="buttonsearch4">    <p className="text44"> Propiedades  </p></button> </Link>
-<Link to="/contacto" className='ptextfooter'> <button className="buttonsearch4">    <p className="text44"> Contactenos </p> </button></Link>
-</div>
+                    <Link to="/propiedades" className='ptextfooter'>  <button className="buttonsearch4">    <p className="text44"> Propiedades  </p></button> </Link>
+                    <Link to="/contacto" className='ptextfooter'> <button className="buttonsearch4">    <p className="text44"> Contactenos </p> </button></Link>
+                </div>
 
 
             </section>
@@ -178,6 +178,8 @@ const Aboutus = () => {
                         <div className='d3'>
                             Empresario mexicano con más de 18 años de experiencia en negocios en el giro de salud, alimentos, financieros y bienes raíces.
                             Por esa razón a lo largo de su vida como empresario e inversionista se ha destacado como speaker con mas de 8,000 horas hablando en público en temas de negocios, ventas, conducta humana y educación financiera.
+                        </div>
+                        <div className='d3'>
                             Certificado en Estados Unidos con personas de la talla de John Maxwell, Blair Singer, Daniel Goleman y Tony Robbins, logró romper un récord de la Lección de Educación Financiera más grande del Mundo de la mano del escritor del libro Padre Rico Padre Pobre Robert kiyosaki, ha escrito artículos en Forbes en temas de educacion financiera y ha compartido escenario con diferentes personalidades del mundo de los negocios como Carños Muñoz, Diego Dreyfus, entre otros.
                         </div>
 

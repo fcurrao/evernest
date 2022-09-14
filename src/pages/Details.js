@@ -202,9 +202,9 @@ const Details = () => {
 
 
                         <div className="gallerias">
-                        <button className=" btbt buttonsearch2" onClick={() => cambiarfotomenos()}> Anterior </button> 
+                        <button className="bttt aaa footer15imp footer15impc" onClick={() => cambiarfotomenos()}> Anterior </button> 
                         <h1 className="sinmarginmodal">{textoParaFoto}</h1>  
-                        <button className="btbt buttonsearch2" onClick={() => cambiarfotomas()}> Siguiente </button>
+                        <button className="bttt aaa footer15imp footer15impc" onClick={() => cambiarfotomas()}> Siguiente </button>
 
 
                         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
