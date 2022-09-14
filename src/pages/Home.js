@@ -152,7 +152,7 @@ const Home = () => {
                         <ul className="listabox">
                             <li className="ml2 listaclassbox2">
                                 <div className="margintop5"> <img className="pictureProp" src="./assets/img/others/propertyImg01.jpg" alt="pictureProp" /></div>
-                                <div className="divsubtitle"> <p className="subtitle" onClick={() => consoleLog()}> CASA DE LOS ARBOLES</p> </div>
+                                <div className="divsubtitle"> <p className="subtitle" onClick={() => consoleLog()}> Casa de los Arboles</p> </div>
                                 <div className="location"> <a className="location" ><i class='fas fa-map-marker-alt'></i> Toluca / Mexico </a></div>
                                 <div className="priceandheart" > <a onClick={() => consoleLog()} className="hearticon"> <i class='fas fa-heart'></i></a>
                                     {/* <a className="hearticon"><i class='fas fa-exchange-alt'></i></a>   */}
@@ -182,7 +182,7 @@ const Home = () => {
                             </li>
                             <li className="ml2 listaclassbox2">
                                 <div className="margintop5"> <img className="pictureProp" src="./assets/img/others/propertyImg01.jpg" alt="pictureProp" /></div>
-                                <div className="divsubtitle"> <p className="subtitle" onClick={() => consoleLog()}> CASA DE LOS ARBOLES</p> </div>
+                                <div className="divsubtitle"> <p className="subtitle" onClick={() => consoleLog()}> Casa de los Arboles</p> </div>
                                 <div className="location"> <a className="location" ><i class='fas fa-map-marker-alt'></i> Toluca / Mexico </a></div>
                                 <div className="priceandheart" > <a onClick={() => consoleLog()} className="hearticon"> <i class='fas fa-heart'></i></a>
                                     {/* <a className="hearticon"><i class='fas fa-exchange-alt'></i></a>   */}
@@ -212,7 +212,7 @@ const Home = () => {
                             </li>
                             <li className="ml2 listaclassbox2">
                                 <div className="margintop5"> <img className="pictureProp" src="./assets/img/others/propertyImg01.jpg" alt="pictureProp" /></div>
-                                <div className="divsubtitle"> <p className="subtitle" onClick={() => consoleLog()}> CASA DE LOS ARBOLES</p> </div>
+                                <div className="divsubtitle"> <p className="subtitle" onClick={() => consoleLog()}> Casa de los Arboles</p> </div>
                                 <div className="location"> <a className="location" ><i class='fas fa-map-marker-alt'></i> Toluca / Mexico </a></div>
                                 <div className="priceandheart" > <a onClick={() => consoleLog()} className="hearticon"> <i class='fas fa-heart'></i></a>
                                     {/* <a className="hearticon"><i class='fas fa-exchange-alt'></i></a>   */}
@@ -332,7 +332,7 @@ const Home = () => {
                         <ul className="listabox">
                         <li className="ml2 listaclassbox2">
                                     <div className="margintop5"> <img className="pictureProp" src="./assets/img/others/propertyImg01.jpg" alt="pictureProp" /></div>
-                                    <div className="divsubtitle"> <p className="subtitle" onClick={()=>consoleLog()}> CASA DE LOS ARBOLES</p> </div>
+                                    <div className="divsubtitle"> <p className="subtitle" onClick={()=>consoleLog()}> Casa de los Arboles</p> </div>
                                     <div className="location"> <a className="location" ><i class='fas fa-map-marker-alt'></i> Toluca / Mexico </a></div>
                                     <div className="priceandheart" > <a  onClick={()=>consoleLog()} className="hearticon"> <i class='fas fa-heart'></i></a> 
                               
@@ -363,7 +363,7 @@ const Home = () => {
 
                                 <li className="ml2 listaclassbox2">
                                     <div className="margintop5"> <img className="pictureProp" src="./assets/img/others/propertyImg01.jpg" alt="pictureProp" /></div>
-                                    <div className="divsubtitle"> <p className="subtitle" onClick={()=>consoleLog()}> CASA DE LOS ARBOLES</p> </div>
+                                    <div className="divsubtitle"> <p className="subtitle" onClick={()=>consoleLog()}> Casa de los Arboles</p> </div>
                                     <div className="location"> <a className="location" ><i class='fas fa-map-marker-alt'></i> Toluca / Mexico </a></div>
                                     <div className="priceandheart" > <a  onClick={()=>consoleLog()} className="hearticon"> <i class='fas fa-heart'></i></a> 
                                    
@@ -395,7 +395,7 @@ const Home = () => {
 
                                 <li className="ml2 listaclassbox2">
                                     <div className="margintop5"> <img className="pictureProp" src="./assets/img/others/propertyImg01.jpg" alt="pictureProp" /></div>
-                                    <div className="divsubtitle"> <p className="subtitle" onClick={()=>consoleLog()}> CASA DE LOS ARBOLES</p> </div>
+                                    <div className="divsubtitle"> <p className="subtitle" onClick={()=>consoleLog()}> Casa de los Arboles</p> </div>
                                     <div className="location"> <a className="location" ><i class='fas fa-map-marker-alt'></i> Toluca / Mexico </a></div>
                                     <div className="priceandheart" > <a  onClick={()=>consoleLog()} className="hearticon"> <i class='fas fa-heart'></i></a> 
                                

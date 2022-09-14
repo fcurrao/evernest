@@ -28,11 +28,19 @@ const Properties = () => {
 
     return (
         <>
-            <section className=" center total">
+
+        
+<section className="divtitulo">
+
+<h1 className="titulo"> Propiedades</h1>
+
+</section>
+
+            <section className="tttx center ">
 
 
-                <section className="center lefttotal">
-                    <div className="titlfilt"> <h4 className="center ptext3" > Filtrar por:</h4> </div>
+                <section className="mmrr6 center lefttotal">
+                    <div className="titlfilt"> <h4 className="center ptext3" > </h4> </div>
                     
                     <div className="boxyellow ifilters">
                     <input placeholder="Buscar por nombre.." className="sss form-control inputt" />
@@ -56,14 +64,14 @@ const Properties = () => {
                 <section className="bothtog center">
 
                     <section className="toptotal center">
-
+                    <div className="boxyellow2">
                         <form className="center ff2" method="get" action="#">
 
                             <p className="df">
-                                <label for="favoriteOnly"><h4 className="center ptext3">Ordenar por:</h4></label>
+                                <label for="favoriteOnly"><h4 className="txtx center ptext3">Ordenar por:</h4></label>
                                 </p>
                                 <p className="mf">
-                                <select className="form-control inputt" name="favoriteOnly" id="favoriteOnly">
+                                <select className="xxxxi inputt " name="favoriteOnly" id="favoriteOnly">
                                     <option>Precio mas bajo</option>
                                     <option type="submit" >Precio mas alto</option>
                                 </select>
@@ -72,6 +80,7 @@ const Properties = () => {
                                 <input  className="bbt text5 buttonsearch2 " type="submit" value="Buscar" />
                             </p>
                         </form>
+                        </div>
 
                     </section>
                     <section className="righttotal">
@@ -80,7 +89,7 @@ const Properties = () => {
                                 <li className="listaclassbox2">
                                     <div className="margintop5"> <img className="pictureProp" src="./assets/img/others/propertyImg01.jpg" alt="pictureProp" /></div>
                                    
-            <Link to="/productos/details" ><div className="divsubtitle"> <p className="subtitle ssss" onClick={()=>consoleLog()}> CASA DE LOS ARBOLES</p> </div>  </Link>
+            <Link to="/productos/details" ><div className="divsubtitle"> <p className="subtitle ssss" onClick={()=>consoleLog()}> Casa de los Arboles</p> </div>  </Link>
            
                                     <div className="location"> <a className="location" ><i class='fas fa-map-marker-alt'></i> Toluca / Mexico </a></div>
                                     <div className="priceandheart" > <a  onClick={()=>consoleLog()} className="hearticon"> <i class='fas fa-heart'></i></a> 
@@ -112,7 +121,7 @@ const Properties = () => {
 
                                 <li className="listaclassbox2">
                                     <div className="margintop5"> <img className="pictureProp" src="./assets/img/others/propertyImg01.jpg" alt="pictureProp" /></div>
-                                    <Link to="/productos/details" ><div className="divsubtitle"> <p className="subtitle ssss" onClick={()=>consoleLog()}> CASA DE LOS ARBOLES</p> </div>  </Link>
+                                    <Link to="/productos/details" ><div className="divsubtitle"> <p className="subtitle ssss" onClick={()=>consoleLog()}> Casa de los Arboles</p> </div>  </Link>
                                     <div className="location"> <a className="location" ><i class='fas fa-map-marker-alt'></i> Toluca / Mexico </a></div>
                                     <div className="priceandheart" > <a  onClick={()=>consoleLog()} className="hearticon"> <i class='fas fa-heart'></i></a> 
                                      {/* <a className="hearticon"><i class='fas fa-exchange-alt'></i></a>   */}
