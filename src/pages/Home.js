@@ -170,7 +170,7 @@ const Home = () => {
 
 
 
-                                </div>
+                                </div> 
 
                                 <div className="buttonb" onClick={() => consoleLog()}>
 

@@ -69,7 +69,7 @@ p {
 
 }
 
-.cbl{
+.cbl {
     color: black !important;
 }
 
@@ -98,7 +98,7 @@ p {
 
 
 .containerS {
-    position:static !important; 
+    position: static !important;
     padding: 2% 0% !important;
 }
 
@@ -121,42 +121,81 @@ p {
 }
 
 .boxyellow {
-    border: 1px solid rgba(0,0,0,.125);
+    border: 1px solid rgba(0, 0, 0, .125);
     width: 130%;
     padding: 15%;
 }
 
-.boxyellow2 {
-    border: 1px solid rgba(0,0,0,.125);
-    width: 80%;
-    margin: 3% 12%;
+.boxyellow:hover {
+    border: 1px solid #ffb900;
 }
 
-.xxxxi{
+.containerinput {
+    margin: 2.5% 0%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    align-content: center;
+    width: 105%;
+    padding: 2%;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border: 1px solid #ced4da !important;
+    border-radius: 0.15rem !important;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+
+
+.containerinput:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+}
+
+
+.containerinput:hover {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+}
+
+
+.boxyellow2 {
+    border: 1px solid rgba(0, 0, 0, .125);
+    width: 84%;
+    margin: 2.5% 10.5%;
+}
+
+.xxxxi {
     border: none !important;
     font-family: 'Poppins', sans-serif !important;
     zoom: 75% !important;
     margin: 1% !important;
     border-radius: 0 !important;
     height: 48px !important;
-    font-size: 14px !important;
     width: 100% !important;
     padding: 0.375rem 0.75rem !important;
-    font-size: 1rem !important;
+    font-size: 18px !important;
     line-height: 1.5 !important;
     color: #495057 !important;
     background-color: #fff !important;
-    background-clip: padding-box !important;   
+    background-clip: padding-box !important;
 }
 
-.xxxxi:focus-visible{
+.xxxxi:focus-visible {
     border: none !important;
     outline: none !important;
 }
-  
 
-.txtx{
-    color: #ffb900; 
+
+.txtx {
+    color: #ffb900;
     font-weight: bold !important;
 }
 .ff2 {
@@ -167,9 +206,8 @@ p {
     justify-content: space-between;
     align-items: center;
     height: 60px;
-    width: 90%;
+    width: 92%;
 }
-
 .ptext3 {
     font-family: 'Poppins', sans-serif;
     font-family: 'Poppins', sans-serif;
@@ -200,6 +238,8 @@ a {
     display: flex !important;
     justify-content: space-evenly !important;
 }
+
+.sbsb {}
 
 .sss {
 
@@ -255,7 +295,7 @@ a {
     font-size: 28px;
     color: #fff !important;
     font-weight: bold;
-    margin-top:  0.5%;
+    margin-top: 0.5%;
     margin-bottom: 0.5%;
 }
 
@@ -289,8 +329,8 @@ a {
     margin-top: 25px;
 }
 
-.dflex{
-  
+.dflex {
+
     display: flex;
     color: #cf7c30;
     align-items: center;
@@ -300,22 +340,23 @@ a {
     align-content: center;
 }
 
-.sold{
-    display: flex; 
-    width: 100%; 
+.sold {
+    display: flex;
+    width: 100%;
     justify-content: space-between;
 }
 
-.imggg{
+.imggg {
     width: 20%;
-        margin: 3% 1% !important;
-    }
+    margin: 3% 1% !important;
+}
 
-.mleft{
+.mleft {
     margin-left: 2% !important;
     width: 71% !important;
     box-shadow: 5px 5px 15px 5px rgb(207 124 48 / 5%);
 }
+
 .inputform {
     margin: 1% !important;
     border: none !important;
@@ -350,7 +391,7 @@ a {
 
 .formbanner {
     padding: 10% !important;
-    padding-left: 10% !important; 
+    padding-left: 10% !important;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -1395,7 +1436,7 @@ a {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: flex-start; 
+    align-items: flex-start;
     margin-top: 2%;
 }
 
@@ -1539,9 +1580,7 @@ a {
     color: #495057 !important;
     background-color: #fff !important;
     background-clip: padding-box !important;
-    border: 1px solid #ced4da !important;
-    border-radius: 0.15rem !important;
-    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    border: none !important;
 }
 
 .form-control2 {
@@ -1564,11 +1603,11 @@ a {
 
 .form-control:focus {
 
-    color: #495057;
-    background-color: #fff;
-    border-color: #80bdff;
+    color: none !important;
+    background-color: none !important;
+    border-color: none !important;
     outline: 0;
-    box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+    box-shadow: none !important;
 }
 
 .divflex1 {
@@ -1686,7 +1725,8 @@ a {
     margin-right: 30px;
     padding-bottom: 5%;
 }
-.mmrr6{
+
+.mmrr6 {
     margin-right: 6% !important;
 }
 
