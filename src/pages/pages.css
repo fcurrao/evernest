@@ -130,7 +130,7 @@ p {
     border: 1px solid #ffb900;
 }
 
-.containerinput {
+.containerinput { 
     margin: 2.5% 0%;
     display: flex;
     flex-direction: row;
@@ -347,7 +347,7 @@ a {
 }
 
 .imggg {
-    width: 20%;
+    width: 21%;
     margin: 3% 1% !important;
 }
 
@@ -1100,6 +1100,7 @@ a {
 }
 
 .linkfooter2 {
+    font-family: 'Poppins', sans-serif !important;
     display: flex;
     width: 100%;
     color: white;
@@ -1110,10 +1111,20 @@ a {
     justify-content: space-evenly;
     align-content: flex-start;
     align-items: flex-start;
-    padding-bottom: 3%;
-    margin-top: 20%;
+    padding-bottom: 5% !important;
+    margin-top: 34%;
+    font-size: 21px !important;
+    padding-left: 20% !important;
 }
 
+.buttonb:hover{ 
+}
+.bbnn{
+    padding: 12% !important;
+}
+.wwwl{
+    font-weight: 600 !important;
+}
 .linkfooter22 {
     display: flex;
     width: 145%;
@@ -1198,6 +1209,7 @@ a {
 
 .titt {
     font-size: 1.75rem;
+    font-weight: 500;
 }
 
 .stitt {
@@ -1437,7 +1449,7 @@ a {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: flex-start;
-    margin-top: 2%;
+    margin-top: 4%;
 }
 
 .ifilters {
@@ -1575,7 +1587,7 @@ a {
     font-size: 14px !important;
     width: 100% !important;
     padding: 0.375rem 0.75rem !important;
-    font-size: 1rem !important;
+    font-size: 1.1rem !important;
     line-height: 1.5 !important;
     color: #495057 !important;
     background-color: #fff !important;
@@ -1584,6 +1596,8 @@ a {
 }
 
 .form-control2 {
+    font-family: 'Poppins', sans-serif !important;
+
     zoom: 75% !important;
     margin: 1% !important;
     border-radius: 0 !important;
@@ -1591,8 +1605,8 @@ a {
     font-size: 14px !important;
     width: 100% !important;
     padding: 0.375rem 0.75rem !important;
-    font-size: 1rem !important;
-    line-height: 1.5 !important;
+    font-size: 1.1rem !important;
+        line-height: 1.5 !important;
     color: #495057 !important;
     background-color: #fff !important;
     background-clip: padding-box !important;
@@ -1609,6 +1623,42 @@ a {
     outline: 0;
     box-shadow: none !important;
 }
+
+.bothtog{
+    zoom: 110%;
+}
+
+.form-control3 {
+    font-family: 'Poppins', sans-serif !important;
+
+    zoom: 75% !important;
+    margin: 1% !important;
+    border-radius: 0 !important;
+    height: 48px !important;
+    font-size: 14px !important;
+    width: 100% !important;
+    padding: 0.375rem 0.75rem !important;
+    font-size: 1.1rem !important;
+        line-height: 1.5 !important;
+    color: #495057 !important;
+    background-color: #fff !important;
+    background-clip: padding-box !important;
+    border: 1px solid #ced4da !important;
+    border-radius: 0.15rem !important;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.form-control3:focus { 
+    border-radius: 0.15rem !important;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    outline: 0; 
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+}
+
 
 .divflex1 {
     display: flex;
@@ -1633,7 +1683,7 @@ a {
     margin-bottom: 2%;
     width: 95% !important;
     height: 190px !important;
-    font-family: inherit;
+    font-family: 'Poppins', sans-serif !important;
     font-size: inherit;
     line-height: inherit;
 }
@@ -1650,7 +1700,7 @@ a {
 
 .textarea {
     margin: 0;
-    font-family: inherit;
+    font-family: 'Poppins', sans-serif !important;
     font-size: inherit;
     line-height: inherit;
 }
@@ -1666,7 +1716,7 @@ a {
 
 .divtitulo {
     background: url(http://malikhassan.com/html/evernest/images/innerHeading.jpg);
-    padding: 32px 0;
+    padding: 16px 0;
     background-size: cover;
     text-align: center;
 }
@@ -1728,6 +1778,11 @@ a {
 
 .mmrr6 {
     margin-right: 6% !important;
+   
+}
+
+.mmrr62{
+    zoom: 104%;
 }
 
 .agent3 {
@@ -1908,9 +1963,9 @@ a {
 
 
 .propiedad {
-    zoom: 95%;
-    width: 85%;
-    padding: 0% 5%;
+      /* zoom: 95%; */
+    /* width: 100%; */
+    padding: 0.1% 12%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -1918,8 +1973,8 @@ a {
 }
 
 .treintaporc {
-    zoom: 90%;
-
+    zoom: 95%;
+    /* width: 0%; */
     margin-top: 5% !important;
 }
 
@@ -1964,7 +2019,8 @@ a {
 
 
 .setentaporc {
-    width: 70% !important;
+    width: 64% !important;
+    padding: 0.2% 2% !important;
 }
 
 
@@ -1974,9 +2030,13 @@ li {
 }
 
 .listadetalles {
+    margin-top: 1%;
     display: flex;
     align-items: center;
-    flex-direction: row;
+    width: 80%;
+    flex-flow: row nowrap;
+    zoom: 85% !important;
+    justify-content: space-between;
     flex-wrap: nowrap;
 }
 
@@ -1986,7 +2046,7 @@ li {
     flex-direction: row;
     flex-wrap: nowrap;
     align-content: space-around;
-    justify-content: flex-start;
+    justify-content: space-between;
 }
 
 .margrigh {
@@ -1997,6 +2057,8 @@ li {
 }
 
 .blbl {
+    width: 100px;
+    text-align: initial;
     font-weight: 550;
 }
 
@@ -2006,7 +2068,24 @@ li {
 
 }
 
+ 
+.w1cc{
+    width: 100% !important;
+}
+.margrigh22{
+    width: 100%;
+    padding-left: 250%;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+}
 
+.lista22{
+    margin-left: 50% !important;
+}
 
 
 .close {
@@ -2082,7 +2161,7 @@ li {
 }
 
 .mmmm {
-    margin: 5% 1% !important;
+    margin: 12% 1% !important;
     margin-bottom: 1% !important;
     width: 115%;
     height: 300px;

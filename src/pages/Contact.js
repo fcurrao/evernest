@@ -30,7 +30,7 @@ const contact = () => {
 
 
                 <div className="imagen">
-                    <p className="footer15imp footer15impc" >Contactanos</p>
+                    <p className="titt footer15imp footer15impc" >Contactanos</p>
 
 
                     <form action="https://formsubmit.co/contacto@ankararealestate.com.mx" method="POST">
@@ -40,17 +40,17 @@ const contact = () => {
 
 
                         <div className="divflex1">
-                              <input id="name" className='form-control inputt' type='text'
+                              <input id="name" className='form-control3 inputt' type='text'
                                 name='name'
-                                placeholder='name'
+                                placeholder='Nombre'
                             //  value={formDataUser.name}
                             //     onChange={handleChange}
                             required />
                             
 
-                             <input id="phone" className='form-control inputt' type='number'
+                             <input id="phone" className='form-control3 inputt' type='number'
                                 name='phone'
-                                placeholder='phone'
+                                placeholder='Telefono'
                             //  value={formDataUser.phone}
                             //     onChange={handleChange}
                             />
@@ -59,14 +59,14 @@ const contact = () => {
 
 
                             <div className="divflex2">
-                             <input id="asunto" className='form-control inputt' type='text'
+                             <input id="asunto" className='form-control3 inputt' type='text'
                                 name='asunto'
-                                placeholder='asunto'
+                                placeholder='Asunto'
                             //  value={formDataUser.adress}
                             //     onChange={handleChange}
                             />
                              
-                             <input id="email" className='form-control' type='email'
+                             <input id="email" className='form-control3' type='email'
                                 name='email'
                                 placeholder='email'
                             //      value={formDataUser.email}
@@ -78,9 +78,9 @@ const contact = () => {
 
                         <div className="div2" >
 
-                             <textarea  id="descripcion" className='inputtbig form-control ' type='texto'
+                             <textarea  id="descripcion" className='form-control3 inputtbig ' type='texto'
                                 name='descripcion'
-                                placeholder='descripcion'
+                                placeholder='Mensaje'
                             //      value={formDataUser.email}
                             //     onChange={handleChange}
                             />

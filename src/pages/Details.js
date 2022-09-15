@@ -14,7 +14,7 @@ const Details = () => {
 
 
 
-    const { textoParaFoto, setTextoParaFoto, modalOnOff, setModalOnOff, btng4, setBtng4,  changeBtng } = useContext(CartContext)
+    const { textoParaFoto, setTextoParaFoto, modalOnOff, setModalOnOff, btng4, setBtng4, changeBtng } = useContext(CartContext)
 
 
     const rangechange = () => {
@@ -34,7 +34,7 @@ const Details = () => {
 
 
     const functionpic = (n) => {
-        
+
         setModalOnOff(true);
         changeBtng(n);
     }
@@ -47,8 +47,8 @@ const Details = () => {
 
     const cambiarfotomenos = () => {
         // limite de fotos ( PONER EL LENGHT DE ARRAY DE FOTOS)
-         
-     
+
+
 
         if (btng4 > 1) {
             let counter = btng4
@@ -60,18 +60,18 @@ const Details = () => {
             console.log("btgn4", btng4)
         } else { }
 
-        
-        if(btng4==1){
+
+        if (btng4 == 1) {
             setTextoParaFoto("Living")
-        }if( btng4==2){
+        } if (btng4 == 2) {
             setTextoParaFoto("Living")
-        } if(btng4==3){
+        } if (btng4 == 3) {
             setTextoParaFoto("Habitacion")
-        } if(btng4==4){
+        } if (btng4 == 4) {
             setTextoParaFoto("Patio")
         }
 
-        console.log("XXXXXXXXXXXX",textoParaFoto )
+        console.log("XXXXXXXXXXXX", textoParaFoto)
 
     }
 
@@ -88,17 +88,17 @@ const Details = () => {
             console.log("btgn4", btng4)
         } else { }
 
-        if(btng4==1){
+        if (btng4 == 1) {
             setTextoParaFoto("Habitacion")
-        }if( btng4==2){
+        } if (btng4 == 2) {
             setTextoParaFoto("Patio")
-        } if(btng4==3){
+        } if (btng4 == 3) {
             setTextoParaFoto("Living")
-                } if(btng4==4){
+        } if (btng4 == 4) {
             setTextoParaFoto("Living")
-                }
+        }
 
-        console.log("XXXXXXXXXXXX",textoParaFoto )
+        console.log("XXXXXXXXXXXX", textoParaFoto)
     }
 
     ///////////////////////////////////
@@ -121,28 +121,39 @@ const Details = () => {
                 <section className=" center total">
 
 
-                    <section className="center lefttotal">
+                    <section className="mmrr62 center lefttotal">
+                        <div className="titlfilt"> <h4 className="center ptext3" > </h4> </div>
 
-                        <div className="titlfilt">
-                            <h4 className="center ptext3" > Filtrar por:</h4> </div>
                         <div className="boxyellow ifilters">
-                            <input placeholder="Buscar por nombre.." className="sss form-control inputt" />
-                            <select className="form-control inputt" name="favoriteOnly" id="favoriteOnly">
-                                <option >Todas las locaciones</option>
-                                <option >Ciudad de Mexico</option>
-                                <option type="submit" >Toluca</option>
-                            </select>
-                            <select placeholder="tipo" className="form-control inputt" name="favoriteOnly" id="favoriteOnly">
-                                <option >Todos los tipos</option>
-                                <option>Premium</option>
-                                <option type="submit" >Plus</option>
-                            </select>
+                            <div className="containerinput">
+                                <input placeholder="Buscar por nombre.." className=" sss form-control inputt sbsb" /><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                                </svg></div>
+                            <div className="containerinput">
+                                <select className="form-control inputt" name="favoriteOnly" id="favoriteOnly">
+                                    <option >Todas las locaciones</option>
+                                    <option >Ciudad de Mexico</option>
+                                    <option type="submit" >Toluca</option>
+                                </select><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                                    <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" />
+                                    <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                                </svg>
+                            </div>
 
-                            <div className="rangess sss form-control2 inputt" >  <input onChange={() => rangechange()} id="lbrange" type="range" min="3000000" max="50000000" step="1000000" />  <div id="lbrangev"> $ 3000000 </div>  </div>
-
+                            <div className="containerinput">
+                                <select placeholder="tipo" className="form-control inputt" name="favoriteOnly" id="favoriteOnly">
+                                    <option >Todos los tipos</option>
+                                    <option>Premium</option>
+                                    <option type="submit" >Plus</option>
+                                </select>
+                            </div>
+                            <div className="containerinput">
+                                <div className="rangess sss form-control inputt" >  <input onChange={() => rangechange()} id="lbrange" type="range" min="000000" max="25000000" step="1000000" />  <div id="lbrangev"> $ 3000000 </div>  </div>
+                            </div>
                             <button className="buttonsearch2"><p className="text5">Buscar</p></button>
                         </div>
                     </section>
+
                 </section>
 
 
@@ -162,14 +173,14 @@ const Details = () => {
 
                                 {btng4 == 1 ? <>
 
-                                
+
                                     <div onClick={() => functionpic(1)} class="ww95 carousel-item active">
                                         <img src="https://www.ankararealestate.mx/wp-content/uploads/2022/01/Casa_Los-Arboles-03-670x417.jpg" class="mmmm childrenmodal d-block w-100" alt="..." />
                                     </div>
                                 </> : <></>}
 
                                 {btng4 == 2 ? <>
-                                
+
                                     <div onClick={() => functionpic(2)} class="ww95 carousel-item active">
                                         <img src="https://www.ankararealestate.mx/wp-content/uploads/2022/01/Casa_Los-Arboles-09-670x417.jpg" class="mmmm childrenmodal d-block w-100" alt="..." />
                                     </div>
@@ -177,7 +188,7 @@ const Details = () => {
 
                                 {btng4 == 3 ? <>
 
-                                    
+
                                     <div onClick={() => functionpic(3)} class="ww95 carousel-item active">
                                         <img src="https://www.ankararealestate.mx/wp-content/uploads/2022/01/WhatsApp-Image-2022-06-28-at-1.27.58-PM-670x417.jpeg" class="mmmm childrenmodal d-block w-100" alt="..." />
                                     </div>
@@ -185,7 +196,7 @@ const Details = () => {
                                 </> : <></>}
 
                                 {btng4 == 4 ? <>
-                                     
+
 
                                     <div onClick={() => functionpic(4)} class="ww95 carousel-item active">
                                         <img src="https://www.ankararealestate.mx/wp-content/uploads/2022/01/Casa_Los-Arboles-06-670x417.jpg" class="mmmm childrenmodal d-block w-100" alt="..." />
@@ -202,12 +213,12 @@ const Details = () => {
 
 
                         <div className="gallerias">
-                        <button className="bttt aaa footer15imp footer15impc" onClick={() => cambiarfotomenos()}> Anterior </button> 
-                        <h1 className="sinmarginmodal">{textoParaFoto}</h1>  
-                        <button className="bttt aaa footer15imp footer15impc" onClick={() => cambiarfotomas()}> Siguiente </button>
+                            <button className="bttt aaa footer15imp footer15impc" onClick={() => cambiarfotomenos()}> Anterior </button>
+                            <h1 className="sinmarginmodal">{textoParaFoto}</h1>
+                            <button className="bttt aaa footer15imp footer15impc" onClick={() => cambiarfotomas()}> Siguiente </button>
 
 
-                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                                 <div class="carousel-inner">
 
                                     {btng4 == 1 && modalOnOff == true ? <>
@@ -259,19 +270,19 @@ const Details = () => {
                 </div>
 
 
-                        {/* ////////////////////////////////////////////// */}
-                        {/* ////////////////////////////////////////////// */}
-                        {/* ////////////////////////////////////////////// */}
-                        {/* ////////////////////////////////////////////// */}
-                        {/* ////////////////////////////////////////////// */}
-                        {/* ////////////////////////////////////////////// */}
-                        {/* ////////////////////////////////////////////// */}
-                        {/* ////////////////////////////////////////////// */}
+                {/* ////////////////////////////////////////////// */}
+                {/* ////////////////////////////////////////////// */}
+                {/* ////////////////////////////////////////////// */}
+                {/* ////////////////////////////////////////////// */}
+                {/* ////////////////////////////////////////////// */}
+                {/* ////////////////////////////////////////////// */}
+                {/* ////////////////////////////////////////////// */}
+                {/* ////////////////////////////////////////////// */}
 
-                        {/* PASARLO A UNA GALERIA */}
+                {/* PASARLO A UNA GALERIA */}
 
 
-                        {/* ////////////////////////////////////////////// 
+                {/* ////////////////////////////////////////////// 
 
 esto volver a verrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrR
 
@@ -279,7 +290,7 @@ esto volver a verrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
 */}
 
 
-                            {/*    <div className="bottongallery">
+                {/*    <div className="bottongallery">
                                 <div onClick={() => changeBtng(1)} class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                     <span class="visually-hidden">
@@ -384,31 +395,31 @@ esto volver a verrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
 
 
 
-                            {/* ////////////////////////////////////////////// */}
-                            {/* ////////////////////////////////////////////// */}
-                            {/* ////////////////////////////////////////////// */}
-                            {/* ////////////////////////////////////////////// */}
-                            {/* ////////////////////////////////////////////// */}
-                            {/* ////////////////////////////////////////////// */}
-                            {/* ////////////////////////////////////////////// */}
-                            {/* ////////////////////////////////////////////// */}
+                {/* ////////////////////////////////////////////// */}
+                {/* ////////////////////////////////////////////// */}
+                {/* ////////////////////////////////////////////// */}
+                {/* ////////////////////////////////////////////// */}
+                {/* ////////////////////////////////////////////// */}
+                {/* ////////////////////////////////////////////// */}
+                {/* ////////////////////////////////////////////// */}
+                {/* ////////////////////////////////////////////// */}
 
 
 
-                       
-
-                            {/* ////////////////////////////////////////////// */}
-                            {/* ////////////////////////////////////////////// */}
-                            {/* ////////////////////////////////////////////// */}
-                            {/* ////////////////////////////////////////////// */}
-                            {/* ////////////////////////////////////////////// */}
-                            {/* ////////////////////////////////////////////// */}
-                            {/* ////////////////////////////////////////////// */}
-                            {/* ////////////////////////////////////////////// */}
 
 
+                {/* ////////////////////////////////////////////// */}
+                {/* ////////////////////////////////////////////// */}
+                {/* ////////////////////////////////////////////// */}
+                {/* ////////////////////////////////////////////// */}
+                {/* ////////////////////////////////////////////// */}
+                {/* ////////////////////////////////////////////// */}
+                {/* ////////////////////////////////////////////// */}
+                {/* ////////////////////////////////////////////// */}
 
-                            {/* ////////////////////////////////////////////// 
+
+
+                {/* ////////////////////////////////////////////// 
 
 esto volver a verrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrR
 
@@ -417,15 +428,15 @@ esto volver a verrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
 
 
 
-                          
 
-                            {/* <div className="sectionArriba">
+
+                {/* <div className="sectionArriba">
 
                                 <div className="modalbutton">
 
                                 </div>                <button className="botonX btbt" onClick={() => setModalOnOff(false)}>X</button>
                             </div> */}
-                            {/* <div className="childrenmodal"  >
+                {/* <div className="childrenmodal"  >
                                 <div class="carousel-item active">
                                     <img src="https://www.ankararealestate.mx/wp-content/uploads/2022/01/Casa_Los-Arboles-01-670x417.jpg" class="childrenmodal d-block w-100" alt="..." />
                                 </div>
@@ -457,16 +468,16 @@ esto volver a verrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
 
 
 
-                            {/* ////////////////////////////////////////////// */}
-                            {/* ////////////////////////////////////////////// */}
-                            {/* ////////////////////////////////////////////// */}
-                            {/* ////////////////////////////////////////////// */}
-                            {/* ////////////////////////////////////////////// */}
-                            {/* ////////////////////////////////////////////// */}
-                            {/* ////////////////////////////////////////////// */}
-                            {/* ////////////////////////////////////////////// */}
+                {/* ////////////////////////////////////////////// */}
+                {/* ////////////////////////////////////////////// */}
+                {/* ////////////////////////////////////////////// */}
+                {/* ////////////////////////////////////////////// */}
+                {/* ////////////////////////////////////////////// */}
+                {/* ////////////////////////////////////////////// */}
+                {/* ////////////////////////////////////////////// */}
+                {/* ////////////////////////////////////////////// */}
 
-                         
+
 
 
 
@@ -506,28 +517,33 @@ esto volver a verrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
 
                     <p className="aaa footer15imp footer15impc">Detalles</p>
                     <div className="listadetalles">
+
+
+
+
                         <div>
                             <li> <ul className="listadetalles2"> <p className="margrigh blbl">Nombre</p> <p className="margrigh2">De los encinos</p></ul>
                                 <ul className="listadetalles2"> <p className="margrigh blbl">Precio</p> <p className="margrigh2">$ 14,900,000</p></ul>
                                 <ul className="listadetalles2"> <p className="margrigh blbl">Baños</p> <p className="margrigh2">3</p></ul>
                                 <ul className="listadetalles2"> <p className="margrigh blbl">Habitaciones</p> <p className="margrigh2">3</p></ul>
-
-
-
                             </li>
                         </div>
-                        <div><li>
-                            <ul className="listadetalles2"> <p className="margrigh blbl">Estacionamiento</p> <p className="margrigh2">1</p></ul>
-                            <ul className="listadetalles2"> <p className="margrigh blbl">Metros</p> <p className="margrigh2">600 M2</p></ul>
-                            <ul className="listadetalles2"> <p className="margrigh blbl">Tipo</p><p className="margrigh2">Premium</p></ul>
-                            <ul className="listadetalles2"> <p className="margrigh blbl">Oficina</p> <p className="margrigh2">1</p></ul>
-                        </li></div>
+
+                        <div>
+                            <li> <ul className="listadetalles2"> <p className="margrigh blbl">Estacionamiento</p> <p className="margrigh2">1</p></ul>
+                                <ul className="listadetalles2"> <p className="margrigh blbl">Metros</p> <p className="margrigh2">600</p></ul>
+                                <ul className="listadetalles2"> <p className="margrigh blbl">Tipo</p> <p className="margrigh2">Premium</p></ul>
+                                <ul className="listadetalles2"> <p className="margrigh blbl">Oficina</p> <p className="margrigh2">1</p></ul>
+                            </li>
+                        </div>
+
+
+
+
+
 
                     </div>
-
-
-
-
+ 
 
 
                     <p className="aaa footer15imp footer15impc">Caracteristicas</p>
@@ -586,17 +602,17 @@ esto volver a verrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
 
 
                                 <div className="divflex1">
-                                    <input id="name" className='form-control inputt' type='text'
+                                    <input id="name" className='form-control3 inputt' type='text'
                                         name='name'
-                                        placeholder='name'
+                                        placeholder='Nombre'
                                         //  value={formDataUser.name}
                                         //     onChange={handleChange}
                                         required />
 
 
-                                    <input id="phone" className='form-control inputt' type='number'
+                                    <input id="phone" className='form-control3 inputt' type='number'
                                         name='phone'
-                                        placeholder='phone'
+                                        placeholder='Telefono'
                                     //  value={formDataUser.phone}
                                     //     onChange={handleChange}
                                     />
@@ -607,7 +623,7 @@ esto volver a verrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
                                 <div className="divflex2">
 
 
-                                    <input id="email" className='form-control' type='email'
+                                    <input id="email" className='form-control3' type='email'
                                         name='email'
                                         placeholder='email'
                                         //      value={formDataUser.email}

@@ -66,7 +66,7 @@ const Properties = () => {
                             </select>
                         </div>
                         <div className="containerinput">
-                            <div className="rangess sss form-control inputt" >  <input onChange={() => rangechange()} id="lbrange" type="range" min="3000000" max="50000000" step="1000000" />  <div id="lbrangev"> $ 3000000 </div>  </div>
+                            <div className="rangess sss form-control inputt" >  <input onChange={() => rangechange()} id="lbrange" type="range" min="000000" max="25000000" step="1000000" />  <div id="lbrangev"> $ 3000000 </div>  </div>
                         </div>
                         <button className="buttonsearch2"><p className="text5">Buscar</p></button>
                     </div>
@@ -161,7 +161,7 @@ const Properties = () => {
                                 </li>
 
                             </ul>
-                            <div className="pages"> <a className=" center circlepages">˂˂</a> <a className=" center circlepages">01</a>    <a className=" center circlepages">02</a>    <a className=" center circlepages">03</a>  <a className=" center circlepages">  ˃˃</a>         </div>
+                            <div className="pages"> <a className="wwwl center circlepages">˂˂</a> <a className=" center circlepages">01</a>    <a className=" center circlepages">02</a>    <a className=" center circlepages">03</a>  <a className="wwwl center circlepages">  ˃˃</a>         </div>
                         </div>
                     </section>
                 </section>
