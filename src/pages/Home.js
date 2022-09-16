@@ -75,7 +75,7 @@ const Home = () => {
                         <form className="formbanner">
                             <div className="formbannerback">
                                 <div className="divinputform">
-                                    <input className="inputform" placeholder="Busca por nombre o  ciudad.." ></input>
+                                    <input className="inputform" placeholder="Busca por nombre.." ></input>
                                 </div>
                                 <div className="divinputform">
                                     <select className="inputform" name="favoriteOnly" id="favoriteOnly">

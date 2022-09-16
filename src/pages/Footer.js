@@ -22,7 +22,7 @@ const Footer = () => {
 
 
 <section className="footer15">
-<h3 className='linkfooter2' >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Links</h3>
+<h3 className='linkfooter2' >&nbsp;&nbsp;Links</h3>
 <div className='linkfooter22'>
     <Link to="/home"  className='ptextfooter'> ► HOME </Link>
     <Link to="/propiedades"  className='ptextfooter'> ► PROPIEDADES </Link> 
