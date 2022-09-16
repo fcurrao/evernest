@@ -87,7 +87,7 @@ const Properties = () => {
                                     </select>
                                 </p>
                                 <p>
-                                    <input className="bbt text5 buttonsearch2 " type="submit" value="Buscar" />
+                                    <input className="bblp bbt text5 buttonsearch2 " type="submit" value="Buscar" />
                                 </p>
                             </form>
                         </div>

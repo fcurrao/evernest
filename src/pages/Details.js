@@ -437,13 +437,10 @@ const Details = () => {
 
 
 
-                <section className="textocont2">
-                    <br />
-                    <br />
-
-
+                <section className="textocont2"> 
+<br></br><br></br>
                     <div className="imagen">
-                        <p className="footer15imp ptextn" >Quiero conocer más esta propiedad  </p>
+                        <p className="margrigh33 footer15imp ptextn" >Quiero conocer más esta propiedad  </p>
                         <p className="footer15imp footer15impc" >DESCARGA EL BROCHURE </p>
 
 

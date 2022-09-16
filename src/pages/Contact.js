@@ -102,7 +102,7 @@ const contact = () => {
 
 
 
-            <section className="footer2 footer2c">
+            <section className="fqfq footer2 footer2c">
                 <div className='footer15 footer15c'>
                     <h4 className='footer15imp footer15impc' >Info de Contacto</h4>
                 </div>
@@ -123,9 +123,9 @@ const contact = () => {
 
                 <section className=" sm3 socialmedia">
                     <div className='z125 w100'>
-                        <a href="https://www.facebook.com/AnkraRealEstate/" target="_blank" class='smc smpc  fab fa-facebook-f' style={{ fontSize: "16px" }} ></a>
-                        <a href="https://www.instagram.com/ankrarealestate/" target="_blank" class='smc smpc fab fa-instagram' style={{ fontSize: "17px" }} ></a>
-                        <a href="https://www.youtube.com/channel/UCVwCSszh8_MTmZ55k5fztqg" target="_blank" class='smc smpc fab fa-youtube' style={{ fontSize: "16px" }} ></a>
+                        <a href="https://www.facebook.com/AnkraRealEstate/" target="_blank" className='ablack smc smpc  fab fa-facebook-f' style={{ fontSize: "16px" }} ></a>
+                        <a href="https://www.instagram.com/ankrarealestate/" target="_blank" className=' ablack smc smpc fab fa-instagram' style={{ fontSize: "17px" }} ></a>
+                        <a href="https://www.youtube.com/channel/UCVwCSszh8_MTmZ55k5fztqg" target="_blank" className='ablack smc smpc fab fa-youtube' style={{ fontSize: "16px" }} ></a>
 
 
 

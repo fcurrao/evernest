@@ -17,12 +17,14 @@ body {
     font-family: 'Poppins', sans-serif !important;
 }
 
-a{
+a {
     text-decoration: none !important;
 }
-a:hover{
+
+a:hover {
     text-decoration: none !important;
 }
+
 .body {
     font-family: 'Poppins', sans-serif !important;
 }
@@ -126,10 +128,22 @@ p {
 
 }
 
+.w-100{
+    width: 90% !important;
+}
+
 .boxyellow {
     border: 1px solid rgba(0, 0, 0, .125);
     width: 130%;
-    padding: 15%;
+    padding: 14%;
+}
+
+.carousel-control-next {
+    right: 70px !important;
+}
+
+.carousel-indicators {
+    right: 45px !important;
 }
 
 .boxyellow:hover {
@@ -139,8 +153,8 @@ p {
 
 .boxyellow3 {
     border: 1px solid rgba(0, 0, 0, .125);
-    width: 160%;
-    padding: 15%; 
+    width: 155%;
+    padding: 15%;
 }
 
 .boxyellow3:hover {
@@ -149,7 +163,7 @@ p {
 
 
 
-.containerinput { 
+.containerinput {
     margin: 2.5% 0%;
     display: flex;
     flex-direction: row;
@@ -187,8 +201,8 @@ p {
 
 .boxyellow2 {
     border: 1px solid rgba(0, 0, 0, .125);
-    width: 84%;
-    margin: 1.1% 10.5%;
+    width: 89%;
+    margin: 1.1% 5.5%;
 }
 
 .xxxxi {
@@ -218,17 +232,19 @@ p {
     color: #ffb900 !important;
     font-weight: bold !important;
 }
+
 .ff2 {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
-    height: 60px;
+    height: 38px;
     width: 92%;
     margin-top: 2%;
     align-items: center;
     align-content: space-around;
 }
+
 .ptext3 {
     font-family: 'Poppins', sans-serif;
     font-family: 'Poppins', sans-serif;
@@ -238,6 +254,8 @@ p {
 }
 
 .ssss {
+    margin-top: 2% !important;
+    margin-bottom: 0% !important;
     cursor: pointer;
     text-align: start;
     margin-left: 18px;
@@ -245,6 +263,7 @@ p {
     font-size: 20px;
     color: #000 !important;
     font-weight: normal;
+
 }
 
 a {
@@ -448,7 +467,7 @@ a {
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    margin-left: 5%;
+    margin-left: 2%;
     padding-right: 1px;
     color: white !important;
     z-index: 3;
@@ -486,11 +505,15 @@ a {
 .smp {
     margin-right: 3px;
     font-size: 14px;
-    color: #fff !important;
+    color: #fff;
     width: 30px;
     height: 30px;
     line-height: 30px;
     text-align: center;
+}
+
+.xdxdbb {
+    padding-top: 10% !important;
 }
 
 .buttonsearch {
@@ -568,12 +591,18 @@ a {
 
 .bb:hover {
     zoom: 110%;
+    color: #ffb900 !important;
 }
 
 .btbt {
     background: #ffb900;
     color: #000;
     padding: 6px 30px;
+}
+
+.bblp {
+    margin-top: 28% !important;
+    padding: 12% !important;
 }
 
 .btbt:hover {
@@ -908,7 +937,7 @@ a {
     font-size: 20px;
     text-decoration: none;
     display: flex;
-    width: 100%; 
+    width: 100%;
     border-bottom-style: solid;
     border-bottom-width: 1px;
     flex-direction: column;
@@ -925,9 +954,9 @@ a {
 .subtitle {
     cursor: pointer;
     text-align: start;
-    margin-left: 18px;
+    margin-left: 13px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 16px;
     color: #000 !important;
     font-weight: normal;
 }
@@ -939,15 +968,15 @@ a {
 }
 
 .location {
-    margin-left: 5px;
+    margin-left: 7px;
     text-align: start;
-    font-size: 14px;
+    font-size: 11px;
     color: #b9b9b9 !important;
 }
 
 .price {
     text-align: start;
-    font-size: 20px;
+    font-size: 16px;
     color: #ffb900 !important;
     font-weight: bold;
     margin-left: 15px;
@@ -966,18 +995,20 @@ a {
     border: 1px solid #f0efef;
     background: #f9f9f9;
     margin: 3px;
-    margin-bottom: 3px !important; 
-    
+    margin-bottom: 3px !important;
+
 }
 
 .priceandheart {
     display: flex;
-    margin-left: 5px;
+    margin-left: 11px;
     flex-direction: row;
     flex-wrap: nowrap;
+    margin-bottom: 10px;
     align-content: center;
     justify-content: flex-start;
     align-items: center;
+    margin-top: 5% !important;
 }
 
 
@@ -1088,6 +1119,7 @@ a {
 
 .footer2 {
     font-family: 'Open Sans', sans-serif;
+    margin-top: 42%;
     display: flex;
     width: 35%;
     margin-right: 50px;
@@ -1099,6 +1131,7 @@ a {
     font-size: 16px;
     margin: 0;
     line-height: 50px;
+    margin-top: 2.2%;
 }
 
 .footer3 {
@@ -1138,14 +1171,16 @@ a {
     padding-left: 20% !important;
 }
 
-.buttonb:hover{ 
-}
-.bbnn{
+.buttonb:hover {}
+
+.bbnn {
     padding: 12% !important;
 }
-.wwwl{
+
+.wwwl {
     font-weight: 600 !important;
 }
+
 .linkfooter22 {
     display: flex;
     width: 145%;
@@ -1222,6 +1257,10 @@ a {
     font-family: 'Poppins', sans-serif !important;
 }
 
+.ablack {
+    color: black !important;
+}
+
 .italic {
     color: #ffb900 !important;
     font-style: italic;
@@ -1229,8 +1268,15 @@ a {
 }
 
 .titt {
+
     font-size: 1.75rem;
     font-weight: 500;
+}
+
+.fqfq {
+    display: flex !important;
+    zoom: 98% !important;
+    justify-content: center !important;
 }
 
 .stitt {
@@ -1244,7 +1290,7 @@ a {
     text-decoration: none;
     font-size: 0.9rem;
     font-weight: bold;
-    background: #ffb900; 
+    background: #ffb900;
     font-weight: bold;
     display: block;
     height: 100% !important;
@@ -1485,6 +1531,8 @@ a {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
+    padding-left: 0% !important;
+    margin-top: 4% !important;
 }
 
 .pages {
@@ -1627,7 +1675,7 @@ a {
     width: 100% !important;
     padding: 0.375rem 0.75rem !important;
     font-size: 1.1rem !important;
-        line-height: 1.5 !important;
+    line-height: 1.5 !important;
     color: #495057 !important;
     background-color: #fff !important;
     background-clip: padding-box !important;
@@ -1645,7 +1693,7 @@ a {
     box-shadow: none !important;
 }
 
-.bothtog{
+.bothtog {
     zoom: 110%;
 }
 
@@ -1660,7 +1708,7 @@ a {
     width: 100% !important;
     padding: 0.375rem 0.75rem !important;
     font-size: 1.1rem !important;
-        line-height: 1.5 !important;
+    line-height: 1.5 !important;
     color: #495057 !important;
     background-color: #fff !important;
     background-clip: padding-box !important;
@@ -1669,10 +1717,10 @@ a {
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
-.form-control3:focus { 
+.form-control3:focus {
     border-radius: 0.15rem !important;
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-    outline: 0; 
+    outline: 0;
     color: #495057;
     background-color: #fff;
     border-color: #80bdff;
@@ -1744,9 +1792,9 @@ a {
 
 .tittt {
     margin-top: 1%;
-    font-size: 1.65rem; 
+    font-size: 1.65rem;
     font-weight: 600;
-    font-family: 'Poppins', sans-serif; 
+    font-family: 'Poppins', sans-serif;
     color: #212529 !important;
 }
 
@@ -1804,11 +1852,11 @@ a {
 .mmrr6 {
     margin-right: 6% !important;
     width: 18%;
-    
-   
+
+
 }
 
-.mmrr62{
+.mmrr62 {
     zoom: 104%;
 }
 
@@ -1990,7 +2038,7 @@ a {
 
 
 .propiedad {
-      /* zoom: 95%; */
+    /* zoom: 95%; */
     /* width: 100%; */
     padding: 0.1% 12%;
     display: flex;
@@ -2013,13 +2061,15 @@ a {
     display: flex;
     justify-content: space-between;
     height: 38px;
-    margin-top: 2%;
+    margin-top: 4%;
 }
-
+ 
+  
 .ggg {
     color: grey !important;
     margin: 0% !important;
     font-weight: 200;
+    font-size: 16px;
 }
 
 .sinmargin {
@@ -2051,7 +2101,8 @@ a {
 
 .setentaporc {
     width: 64% !important;
-    padding: 0.2% 2% !important;
+    padding: 0.2% 0% !important;
+    padding-right: 4%;
 }
 
 
@@ -2061,7 +2112,7 @@ li {
 }
 
 .listadetalles {
-    margin-top: 1%;
+    margin-top: 5%;
     display: flex;
     align-items: center;
     width: 80%;
@@ -2071,7 +2122,7 @@ li {
     flex-wrap: nowrap;
 }
 
-.listadetallescarac{
+.listadetallescarac {
     margin-top: 4%;
     display: flex;
     align-items: flex-start;
@@ -2081,8 +2132,9 @@ li {
     justify-content: space-between;
     flex-wrap: nowrap;
 }
-.caractext{
-   
+
+.caractext {
+
     text-align: start !important;
     font-family: 'Open Sans', sans-serif !important;
     width: 180px;
@@ -2093,11 +2145,15 @@ li {
     line-height: 1.5;
     color: #212529;
 }
-.margrigh3{
+
+.margrigh3 {
     color: black !important;
 }
-.licheckbox{
-    margin: 75% 1% !important; 
+.margrigh33 {
+color: #333 !important;
+}
+.licheckbox {
+    margin: 115% 0% !important;
     display: flex;
     width: 19px;
     height: 19px;
@@ -2120,36 +2176,41 @@ li {
     align-items: center;
 }
 
-.listadetalles2{
-    
+.listadetalles2 {
+
     display: flex;
     align-items: center;
     align-content: space-around;
     flex-direction: row;
     justify-content: flex-start;
 }
-.margrigh2{ 
+
+.margrigh2 {
     margin-left: 10%;
-        display: flex;
-        text-align: center;
-        justify-content: flex-end; 
-        width: 240px; 
+    display: flex;
+    text-align: center;
+    justify-content: flex-end;
+    width: 240px;
     justify-content: center;
 
 
 }
 
-.divml10{
-margin-left: 10% !important;
+.divml10 {
+    margin-left: 10% !important;
 }
 
-.listadetalles22 { 
+.listadetalles22 {
     display: flex;
     align-items: center;
     flex-direction: row;
     flex-wrap: nowrap;
     align-content: space-around;
     justify-content: space-between;
+    margin-bottom: 0%;
+    margin-top: 8%;
+    margin-left: 0% !important;
+    padding-left: 0% !important;
 }
 
 .margrigh {
@@ -2159,19 +2220,20 @@ margin-left: 10% !important;
 
 }
 
-.blbl { 
+.blbl {
     color: #666;
     width: 100px;
     text-align: initial;
     font-weight: 700;
 }
 
- 
- 
-.w1cc{
+
+
+.w1cc {
     width: 100% !important;
 }
-.margrigh22{
+
+.margrigh22 {
     width: 100%;
     padding-left: 250%;
     text-align: center;
@@ -2182,7 +2244,7 @@ margin-left: 10% !important;
     flex-wrap: nowrap;
 }
 
-.lista22{
+.lista22 {
     margin-left: 50% !important;
 }
 
