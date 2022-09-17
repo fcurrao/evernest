@@ -22,7 +22,7 @@ const OurTeam = () => {
                             </div>
                         </div>
                         <div className='r1'>
-                            <section className="socialmedia2">
+                            <section className="socialmedia2 cscs">
                             <div className="rrddss">
                                     <a href="https://wa.me/+525519539803" target="_blank" > 
 
@@ -60,7 +60,7 @@ const OurTeam = () => {
                             </div>
                         </div>
                         <div className='r2'>
-                            <section className="socialmedia2">
+                            <section className="cscs  socialmedia2">
                             <div className="rrddss">
                                     <a href="https://wa.me/+525515108737" target="_blank" >
 
@@ -101,7 +101,7 @@ const OurTeam = () => {
                         </div>
 
                         <div className='r3'>
-                            <section className="socialmedia2">
+                            <section className="cscs socialmedia2">
                                 <div className="rrddss">
                                     <a href="https://wa.me/+527222407608" target="_blank" >
 

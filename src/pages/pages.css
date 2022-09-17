@@ -816,7 +816,7 @@ a {
     z-index: -1;
     top: 3810px;
     margin-top: -21%;
-    margin-left: 5%;
+    margin-left: 5.5%;
 }
 
 .titletext {
@@ -923,6 +923,10 @@ a {
     width: 130%;
 }
 
+.cscs{
+    zoom: 150% !important;
+    padding-top: 5% !important;
+}
 
 .psm {
     font-family: 'Poppins', sans-serif !important;
