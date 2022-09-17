@@ -34,7 +34,7 @@ body {
     background: #ffb900;
     color: #000;
     font-weight: bold;
-    padding: 0px 26px;
+    padding: 12px 26px;
     display: block;
     height: 100% !important;
 
@@ -50,4 +50,32 @@ body {
 
 .socialmedia {
     line-height: 44px;
+}
+
+
+
+.socialmmm2 {
+    margin-left: 4% !important;
+    margin-bottom: 1% !important;
+    zoom: 45% !important;
+    align-items: center !important;
+    margin-top: 1% !important;
+}
+.agrandar{
+    zoom: 170% !important;
+    color: white !important;
+    margin-right: 1%;
+}
+
+.agrandar:hover{ 
+    color: #ffb900 !important; 
+}
+
+.redondoelredes{
+    border: 1px white solid;
+    border-radius: 50% !important;
+    padding: 4% 2%;
+    margin-right: 3%;
+
+
 }
