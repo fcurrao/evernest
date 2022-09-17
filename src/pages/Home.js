@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import OurTeam from './OurTeam';
 import './pages.css'
 import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Home = () => {
 
@@ -154,8 +153,12 @@ const Home = () => {
                             <li className="ml2 listaclassbox2">
                                 <div className="margintop5"> <img className="pictureProp" src="./assets/img/others/propertyImg01.jpg" alt="pictureProp" /></div>
                                 <div className="divsubtitle"> <p className="ssss subtitle" onClick={() => consoleLog()}> Casa de los Arboles</p> </div>
-                                <div className="location"> <a className="location" ><i class='fas fa-map-marker-alt'></i> Toluca / Mexico </a></div>
-                                <div className="priceandheart" > <a onClick={() => consoleLog()} className="hearticon"> <i class='fas fa-heart'></i></a>
+                                <div className="location"> <a className="location" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+  <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+</svg> Toluca / Mexico </a></div>
+                                <div className="priceandheart" > <a onClick={() => consoleLog()} className="hearticon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+</svg>  </a>
                                     {/* <a className="hearticon"><i class='fas fa-exchange-alt'></i></a>   */}
                                     <p className="price"> $ 14,900,000</p></div>
                                 <div className="divproperinfot">
@@ -184,8 +187,12 @@ const Home = () => {
                             <li className="ml2 listaclassbox2">
                                 <div className="margintop5"> <img className="pictureProp" src="./assets/img/others/propertyImg01.jpg" alt="pictureProp" /></div>
                                 <div className="divsubtitle"> <p className="ssss subtitle" onClick={() => consoleLog()}> Casa de los Arboles</p> </div>
-                                <div className="location"> <a className="location" ><i class='fas fa-map-marker-alt'></i> Toluca / Mexico </a></div>
-                                <div className="priceandheart" > <a onClick={() => consoleLog()} className="hearticon"> <i class='fas fa-heart'></i></a>
+                                <div className="location"> <a className="location" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+  <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+</svg> Toluca / Mexico </a></div>
+                                <div className="priceandheart" > <a onClick={() => consoleLog()} className="hearticon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+</svg>  </a>
                                     {/* <a className="hearticon"><i class='fas fa-exchange-alt'></i></a>   */}
                                     <p className="price"> $ 14,900,000</p></div>
                                 <div className="divproperinfot">
@@ -214,8 +221,12 @@ const Home = () => {
                             <li className="ml2 listaclassbox2">
                                 <div className="margintop5"> <img className="pictureProp" src="./assets/img/others/propertyImg01.jpg" alt="pictureProp" /></div>
                                 <div className="divsubtitle"> <p className="ssss subtitle" onClick={() => consoleLog()}> Casa de los Arboles</p> </div>
-                                <div className="location"> <a className="location" ><i class='fas fa-map-marker-alt'></i> Toluca / Mexico </a></div>
-                                <div className="priceandheart" > <a onClick={() => consoleLog()} className="hearticon"> <FontAwesomeIcon icon="fa-solid fa-heart" /></a>
+                                <div className="location"> <a className="location" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+  <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+</svg>Toluca / Mexico </a></div>
+                                <div className="priceandheart" > <a onClick={() => consoleLog()} className="hearticon"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+</svg>  </a>
                                     {/* <a className="hearticon"><i class='fas fa-exchange-alt'></i></a>   */}
                                     <p className="price"> $ 14,900,000</p></div>
                                 <div className="divproperinfot">
