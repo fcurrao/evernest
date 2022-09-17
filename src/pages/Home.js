@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import OurTeam from './OurTeam';
 import './pages.css'
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Home = () => {
 
@@ -214,7 +215,7 @@ const Home = () => {
                                 <div className="margintop5"> <img className="pictureProp" src="./assets/img/others/propertyImg01.jpg" alt="pictureProp" /></div>
                                 <div className="divsubtitle"> <p className="ssss subtitle" onClick={() => consoleLog()}> Casa de los Arboles</p> </div>
                                 <div className="location"> <a className="location" ><i class='fas fa-map-marker-alt'></i> Toluca / Mexico </a></div>
-                                <div className="priceandheart" > <a onClick={() => consoleLog()} className="hearticon"> <i class='fas fa-heart'></i></a>
+                                <div className="priceandheart" > <a onClick={() => consoleLog()} className="hearticon"> <FontAwesomeIcon icon="fa-solid fa-heart" /></a>
                                     {/* <a className="hearticon"><i class='fas fa-exchange-alt'></i></a>   */}
                                     <p className="price"> $ 14,900,000</p></div>
                                 <div className="divproperinfot">
