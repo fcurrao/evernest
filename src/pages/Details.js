@@ -144,7 +144,9 @@ const Details = () => {
                                 <select placeholder="tipo" className="form-control inputt" name="favoriteOnly" id="favoriteOnly">
                                     <option >Todos los tipos</option>
                                     <option>Premium</option>
-                                    <option type="submit" >Plus</option>
+                                    <option type="submit" >Casa</option>
+                                    <option type="submit" >Departamento</option>
+                                    <option type="submit" >Terreno</option>
                                 </select>
                             </div>
                             <div className="containerinput">
