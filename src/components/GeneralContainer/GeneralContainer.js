@@ -4,7 +4,6 @@ import { useEffect } from "react"
 
 
 
-
 const GeneralContainer = () => {
 
 
@@ -17,41 +16,26 @@ const GeneralContainer = () => {
 
     const componentGetMount = async () => {
 
-        const response = await fetch('https://api.easybroker.com/playground#/Properties/get_properties', {
+      
+        try {
+            const response = await fetch('https://api.easybroker.com/playground#/Properties/get_properties', {
 
-            mode: 'no-cors',
-            headers: {
-                'Content-Type': 'application/json',
-                'Acces-Control-Allow-Origin': '*',
-                'X-Authorization': 'febj7tgu8e2667ubmz80qetgkmezwy'
-            }
-        })
-            .then((response) => response.json())
-            .then((data) => {
-                console.log(data)
+                mode: 'no-cors',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Acces-Control-Allow-Origin': '*',
+                    'X-Authorization': 'febj7tgu8e2667ubmz80qetgkmezwy'
+                }
+            });
 
-            })
+            const data = await response.json()
+            console.log(data)
+        }
+        catch (error) {
+            console.log(error)
+        }
+
     }
-
-
-
-
-
-    //     const componentGetMount = async () => { 
-
-    //      const response = await fetch('https://api.easybroker.com/playground#/Properties/get_properties'
-    //         mode: 'no-cors',
-    //         headers: {
-    //                     'Content-Type': 'application/json',
-    //                     'Acces-Control-Allow-Origin': '*',
-    //                     'X-Authorization': 'febj7tgu8e2667ubmz80qetgkmezwy'
-    //                 } })
-    //     .then((response) => response.json())
-    //     .then((data)=> {
-    //         console.log(data)
-
-    //     })
-    // }   
 
 
 
@@ -62,12 +46,9 @@ const GeneralContainer = () => {
     }, [])
 
 
+
+
     /////////////////////////////////// API ///////////////////////////////////////////
-
-
-
-
-
 
 
     /////////////////////////////////////   URLs //////////////////////////////
@@ -89,9 +70,37 @@ const GeneralContainer = () => {
 
 
 
-
-
     ///////////////////////////////// URLs ///////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -104,9 +113,9 @@ const GeneralContainer = () => {
     return (
 
         <>
-        {console.log("Cargando el General Container (api) (Base de datos de Ankara) ")}
-        
-        
+            {console.log("Cargando el General Container (api) (Base de datos de Ankara) ")}
+
+
         </>
     )
 

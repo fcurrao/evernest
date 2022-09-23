@@ -357,6 +357,7 @@ a {
 .z125 {
     padding-top: 2%;
     zoom: 125%;
+    padding-right: 86%!important;
     width: 320% !important;
 }
 
@@ -388,8 +389,10 @@ a {
 }
 
 .imggg {
-    width: 21%;
-    margin: 3% 1% !important;
+    width: 22%;
+    margin: 2% 1% !important;
+    object-fit: cover !important;
+
 }
 
 .mleft {
@@ -840,9 +843,21 @@ a {
     border: 1px solid #ffb900;
     position: absolute;
     z-index: -1;
-    top: 3810px;
+    top: 3200px;
     margin-top: -21%;
-    margin-left: 5.5%;
+    margin-left: 5.5%; 
+}
+
+
+.agent2x {
+    width: 265px;
+    height: 400px;
+    content: "";
+    border: 1px solid #ffb900;
+    position: absolute;
+    z-index: -1;
+    top: 1910px;
+    margin-top: -21%; 
 }
 
 .titletext {
@@ -1637,9 +1652,13 @@ a {
     padding: 2%;
     border: 1px #ffb900 solid;
     color: #ffb900 !important;
-    padding-left: 2.5%;
     margin-right: 2%;
-    padding-right: 2.5%;
+    padding: 2% 2%;
+    width: 40px;
+    height: 40px;
+  
+
+    
 }
 
 .circlepages:hover {
@@ -1650,7 +1669,7 @@ a {
 }
 
 .ourteam {
-    zoom: 70%;
+    zoom: 80%;
 }
 
 .totalour {
@@ -1692,8 +1711,7 @@ a {
 
 
 .footer2c {
-    zoom: 110%;
-    padding-left: 5%;
+    padding-left: 4%;
     color: black !important;
     height: 400px;
     width: 28%;
@@ -1701,8 +1719,6 @@ a {
     align-content: space-around;
     flex-wrap: nowrap;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
 }
 
 
@@ -1994,6 +2010,8 @@ a {
     height: 360px;
     padding-left: 12%;
     z-index: -1;
+    object-fit: cover !important;
+
 }
 
 .ott {

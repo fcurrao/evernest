@@ -77,7 +77,7 @@ const Aboutus = () => {
                 <img className="imggg imghovdiag" src=" https://www.ankararealestate.mx/wp-content/uploads/2022/01/WhatsApp-Image-2022-01-24-at-9.01.31-AM-480x331.jpeg" ></img>
                 <img className="imggg imghovdiag" src="https://www.ankararealestate.mx/wp-content/uploads/2022/01/WhatsApp-Image-2022-01-24-at-9.01.11-AM-480x331.jpeg" ></img>
                 <img className="imggg imghovdiag" src="https://www.ankararealestate.mx/wp-content/uploads/2022/01/WhatsApp-Image-2022-01-24-at-9.00.55-AM-480x331.jpeg" ></img>
-                <img className="imggg imghovdiag" src="https://www.ankararealestate.mx/wp-content/uploads/2022/01/WhatsApp-Image-2022-01-24-at-9.00.16-AM.jpeg" ></img>
+                <img className="imggg imghovdiag" src="https://www.ankararealestate.mx/wp-content/uploads/2022/01/WhatsApp-Image-2022-01-24-at-9.00.16-AM-480x331.jpeg" ></img>
                        
                 </section>   
 
@@ -98,14 +98,14 @@ const Aboutus = () => {
 //////////////////////////////////////
 //////////////////////////////////////
 ////////*/   }
-
+ 
             <section className="ott">
                 <section className='qone'>
                     <div className='fyd1'>
                         <div className='f1'>
                             <div className="divmargin">
                                 <img className="picagent" src="https://www.ankararealestate.mx/wp-content/uploads/2022/01/WhatsApp-Image-2022-01-16-at-8.16.04-PM.jpeg" ></img>
-                                <div className="agent1"></div>
+                                <div className="agent2x"></div>
                                 <section className='nameagent'>
                                     <h2 className="namea">  NORMA ANGÉLICA ARTEAGA RUIZ</h2>
                                 </section>
@@ -148,7 +148,7 @@ const Aboutus = () => {
                         <div className='f2'>
                             <div className="divmargin2">
                                 <img className="picagent" src="https://www.ankararealestate.mx/wp-content/uploads/2022/03/WhatsApp-Image-2022-03-10-at-9.25.41-AM.jpeg" ></img>
-                                <div className="agent1"></div>
+                                <div className="agent2x"></div>
                                 <section className='nameagent'>
                                     <h2 className="namea"> CLAUDIA GRISEL CANCHOLA GRANADOS</h2>
                                 </section>
@@ -191,7 +191,7 @@ const Aboutus = () => {
 
                                 <img className="picagent" src="https://www.ankararealestate.mx/wp-content/uploads/2022/01/WhatsApp-Image-2022-01-21-at-2.48.19-PM.jpeg" ></img>
 
-                                <div className="agent1"></div>
+                                <div className="agent2x"></div>
 
                                 <section className='nameagent'>
                                     <h2 className="namea">EDGAR MONTIEL</h2>

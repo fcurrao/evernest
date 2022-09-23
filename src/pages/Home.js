@@ -300,7 +300,7 @@ const Home = () => {
                     <img className="imggg imghovdiag" src=" https://www.ankararealestate.mx/wp-content/uploads/2022/01/WhatsApp-Image-2022-01-24-at-9.01.31-AM-480x331.jpeg" ></img>
                     <img className="imggg imghovdiag" src="https://www.ankararealestate.mx/wp-content/uploads/2022/01/WhatsApp-Image-2022-01-24-at-9.01.11-AM-480x331.jpeg" ></img>
                     <img className="imggg imghovdiag" src="https://www.ankararealestate.mx/wp-content/uploads/2022/01/WhatsApp-Image-2022-01-24-at-9.00.55-AM-480x331.jpeg" ></img>
-                    <img className="imggg imghovdiag" src="https://www.ankararealestate.mx/wp-content/uploads/2022/01/WhatsApp-Image-2022-01-24-at-9.00.16-AM.jpeg" ></img>
+                    <img className="imggg imghovdiag" src="https://www.ankararealestate.mx/wp-content/uploads/2022/01/WhatsApp-Image-2022-01-24-at-9.00.16-AM-480x331.jpeg" ></img>
 
                 </section>
 
