@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+
+
 
 @font-face {
     font-family: 'Cedarville Cursive';
@@ -128,7 +133,7 @@ p {
 
 }
 
-.w-100{
+.w-100 {
     width: 90% !important;
 }
 
@@ -357,8 +362,18 @@ a {
 .z125 {
     padding-top: 2%;
     zoom: 125%;
-    padding-right: 86%!important;
+    padding-right: 86% !important;
     width: 320% !important;
+}
+
+.z1252 {
+    padding-top: 2%;
+    zoom: 125%;
+    width: 320% !important;
+}
+
+.rangoo {
+    zoom: 99% !important;
 }
 
 .textwhite {
@@ -496,7 +511,20 @@ a {
     align-items: center;
 }
 
+.divphonew {
+    color: white !important;
+    display: flex;
+    align-items: center;
+}
+
 .divemail {
+    zoom: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.divemailw {
+    color: white !important;
     zoom: 90%;
     display: flex;
     align-items: center;
@@ -806,7 +834,7 @@ a {
     margin: 5% 5% !important;
 }
 
-.rrgg{
+.rrgg {
     width: 20.5% !important;
     margin-right: 2% !important;
     margin-left: 2.5% !important;
@@ -815,7 +843,7 @@ a {
     border-style: none !important;
     font-size: 14px !important;
     border-radius: 0 !important;
-    height: 48px !important; 
+    height: 48px !important;
     margin-bottom: 0;
     display: block;
     padding: 0.375rem 0.75rem;
@@ -832,6 +860,7 @@ a {
     line-height: inherit;
     box-sizing: border-box;
 }
+
 .featuredproptext {
     margin-bottom: 40px;
 }
@@ -845,7 +874,7 @@ a {
     z-index: -1;
     top: 3200px;
     margin-top: -21%;
-    margin-left: 5.5%; 
+    margin-left: 5.5%;
 }
 
 
@@ -857,7 +886,7 @@ a {
     position: absolute;
     z-index: -1;
     top: 1910px;
-    margin-top: -21%; 
+    margin-top: -21%;
 }
 
 .titletext {
@@ -964,7 +993,7 @@ a {
     width: 130%;
 }
 
-.cscs{
+.cscs {
     zoom: 150% !important;
     padding-top: 5% !important;
 }
@@ -976,7 +1005,15 @@ a {
     padding: 0%;
 }
 
-.rrddss{
+.psmcolorwhitex {
+    color: white !important;
+    font-family: 'Poppins', sans-serif !important;
+    text-transform: initial;
+    margin: 0%;
+    padding: 0%;
+}
+
+.rrddss {
     zoom: 70% !important;
     width: 150% !important;
     display: flex;
@@ -995,8 +1032,9 @@ a {
 
 
 .psm2:hover {
-    color:#ffb900 !important ;
+    color: #ffb900 !important;
 }
+
 .footer15imp {
     font-family: 'Poppins', sans-serif !important;
     width: 100%;
@@ -1038,30 +1076,31 @@ a {
     align-items: center !important;
     margin-top: 1% !important;
 }
-.agrandar{
+
+.agrandar {
     zoom: 170% !important;
     color: white !important;
     margin-right: 1%;
 }
 
-.agrandar:hover{ 
-    color: #ffb900 !important; 
+.agrandar:hover {
+    color: #ffb900 !important;
 }
 
-.agrandar2{
+.agrandar2 {
     zoom: 170% !important;
     color: black !important;
     margin-right: 1%;
 }
 
-.agrandar2:hover{ 
-    color: #ffb900 !important; 
+.agrandar2:hover {
+    color: #ffb900 !important;
 }
 
 
 
 
-.redondoelredes{
+.redondoelredes {
     border: 1px white solid;
     border-radius: 50% !important;
     padding: 4% 2%;
@@ -1069,6 +1108,7 @@ a {
 
 
 }
+
 .location {
     margin-left: 7px;
     text-align: start;
@@ -1626,6 +1666,14 @@ a {
     align-items: center;
 }
 
+.ifilters2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    zoom: 99% !important;
+    width: 140% !important;
+}
+
 .listabox2 {
     display: flex;
     justify-content: space-evenly;
@@ -1656,9 +1704,9 @@ a {
     padding: 2% 2%;
     width: 40px;
     height: 40px;
-  
 
-    
+
+
 }
 
 .circlepages:hover {
@@ -2143,9 +2191,10 @@ a {
 
 
 .propiedad {
-    /* zoom: 95%; */
-    /* width: 100%; */
-    padding: 0.1% 12%;
+    zoom: 95%;
+    width: 100%;
+    padding-right: 12%;
+    padding-left: 5%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -2168,8 +2217,8 @@ a {
     height: 38px;
     margin-top: 4%;
 }
- 
-  
+
+
 .ggg {
     color: grey !important;
     margin: 0% !important;
@@ -2254,9 +2303,11 @@ li {
 .margrigh3 {
     color: black !important;
 }
+
 .margrigh33 {
-color: #333 !important;
+    color: #333 !important;
 }
+
 .licheckbox {
     margin: 115% 0% !important;
     display: flex;
@@ -2470,3 +2521,784 @@ color: #333 !important;
     flex-direction: row;
     height: 7%;
 }
+
+
+.colorwhitex {
+    color: white !important;
+}
+
+.displaynonex{
+    display:none;
+
+}
+
+
+/* //////////////////////////////////////////
+                responsive
+////////////////////////////////////////// */
+
+/* //////////////////////////////////////////
+                responsive
+////////////////////////////////////////// */
+
+/* //////////////////////////////////////////
+                responsive
+////////////////////////////////////////// */
+
+/* //////////////////////////////////////////
+                responsive
+////////////////////////////////////////// */
+
+/* //////////////////////////////////////////
+                responsive
+////////////////////////////////////////// */
+
+/* ***************** */
+/* 1 -  celu  de 300 a 600
+/* ***************** */
+
+@media (min-width:40px) and (max-width:599px) {
+
+
+
+
+
+
+    .tttx {
+        display: flex !important;
+        flex-direction: row !important;
+        flex-wrap: wrap !important;
+        margin-top: 4% !important;
+        justify-content: flex-start !important;
+        align-items: center !important;
+    }
+
+    .ifilters2 {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        width: 195% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        width: 165% !important;
+        padding: 44px !important;
+        padding-top: 44px !important;
+        padding-right: 44px !important;
+        padding-bottom: 44px !important;
+        padding-left: 44px !important;
+        zoom: 95% !important;
+    }
+
+    .boxyellow {
+        border: 1px solid rgba(0, 0, 0, .125) !important;
+        width: 689px !important;
+        padding: 20% !important;
+    }
+
+    .divml10 {
+        margin-left: 0% !important;
+    }
+
+    .mmrr62 {
+        zoom: 90%;
+    }
+
+
+    .ifilters {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        width: 482% !important;
+        padding: 35px !important;
+        margin-left: 35% !important;
+        zoom: 92% !important;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    .containerinput {
+        font-size: 22px !important;
+        zoom: 120% !important;
+        margin: 1.2% 0% !important;
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: center !important;
+        justify-content: flex-end !important;
+        flex-wrap: nowrap !important;
+        align-content: center !important;
+        width: 110% !important;
+        padding: 0% !important;
+        padding-right: 2% !important;
+        border: 1px solid rgba(0, 0, 0, .125) !important;
+        border: 1px solid #ced4da !important;
+        border-radius: 0.15rem !important;
+        transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out !important;
+    }
+
+    .listadetallescarac {
+        margin-top: 4%;
+        display: flex;
+        align-items: flex-start;
+        width: 98%;
+        flex-flow: row nowrap;
+        zoom: 85% !important;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+
+    #lbrange {
+        zoom: 200% !important;
+
+    }
+
+    .setentaporc {
+        width: 98% !important;
+    }
+
+    #lbrangev {
+        zoom: 140% !important;
+
+    }
+
+    .rangoo {
+        width: 59px !important;
+        zoom: 90% !important;
+    }
+
+    .listaclassbox2 {
+        margin-bottom: 25px !important;
+        width: 80% !important;
+    }
+
+
+
+    .propiedad {
+        zoom: 95% !important;
+        width: 100% !important;
+        padding-right: 12% !important;
+        padding-left: 5% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: space-between !important;
+        align-items: flex-start !important;
+
+    }
+
+    .listabox {
+        display: flex;
+        justify-content: space-between;
+        align-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .listabox2 {
+        display: flex;
+        justify-content: space-evenly;
+        align-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        padding-left: 0% !important;
+        margin-top: 4% !important;
+    }
+
+
+
+
+
+
+    .formbannerback {
+        background: rgb(239 239 239 / 31%);
+        padding: 1% !important;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 97% !important;
+    }
+
+    .divinputform {
+        width: 88% !important;
+    }
+
+
+    .banner {
+        position: relative;
+        top: -700px;
+        z-index: 1;
+        zoom: 85%;
+    }
+
+
+    .inputform {
+        margin: 1% !important;
+        border: none !important;
+        outline: none !important;
+        border-style: none !important;
+        font-size: 14px !important;
+        border-radius: 0 !important;
+        height: 48px !important;
+        /* position: relative; */
+        /* flex: 1 1 auto; */
+        margin-bottom: 0;
+        display: block;
+        width: 99.5%;
+        padding: 0.375rem 0.75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        color: #495057 !important;
+        background-color: #fff;
+        background-clip: padding-box;
+        border-radius: 0.25rem;
+        transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+        margin: 0;
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+        box-sizing: border-box;
+    }
+
+
+
+    .displaynonex{
+        display:contents !important;
+    }
+
+    .abababa{
+        display:none !important;
+    }
+
+
+    .btban {
+        margin-left: 0% !important;
+        width: 82% !important;
+    }
+
+
+
+    .xdxdbb {
+        padding-top: 5% !important;
+    }
+
+
+
+
+.rrgg {
+    margin: 1.2% !important;
+    width: 87.6% !important;
+    margin-left: 2.5% !important;
+}
+
+.form-control {
+    width: 80% !important;
+    font-family: 'Poppins', sans-serif !important;
+    zoom: 75% !important;
+    margin: 1% !important;
+    border-radius: 0 !important;
+    height: 48px !important;
+    font-size: 14px !important;
+    width: 90% !important;
+    padding: 0;
+    font-size: 1.1rem !important;
+    line-height: 1.5 !important;
+    color: #495057 !important;
+    background-color: #fff !important;
+    background-clip: padding-box !important;
+    border: none !important;
+    margin: 0px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    #root {
+        zoom: 70% !important;
+    }
+
+
+
+    .zzzxxx {
+        margin-left: 120% !important;
+    }
+
+    .footerclass {
+        padding-bottom: 14% !important;
+        zoom: 76% !important;
+        font-size: 15px !important;
+        text-transform: capitalize !important;
+        text-align: left !important;
+        font-family: 'Poppins', sans-serif !important;
+        color: white !important;
+        display: flex !important;
+        height: 420px !important;
+        background: #121111 !important;
+        padding-top: 12% !important;
+        width: 100% !important;
+        flex-wrap: nowrap !important;
+        align-items: center !important;
+        justify-content: space-around !important;
+        flex-direction: row !important;
+
+    }
+
+
+    .footer2 {
+
+        font-family: 'Open Sans', sans-serif !important;
+        margin-top: 42% !important;
+        display: flex !important;
+        width: 45% !important;
+        margin-right: 50px !important;
+        flex-direction: column !important;
+        align-content: space-around !important;
+        justify-content: flex-end !important;
+        align-items: center !important;
+        color: white !important;
+        font-size: 16px !important;
+        margin: 0 !important;
+        line-height: 50px !important;
+        margin-top: 2.2% !important;
+        height: 250px !important;
+
+    }
+
+
+    .footer15 {
+        display: none !important;
+
+    }
+
+    .footer1 {
+        margin-left: 8% !important;
+    }
+
+
+    .whtsimag {
+
+        width: 12% !important;
+    }
+
+    .colorwhitex {
+        color: white !important;
+    }
+
+    .psm {
+        color: black !important;
+    }
+
+    .ml {
+        color: black !important;
+        width: 200px !important;
+
+    }
+
+    .divphone {
+        color: black !important;
+    }
+
+    .divemail {
+        color: black !important;
+    }
+
+    .textocont {
+        width: 100% !important;
+    }
+
+    .contactcontainer {
+        background: #ffffff !important;
+        padding-bottom: 15% !important;
+        display: flex !important;
+        justify-content: space-around !important;
+        align-items: center !important;
+        padding-left: 10% !important;
+        padding-right: 10% !important;
+        flex-direction: column-reverse !important;
+        align-content: center !important;
+        flex-wrap: nowrap !important;
+    }
+
+
+    .infoaboutus {
+        width: 98% !important;
+    }
+
+    .ott {
+        zoom: 52% !important;
+    }
+
+    .rrddss {
+        zoom: 120% !important;
+    }
+
+    .namea {
+        font-size: 18px !important;
+        padding: 28% !important;
+    }
+
+
+    .sold {
+
+        margin-bottom: 35px !important;
+    }
+
+    .sliderh1 {
+        font-size: 38px !important;
+    }
+
+    .sliderh2 {
+        font-size: 22px !important;
+    }
+
+
+
+    /* *************** */
+    /* esto se va cuando achico */
+    /* *************** */
+
+
+
+    .ourteam {
+        display: none !important;
+    }
+
+    .imgab {
+        display: none !important;
+    }
+
+    .d1 {
+
+        display: none !important;
+    }
+
+    .d2 {
+
+        display: none !important;
+    }
+
+    .d3 {
+
+        display: none !important;
+    }
+
+    /* *************** */
+    /* esto se va cuando achico */
+    /* *************** */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/* ***************** */
+/* 2 -   tablet 600 a 900
+/* ***************** */
+
+@media (min-width:600px) and (max-width:899px) {
+
+    #root {
+        zoom: 80% !important;
+    }
+
+
+    .propiedad {
+        zoom: 95% !important;
+        width: 100% !important;
+        padding-right: 12% !important;
+        padding-left: 5% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: space-between !important;
+        align-items: flex-start !important;
+
+    }
+
+    .setentaporc {
+        width: 94% !important;
+        padding: 0.2% 0% !important;
+        padding-right: 4% !important;
+    }
+
+
+
+    .tttx {
+        display: flex !important;
+        flex-direction: row !important;
+        flex-wrap: wrap !important;
+        margin-top: 4% !important;
+        justify-content: flex-start !important;
+        align-items: center !important;
+    }
+
+    .ifilters2 {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        /* zoom: 99% !important; */
+        width: 195% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        width: 689px !important;
+        padding: 44px !important;
+        zoom: 95% !important;
+    }
+
+    .boxyellow {
+        border: 1px solid rgba(0, 0, 0, .125) !important;
+        width: 689px !important;
+        padding: 20% !important;
+    }
+
+    .namea {
+
+        font-size: 14px !important;
+    }
+
+    .ifilters {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        width: 689px !important;
+        padding: 35px !important;
+        margin-left: 35% !important;
+        zoom: 92% !important;
+    }
+
+    #BotonBuscar {
+        width: 83% !important;
+        /* width: 168px !important;
+        height: 47px !important; */
+    }
+
+
+
+    .containerinput {
+        margin: 1.2% 0% !important;
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: center !important;
+        justify-content: flex-end !important;
+        flex-wrap: nowrap !important;
+        align-content: center !important;
+        width: 100% !important;
+        padding: 0% !important;
+        border: 1px solid rgba(0, 0, 0, .125) !important;
+        border: 1px solid #ced4da !important;
+        border-radius: 0.15rem !important;
+        transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out !important;
+    }
+
+
+    .lbrange {
+        zoom: 160% !important;
+
+    }
+
+
+    .lbrangev {
+        zoom: 120% !important;
+
+    }
+
+    .listaclassbox2 {
+        margin-bottom: 25px !important;
+    }
+
+
+    .aboutus {
+        font-family: 'Poppins', sans-serif !important;
+        font-size: 14px !important;
+        background-color: whitev !important;
+        display: flex !important;
+        justify-content: space-evenly !important;
+        align-items: center !important;
+        padding-top: 3% !important;
+        padding-bottom: 12% !important;
+        padding-left: 10% !important;
+        padding-right: 12% !important;
+        flex-direction: column !important;
+    }
+
+    .ott {
+        zoom: 90% !important;
+    }
+
+    .picagent {
+        zoom: 85% !important;
+    }
+
+    .rangoo {
+        width: 69px !important;
+        zoom: 100% !important;
+    }
+
+    .rangess {
+        zoom: 69% !important;
+    }
+
+
+
+
+    .listaclassbox2 {
+        list-style: none !important;
+        visibility: visible !important;
+        width: 65% !important;
+        animation-name: fadeInUp !important;
+        margin-top: 30px !important;
+        background: #fff !important;
+        padding: 18px !important;
+        box-shadow: 0 0 20px rgb(0 0 0 / 15%) !important;
+        animation-name: fadeInUp !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        box-sizing: border-box !important;
+    }
+
+    .listabox {
+        display: flex !important;
+        justify-content: space-between !important;
+        width: 100% !important;
+        align-content: space-around !important;
+        flex-direction: column !important;
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+        align-items: center !important;
+    }
+
+    .footerclass {
+        zoom: 60% !important;
+    }
+
+
+
+    .xdxdbb {
+        padding-top: 10% !important;
+        margin-bottom: 0% !important;
+        text-align: center !important;
+    }
+
+
+
+    .rrddss {
+        margin-top: 26px !important;
+    }
+
+
+    .contactcontainer {
+        background: #ffffff !important;
+        padding-bottom: 15% !important;
+        display: flex !important;
+        justify-content: space-around !important;
+        align-items: center !important;
+        padding-left: 10% !important;
+        padding-right: 10% !important;
+        flex-direction: column-reverse !important;
+        align-content: center !important;
+        flex-wrap: nowrap !important;
+    }
+
+    .ml {
+        width: 175px !important;
+    }
+
+    .zzzxxx {
+        margin-left: 100% !important;
+    }
+
+}
+
+
+
+
+
+/* ***************** */
+/* 3 - ACOMODO COSAS  (720 para arriba MAX(5000))
+/* ***************** */
+
+
+@media (min-width: 720px) and (max-width: 5000px) {
+
+    .kkppk2 {
+        margin-bottom: 16px !important
+    }
+
+
+}
+
+/* ***************** */
+/* 4 - compu cchica 900 a 1100
+/* ***************** */
+
+
+@media (min-width:900px) and (max-width:1099px) {
+
+    #root {
+        zoom: 90% !important;
+    }
+
+    .ott {
+        zoom: 90% !important;
+    }
+
+    .divproperinfot {
+        zoom: 88% !important;
+    }
+
+    .rangoo {
+        zoom: 90% !important;
+    }
+
+    .rangess {
+        zoom: 70% !important;
+    }
+
+    .rrddss {
+        zoom: 80% !important;
+    }
+
+    .nameagent {
+        margin-top: 4% !important;
+    }
+
+}
+
+
+
+
+/* ***************** */
+/* 5 - compu normal  1200 a 5000 (css normal)
+/* ***************** */
+/*************************************** */

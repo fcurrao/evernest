@@ -103,11 +103,11 @@ const contact = () => {
 
 
             <section className="fqfq footer2 footer2c">
-                <div className='footer15 footer15c'>
+                <div className='footer151515 footer15c'>
                     <h4 className='footer15imp footer15impc' >Info de Contacto</h4>
                 </div>
 
-                <p className="psm">Ankara Real Estate</p>
+                <p className="psm ml">Ankara Real Estate</p>
                 <div className="divemail">
                     <svg className="iconblanco svgspacing" xmlns="http://www.w3.org/2000/svg" width="40" height="30" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
                         <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
