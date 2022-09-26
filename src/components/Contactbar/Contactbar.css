@@ -79,3 +79,26 @@ body {
 
 
 }
+
+
+
+
+/* *********************************** */
+/* ********RESPONSIVE ***** */
+/* *********************************** */
+
+ 
+@media (min-width: 40px) and (max-width: 599px) {
+.Contactbar {
+    display: flex !important;
+    font-size: 12px !important;
+    height: 58px !important;
+    background: #41444c !important;
+    z-index: 100 !important;
+    line-height: 14px !important;
+    margin-bottom: 1px !important;
+    justify-content: space-between !important;
+}
+
+}
+

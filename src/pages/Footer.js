@@ -35,7 +35,7 @@ const Footer = () => {
 
 
 
-<section className="footer2">
+<section className="fffffff footer2">
 <div className='footer150 '>
     <h3  className='footer15imp' >Contáctanos</h3>
     </div>

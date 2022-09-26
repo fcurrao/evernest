@@ -178,7 +178,7 @@ const Home = () => {
                     <div >
                         <ul className="listabox">
                             <li className="ml2 listaclassbox2">
-                                <div className="margintop5"> <img className="pictureProp" src="./assets/img/others/propertyImg01.jpg" alt="pictureProp" /></div>
+                                <div className="margintop5 mgt55"> <img className="pictureProp" src="./assets/img/others/propertyImg01.jpg" alt="pictureProp" /></div>
                                 <div className="divsubtitle"> <p className="ssss subtitle" onClick={() => consoleLog()}>Casa de los Arboles</p> </div>
                                 <div className="location"> <a className="location" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
                                     <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
@@ -212,7 +212,7 @@ const Home = () => {
                                 </div>
                             </li>
                             <li className="ml2 listaclassbox2">
-                                <div className="margintop5"> <img className="pictureProp" src="./assets/img/others/propertyImg01.jpg" alt="pictureProp" /></div>
+                                <div className="margintop5 mgt55"> <img className="pictureProp" src="./assets/img/others/propertyImg01.jpg" alt="pictureProp" /></div>
                                 <div className="divsubtitle"> <p className="ssss subtitle" onClick={() => consoleLog()}> Casa de los Arboles</p> </div>
                                 <div className="location"> <a className="location" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
                                     <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
@@ -246,7 +246,7 @@ const Home = () => {
                                 </div>
                             </li>
                             <li className="ml2 listaclassbox2">
-                                <div className="margintop5"> <img className="pictureProp" src="./assets/img/others/propertyImg01.jpg" alt="pictureProp" /></div>
+                                <div className="margintop5 mgt55"> <img className="pictureProp" src="./assets/img/others/propertyImg01.jpg" alt="pictureProp" /></div>
                                 <div className="divsubtitle"> <p className="ssss subtitle" onClick={() => consoleLog()}> Casa de los Arboles</p> </div>
                                 <div className="location"> <a className="location" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
                                     <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
@@ -312,162 +312,6 @@ const Home = () => {
                     <img className="imggg imghovdiag" src="https://www.ankararealestate.mx/wp-content/uploads/2022/01/WhatsApp-Image-2022-01-24-at-9.00.16-AM-480x331.jpeg" ></img>
 
                 </section>
-
-
-                {/* <section className="popularplaces">     
-
-                    <section className="threeparts" >
-                        <section className="p12" >
-                            <div className="t1">
-
-                                <div className="mask ">
-                                    <img className="imgbig imghovdiag" src="https://www.ankararealestate.mx/wp-content/uploads/2022/01/Cascada-del-Angel-11-1.jpg" ></img>
-                                </div>
-
-                            </div>
-
-
-                            <div className="t2">
-
-
-                                <div className="mask ">
-                                    <img className="imglit2 imghovdiag" src="https://www.ankararealestate.mx/wp-content/uploads/2022/01/Cascada-del-Angel-05-1.jpg" ></img>
-                                </div>
-                                <div className="mask ">
-                                    <img className="imglit3 imghovdiag" src="https://www.ankararealestate.mx/wp-content/uploads/2022/01/WhatsApp-Image-2022-06-28-at-1.27.58-PM.jpeg" ></img>
-                                </div>
-
-
-                            </div>
-                        </section>
-                        <section className="p3" >
-
-                            <div className="t3">
-
-                                <div className="mask ">
-                                    <img className="imglit imghovdiag" src="https://www.ankararealestate.mx/wp-content/uploads/2022/07/WhatsApp-Image-2022-07-04-at-12.35.45-PM-1.jpeg" ></img>
-                                </div>
-                                <div className="mask ">
-                                    <img className="imglit imghovdiag" src="https://www.ankararealestate.mx/wp-content/uploads/2022/07/EB-KT0353-10.jpeg" ></img>
-                                </div>
-                                <div className="mask ">
-                                    <img className="imglit imghovdiag" src="https://www.ankararealestate.mx/wp-content/uploads/2022/01/Casa_Rincon-de-los-Encinos-04.jpg" ></img>
-                                </div>
-
-
-                            </div>
-                        </section>
-                    </section>
-
-
-                </section> */}
-
-                {/* <section className="proptorent">
-
-                    <div className="featuredproptext"> <h1 className="titletext">Propiedades disponibles</h1>
-
-                        <h3 className="text2">Encontra tu hogar de tus sueños en Ankara</h3> </div>
-                    <div >
-                        <ul className="listabox">
-                        <li className="ml2 listaclassbox2">
-                                    <div className="margintop5"> <img className="pictureProp" src="./assets/img/others/propertyImg01.jpg" alt="pictureProp" /></div>
-                                    <div className="divsubtitle"> <p className="subtitle" onClick={()=>consoleLog()}> Casa de los Arboles</p> </div>
-                                    <div className="location"> <a className="location" ><i class='fas fa-map-marker-alt'></i> Toluca / Mexico </a></div>
-                                    <div className="priceandheart" > <a  onClick={()=>consoleLog()} className="hearticon"> <i class='fas fa-heart'></i></a> 
-                              
-                                     <p className="price"> $ 14,900,000</p></div>
-                                    <div className="divproperinfot"> 
-                                        
-                                    <div className=" properinfo" > <img src="http://malikhassan.com/html/evernest/images/bedroom_icon.png"></img>Habitaciones <p className="textt"> 3 </p></div>
-                                    <div className=" properinfo" > <img src="http://malikhassan.com/html/evernest/images/bathroom_icon.png"></img>Baños<p className="textt"> 3</p></div>
-                                    <div className=" properinfo" > <img src="http://malikhassan.com/html/evernest/images/garage_icon.png"></img> Garage<p className="textt"> 4 </p></div>
-                                    <div className=" properinfo" > <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="hh bi bi-house-door" viewBox="0 0 16 16">
-  <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z"/>
-</svg> Metros <p className="textt">600 M2</p></div>
-                                         
-                                         
-                                         
-                                       
-                
-                                         </div>
-
-                                    <div className="buttonb"   onClick={()=>consoleLog()}>
-                                    
-                                        <button className="ff2 stylebutton1 buttonsearch2">   </button>
-                                        <a className="tx twhite"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Casa &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; en venta  </a> 
-                                        <button className="ff2 stylebutton2 buttonsearch2">   </button>
-                 
-                                    </div>
-                                </li>
-
-                                <li className="ml2 listaclassbox2">
-                                    <div className="margintop5"> <img className="pictureProp" src="./assets/img/others/propertyImg01.jpg" alt="pictureProp" /></div>
-                                    <div className="divsubtitle"> <p className="subtitle" onClick={()=>consoleLog()}> Casa de los Arboles</p> </div>
-                                    <div className="location"> <a className="location" ><i class='fas fa-map-marker-alt'></i> Toluca / Mexico </a></div>
-                                    <div className="priceandheart" > <a  onClick={()=>consoleLog()} className="hearticon"> <i class='fas fa-heart'></i></a> 
-                                   
-                                     <p className="price"> $ 14,900,000</p></div>
-                                    <div className="divproperinfot"> 
-                                        
-                                    <div className=" properinfo" > <img src="http://malikhassan.com/html/evernest/images/bedroom_icon.png"></img>Habitaciones <p className="textt"> 3 </p></div>
-                                    <div className=" properinfo" > <img src="http://malikhassan.com/html/evernest/images/bathroom_icon.png"></img>Baños<p className="textt"> 3</p></div>
-                                    <div className=" properinfo" > <img src="http://malikhassan.com/html/evernest/images/garage_icon.png"></img> Garage<p className="textt"> 4 </p></div>
-                                    <div className=" properinfo" > <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="hh bi bi-house-door" viewBox="0 0 16 16">
-  <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z"/>
-</svg> Metros <p className="textt">600 M2</p></div>
-                                         
-                                         
-                                         
-                                       
-                
-                                         </div>
-
-                                    <div className="buttonb"   onClick={()=>consoleLog()}>
-                                    
-                                        <button className="ff2 stylebutton1 buttonsearch2">   </button>
-                                        <a className="tx twhite"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Casa &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; en venta  </a> 
-                                        <button className="ff2 stylebutton2 buttonsearch2">   </button>
-                 
-                                    </div>
-                                </li>
-
-
-                                <li className="ml2 listaclassbox2">
-                                    <div className="margintop5"> <img className="pictureProp" src="./assets/img/others/propertyImg01.jpg" alt="pictureProp" /></div>
-                                    <div className="divsubtitle"> <p className="subtitle" onClick={()=>consoleLog()}> Casa de los Arboles</p> </div>
-                                    <div className="location"> <a className="location" ><i class='fas fa-map-marker-alt'></i> Toluca / Mexico </a></div>
-                                    <div className="priceandheart" > <a  onClick={()=>consoleLog()} className="hearticon"> <i class='fas fa-heart'></i></a> 
-                               
-                                     <p className="price"> $ 14,900,000</p></div>
-                                    <div className="divproperinfot"> 
-                                        
-                                    <div className=" properinfo" > <img src="http://malikhassan.com/html/evernest/images/bedroom_icon.png"></img>Habitaciones <p className="textt"> 3 </p></div>
-                                    <div className=" properinfo" > <img src="http://malikhassan.com/html/evernest/images/bathroom_icon.png"></img>Baños<p className="textt"> 3</p></div>
-                                    <div className=" properinfo" > <img src="http://malikhassan.com/html/evernest/images/garage_icon.png"></img> Garage<p className="textt"> 4 </p></div>
-                                    <div className=" properinfo" > <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="hh bi bi-house-door" viewBox="0 0 16 16">
-  <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z"/>
-</svg> Metros <p className="textt">600 M2</p></div>
-                                         
-                                         
-                                         
-                                       
-                
-                                         </div>
-
-                                    <div className="buttonb"   onClick={()=>consoleLog()}>
-                                    
-                                        <button className="ff2 stylebutton1 buttonsearch2">   </button>
-                                        <a className="tx twhite"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Casa &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; en venta  </a> 
-                                        <button className="ff2 stylebutton2 buttonsearch2">   </button>
-                 
-                                    </div>
-                                </li>
-                        </ul>
-
-
-                    </div>
-                </section> */}
-
 
 
 
