@@ -67,8 +67,8 @@ const Properties = () => {
                                     <option type="submit" >Terreno</option>
                             </select>
                         </div>
-                        <div className="containerinput">
-                            <div className="rangess sss form-control inputt" >  <input onChange={() => rangechange()} id="lbrange" type="range" min="000000" max="25000000" step="1000000" />  <div id="lbrangev"> $ 3000000 </div>  </div>
+                        <div className=" lbrangeclass containerinput">
+                            <div className="rangess sss form-control inputt" >  <input onChange={() => rangechange()}  classname="lbrangeclass2" id="lbrange" type="range" min="000000" max="25000000" step="1000000" />  <div id="lbrangev"> $ 3000000 </div>  </div>
                         </div>
                         <button className="buttonsearch2"><p className="text5">Buscar</p></button>
                     </form>
@@ -99,7 +99,7 @@ const Properties = () => {
                         <div >
                             <ul className="listabox2">
                                 <li className="listaclassbox2">
-                                    <div className="margintop5"> <img className="pictureProp" src="./assets/img/others/propertyImg01.jpg" alt="pictureProp" /></div>
+                                    <div className="margintop5 mgt55"> <img className="pictureProp" src="./assets/img/others/propertyImg01.jpg" alt="pictureProp" /></div>
 
                                     <Link to="/productos/details" ><div className="divsubtitle"> <p className="subtitle ssss" onClick={() => consoleLog()}> Casa de los Arboles</p> </div>  </Link>
 
@@ -136,7 +136,7 @@ const Properties = () => {
                                 </li>
 
                                 <li className="listaclassbox2">
-                                    <div className="margintop5"> <img className="pictureProp" src="./assets/img/others/propertyImg01.jpg" alt="pictureProp" /></div>
+                                    <div className="margintop5 mgt55"> <img className="pictureProp" src="./assets/img/others/propertyImg01.jpg" alt="pictureProp" /></div>
                                     <Link to="/productos/details" ><div className="divsubtitle"> <p className="subtitle ssss" onClick={() => consoleLog()}> Casa de los Arboles</p> </div>  </Link>
                                     <div className="location"> <a className="location" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
   <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>

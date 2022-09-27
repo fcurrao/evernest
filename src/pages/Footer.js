@@ -16,7 +16,7 @@ const Footer = () => {
 <div className="margintop5"> <img className="logo" src="https://www.ankararealestate.mx/wp-content/uploads/2022/01/logo-ankara.png" alt="pictureProp" /></div>
 <p className='pfoot'>Ankara es una empresa que nace de la necesidad de crear una experiencia exclusiva al cliente en una búsqueda de un hogar único, exclusivo y prestigioso.
 </p>
-<Link to="/nosotros"  className='ptextfooter'>    <button className="buttonsearch2">    <p className="text5"> NOSOTROS </p> </button> </Link>
+<Link to="/nosotros"  className='ptextfooter bmmmn'>    <button className="buttonsearch2 bmmm">    <p className="text5"> NOSOTROS </p> </button> </Link>
  
 </section>
 

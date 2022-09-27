@@ -149,7 +149,7 @@ const Home = () => {
                                 <div className="transss buttonsearch">    <p className="transss text1">  </p> </div>
                             </div> */}
                                 <div className="divinputform rrgg">
-                                    <div className="rangess sss form-control inputt" >  <input className="rangoo" onChange={() => rangechange()} id="lbrange" type="range" min="000000" max="25000000" step="1000000" />  <div id="lbrangev"> $ 3000000 </div>  </div>
+                                    <div className="rangess sss form-control inputt" >  <input className="rangoo" onChange={() => rangechange()} id="lbrange" type="range" min="3000000" max="25000000" step="1000000" />  <div id="lbrangev"> $ 3000000 </div>  </div>
                                 </div>
 
 
@@ -176,7 +176,7 @@ const Home = () => {
 
                         <h3 className="text2">Nuestros clientes son lo mas importante para nosotros.</h3> </div>
                     <div >
-                        <ul className="listabox">
+                        <ul className="listabox spspc">
                             <li className="ml2 listaclassbox2">
                                 <div className="margintop5 mgt55"> <img className="pictureProp" src="./assets/img/others/propertyImg01.jpg" alt="pictureProp" /></div>
                                 <div className="divsubtitle"> <p className="ssss subtitle" onClick={() => consoleLog()}>Casa de los Arboles</p> </div>
