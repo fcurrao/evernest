@@ -1,13 +1,41 @@
 
 import { useState } from "react"
+import { useEffect } from "react"
 import { Link } from "react-router-dom"
 
 
 const Properties = () => {
 
+    
 
 
     const [btng4, setBtng4] = useState(1)
+    const [propiedades1, setPropiedades1] = useState()
+    let arrayprop = []
+
+
+
+
+ 
+    const componentGetMount = async () => {
+
+       const propiedadesTotales = await fetch(' https://api-easybroker.onrender.com/properties')
+        .then((response)=>{
+        return response.json()
+        })
+        .then((data)=>{
+        console.log("PROPIEDADES :", data)
+        setPropiedades1(data) 
+       
+        })
+
+      
+        
+    }
+
+    useEffect(() => {
+        componentGetMount()
+    }, [])
 
     const changeBtng = (n) => {
         setBtng4(n)
@@ -26,6 +54,34 @@ const Properties = () => {
         console.log("aca voy a details")
     }
 
+    const mostrandoPropiedades = () =>{
+        console.log("propiedades: " , propiedades1)
+    }
+
+    
+       /************************************* */
+        /************************************* */   
+        /**************BORRAR ESTO****************** */
+        /************************************* */
+        /************************************* */
+        /************************************* */
+        // <button onClick={() => mostrandoPropiedades()}> PROPIEDADES EN CONSOLA</button> 
+
+
+        const product = {
+            title: 'TITULO PROBANDO',
+            formatted_amount : '14,900,500'
+        }; 
+
+    product.title = "TITULO TEST PROBANDO"
+
+
+
+    /************************************* */
+        /**************BORRAR ESTO****************** */
+    /************************************* */
+
+
     return (
         <>
 
@@ -33,7 +89,7 @@ const Properties = () => {
             <section className="divtitulo">
 
                 <h1 className="titulo"> Propiedades</h1>
-
+               
             </section>
 
             <section className="tttx center ">
@@ -68,7 +124,7 @@ const Properties = () => {
                             </select>
                         </div>
                         <div className=" lbrangeclass containerinput">
-                            <div className="rangess sss form-control inputt" >  <input onChange={() => rangechange()}  classname="lbrangeclass2" id="lbrange" type="range" min="000000" max="25000000" step="1000000" />  <div id="lbrangev"> $ 3000000 </div>  </div>
+                            <div className="rangess sss form-control inputt" >  <input onChange={() => rangechange()}  classname="lbrangeclass2" id="lbrange" type="range" min="3000000" max="25000000" step="1000000" />  <div id="lbrangev"> $ 3000000 </div>  </div>
                         </div>
                         <button className="buttonsearch2"><p className="text5">Buscar</p></button>
                     </form>
@@ -95,17 +151,162 @@ const Properties = () => {
                         </div>
 
                     </section>
-                    <section className="righttotal">
+                    <section className="righttotal"> 
+                    {console.log("propiedades1", propiedades1)}
+                    {console.log("arrayprop", arrayprop)}
+                           {/* { propiedades1.map((product) => {
+                            return <> */}
+                           
                         <div >
                             <ul className="listabox2">
                                 <li className="listaclassbox2">
                                     <div className="margintop5 mgt55"> <img className="pictureProp" src="./assets/img/others/propertyImg01.jpg" alt="pictureProp" /></div>
 
-                                    <Link to="/productos/details" ><div className="divsubtitle"> <p className="subtitle ssss" onClick={() => consoleLog()}> Casa de los Arboles</p> </div>  </Link>
+                                    <Link to="/productos/details" ><div className="divsubtitle"> <p className="subtitle ssss" onClick={() => consoleLog()}> {product.title}</p> </div>  </Link>
 
                                     <div className="location"> <a className="location" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
   <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
 </svg> Toluca / Mexico </a></div>
+                                    <div className="priceandheart" > <a onClick={() => consoleLog()} className="hearticon"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+</svg></a>
+                                        {/* <a className="hearticon"><i class='fas fa-exchange-alt'></i></a>   */}
+                                        <p className="price"> {product.formatted_amount}</p></div>
+                                    <div className="divproperinfot">
+
+                                        <div className=" properinfo" > <img src="http://malikhassan.com/html/evernest/images/bedroom_icon.png"></img>Habitaciones <p className="textt"> 3 </p></div>
+                                        <div className=" properinfo" > <img src="http://malikhassan.com/html/evernest/images/bathroom_icon.png"></img>Baños<p className="textt"> 3</p></div>
+                                        <div className=" properinfo" > <img src="http://malikhassan.com/html/evernest/images/garage_icon.png"></img> Garage<p className="textt"> 4 </p></div>
+                                        <div className=" properinfo" > <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="hh bi bi-house-door" viewBox="0 0 16 16">
+                                            <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z" />
+                                        </svg> Metros <p className="textt">600 M2</p></div>
+
+
+
+
+
+                                    </div>
+
+                                    <div className="buttonb" onClick={() => consoleLog()}>
+
+                                        <button className="ff2 stylebutton1 buttonsearch2">   </button>
+                                        <a className="tx twhite"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Casa &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; en venta  </a>
+                                        <button className="ff2 stylebutton2 buttonsearch2">   </button>
+
+                                    </div>
+                                </li>
+
+                                <li className="listaclassbox2">
+                                    <div className="margintop5 mgt55"> <img className="pictureProp" src="./assets/img/others/propertyImg01.jpg" alt="pictureProp" /></div>
+                                    <Link to="/productos/details" ><div className="divsubtitle"> <p className="subtitle ssss" onClick={() => consoleLog()}> Casa de los Arboles</p> </div>  </Link>
+                                    <div className="location"> <a className="location" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+  <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+</svg>Toluca / Mexico </a></div>
+                                    <div className="priceandheart" > <a onClick={() => consoleLog()} className="hearticon"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+</svg></a>
+                                        {/* <a className="hearticon"><i class='fas fa-exchange-alt'></i></a>   */}
+                                        <p className="price"> $ 14,900,000</p></div>
+                                    <div className="divproperinfot">
+
+                                        <div className=" properinfo" > <img src="http://malikhassan.com/html/evernest/images/bedroom_icon.png"></img>Habitaciones <p className="textt"> 3 </p></div>
+                                        <div className=" properinfo" > <img src="http://malikhassan.com/html/evernest/images/bathroom_icon.png"></img>Baños<p className="textt"> 3</p></div>
+                                        <div className=" properinfo" > <img src="http://malikhassan.com/html/evernest/images/garage_icon.png"></img> Garage<p className="textt"> 4 </p></div>
+                                        <div className=" properinfo" > <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="hh bi bi-house-door" viewBox="0 0 16 16">
+                                            <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z" />
+                                        </svg> Metros <p className="textt">600 M2</p></div>
+
+
+
+
+
+                                    </div>
+
+                                    <div className="buttonb" onClick={() => consoleLog()}>
+
+                                        <button className="ff2 stylebutton1 buttonsearch2">   </button>
+                                        <a className="tx twhite"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Casa &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; en venta  </a>
+                                        <button className="ff2 stylebutton2 buttonsearch2">   </button>
+
+                                    </div>
+                                </li>
+
+                                <li className="listaclassbox2">
+                                    <div className="margintop5 mgt55"> <img className="pictureProp" src="./assets/img/others/propertyImg01.jpg" alt="pictureProp" /></div>
+                                    <Link to="/productos/details" ><div className="divsubtitle"> <p className="subtitle ssss" onClick={() => consoleLog()}> Casa de los Arboles</p> </div>  </Link>
+                                    <div className="location"> <a className="location" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+  <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+</svg>Toluca / Mexico </a></div>
+                                    <div className="priceandheart" > <a onClick={() => consoleLog()} className="hearticon"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+</svg></a>
+                                        {/* <a className="hearticon"><i class='fas fa-exchange-alt'></i></a>   */}
+                                        <p className="price"> $ 14,900,000</p></div>
+                                    <div className="divproperinfot">
+
+                                        <div className=" properinfo" > <img src="http://malikhassan.com/html/evernest/images/bedroom_icon.png"></img>Habitaciones <p className="textt"> 3 </p></div>
+                                        <div className=" properinfo" > <img src="http://malikhassan.com/html/evernest/images/bathroom_icon.png"></img>Baños<p className="textt"> 3</p></div>
+                                        <div className=" properinfo" > <img src="http://malikhassan.com/html/evernest/images/garage_icon.png"></img> Garage<p className="textt"> 4 </p></div>
+                                        <div className=" properinfo" > <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="hh bi bi-house-door" viewBox="0 0 16 16">
+                                            <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z" />
+                                        </svg> Metros <p className="textt">600 M2</p></div>
+
+
+
+
+
+                                    </div>
+
+                                    <div className="buttonb" onClick={() => consoleLog()}>
+
+                                        <button className="ff2 stylebutton1 buttonsearch2">   </button>
+                                        <a className="tx twhite"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Casa &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; en venta  </a>
+                                        <button className="ff2 stylebutton2 buttonsearch2">   </button>
+
+                                    </div>
+                                </li>
+
+                                <li className="listaclassbox2">
+                                    <div className="margintop5 mgt55"> <img className="pictureProp" src="./assets/img/others/propertyImg01.jpg" alt="pictureProp" /></div>
+                                    <Link to="/productos/details" ><div className="divsubtitle"> <p className="subtitle ssss" onClick={() => consoleLog()}> Casa de los Arboles</p> </div>  </Link>
+                                    <div className="location"> <a className="location" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+  <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+</svg>Toluca / Mexico </a></div>
+                                    <div className="priceandheart" > <a onClick={() => consoleLog()} className="hearticon"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+</svg></a>
+                                        {/* <a className="hearticon"><i class='fas fa-exchange-alt'></i></a>   */}
+                                        <p className="price"> $ 14,900,000</p></div>
+                                    <div className="divproperinfot">
+
+                                        <div className=" properinfo" > <img src="http://malikhassan.com/html/evernest/images/bedroom_icon.png"></img>Habitaciones <p className="textt"> 3 </p></div>
+                                        <div className=" properinfo" > <img src="http://malikhassan.com/html/evernest/images/bathroom_icon.png"></img>Baños<p className="textt"> 3</p></div>
+                                        <div className=" properinfo" > <img src="http://malikhassan.com/html/evernest/images/garage_icon.png"></img> Garage<p className="textt"> 4 </p></div>
+                                        <div className=" properinfo" > <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="hh bi bi-house-door" viewBox="0 0 16 16">
+                                            <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z" />
+                                        </svg> Metros <p className="textt">600 M2</p></div>
+
+
+
+
+
+                                    </div>
+
+                                    <div className="buttonb" onClick={() => consoleLog()}>
+
+                                        <button className="ff2 stylebutton1 buttonsearch2">   </button>
+                                        <a className="tx twhite"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Casa &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; en venta  </a>
+                                        <button className="ff2 stylebutton2 buttonsearch2">   </button>
+
+                                    </div>
+                                </li>
+
+                                <li className="listaclassbox2">
+                                    <div className="margintop5 mgt55"> <img className="pictureProp" src="./assets/img/others/propertyImg01.jpg" alt="pictureProp" /></div>
+                                    <Link to="/productos/details" ><div className="divsubtitle"> <p className="subtitle ssss" onClick={() => consoleLog()}> Casa de los Arboles</p> </div>  </Link>
+                                    <div className="location"> <a className="location" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+  <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+</svg>Toluca / Mexico </a></div>
                                     <div className="priceandheart" > <a onClick={() => consoleLog()} className="hearticon"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
 </svg></a>
@@ -173,6 +374,13 @@ const Properties = () => {
                             </ul>
                             <div className="pages"> <a className="wwwl center circlepages">˂˂</a> <a className=" center circlepages">01</a>    <a className=" center circlepages">02</a>    <a className=" center circlepages">03</a>  <a className="wwwl center circlepages">  ˃˃</a>         </div>
                         </div>
+
+
+                        {/* </>
+                        })} */}
+
+
+                        
                     </section>
                 </section>
             </section>

@@ -124,12 +124,12 @@ const Details = () => {
                     <section className="mmrr62 center lefttotal">
                         <div className="titlfilt"> <h4 className="center ptext3" > </h4> </div>
 
-                        <form className="boxyellow3 ifilters2">
-                            <div className="containerinput">
-                                <input placeholder="Buscar por nombre.." className=" sss form-control inputt " /><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                        <form className="boxyellow3 ifilters2 corrigiendo">
+                            <div className="containerinput xdxdtt">
+                                <input placeholder="Buscar por nombre.." className=" sss form-control inputt sbsb" /><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
                                     <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
                                 </svg></div>
-                            <div className="containerinput">
+                            <div className="containerinput xdxdtt">
                                 <select className="form-control inputt" name="favoriteOnly" id="favoriteOnly">
                                     <option >Todas las locaciones</option>
                                     <option >Ciudad de Mexico</option>
@@ -140,7 +140,7 @@ const Details = () => {
                                 </svg>
                             </div>
 
-                            <div className="containerinput">
+                            <div className="containerinput xdxdtt">
                                 <select placeholder="tipo" className="form-control inputt" name="favoriteOnly" id="favoriteOnly">
                                     <option >Todos los tipos</option>
                                     <option>Premium</option>
@@ -149,8 +149,8 @@ const Details = () => {
                                     <option type="submit" >Terreno</option>
                                 </select>
                             </div>
-                            <div className="containerinput">
-                                <div className="rangess sss form-control inputt" >  <input onChange={() => rangechange()} id="lbrange" type="range" min="000000" max="25000000" step="1000000" />  <div id="lbrangev"> $ 3000000 </div>  </div>
+                            <div className="lbrangeclass containerinput ">
+                                <div className="rangess sss form-control inputt" >  <input className="lbrangeclass2" onChange={() => rangechange()} id="lbrange" type="range" min="3000000" max="25000000" step="1000000" />  <div id="lbrangev"> $ 3000000 </div>  </div>
                             </div>
                             <button className="buttonsearch2"><p className="text5">Buscar</p></button>
                         </form>
@@ -204,7 +204,7 @@ const Details = () => {
                 <div className="infoproppp">
                     <div className="flexh">
                         <h1 className="tittt sinmargin"> De los Encinos</h1>
-                        <div className="priceandheart " > <a onClick={() => consoleLog()} className="hearticon"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                        <div className="priceandheart corrigiendo5" > <a onClick={() => consoleLog()} className="hearticon"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
 </svg></a>
 

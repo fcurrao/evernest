@@ -149,12 +149,12 @@ const Home = () => {
                                 <div className="transss buttonsearch">    <p className="transss text1">  </p> </div>
                             </div> */}
                                 <div className="divinputform rrgg">
-                                    <div className="rangess sss form-control inputt" >  <input className="rangoo" onChange={() => rangechange()} id="lbrange" type="range" min="3000000" max="25000000" step="1000000" />  <div id="lbrangev"> $ 3000000 </div>  </div>
+                                    <div className="rangess sss form-control inputt22 corrigiendo2" >  <input className="rangoo corrigiendo3" onChange={() => rangechange()} id="lbrange" type="range" min="3000000" max="25000000" step="1000000" />  <div id="lbrangev"> $ 3000000 </div>  </div>
                                 </div>
 
 
                                 <div className="divinputform displaynonex">
-                                    <button id="BotonBuscar2" onClick={()=>botonBuscar()}  className="btban buttonsearch">    <p className="kkppk text1 xdxdbb kkppk2">
+                                    <button id="BotonBuscar2" onClick={()=>botonBuscar()}  className="btban buttonsearch corrigiendo4">    <p className="kkppk text1 xdxdbb kkppk2">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="14" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
                                             <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
                                         </svg> Buscar
