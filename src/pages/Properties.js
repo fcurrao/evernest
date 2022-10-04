@@ -6,11 +6,18 @@ import { Link } from "react-router-dom"
 
 const Properties = () => {
 
-    
-
-
+    let arraytest = [{
+        title: "titulo",
+        price: '42'
+    },{
+        title: "titulo2",
+        price: '42'
+    },{
+        title: "titulo3",
+        price: '42'
+    }] 
     const [btng4, setBtng4] = useState(1)
-    const [propiedades1, setPropiedades1] = useState()
+    const [propiedadesTodas, setPropiedadesTodas] = useState()
     let arrayprop = []
 
 
@@ -25,16 +32,27 @@ const Properties = () => {
         })
         .then((data)=>{
         console.log("PROPIEDADES :", data)
-        setPropiedades1(data) 
-       
-        })
-
-      
-        
+        setPropiedadesTodas(data) 
+        arrayprop.push(data)
+    })
+    
+    console.log("arrayprop:", arrayprop)
+    console.log("PROPIEDADES 2:", propiedadesTodas)
+     
     }
 
+    // const ponerPropenArray = () =>{
+        
+    //   console.log("prop1", propiedades1)
+    //      arrayprop = propiedades1
+    // }
+
     useEffect(() => {
-        componentGetMount()
+        componentGetMount() 
+            // ponerPropenArray() 
+
+     
+        
     }, [])
 
     const changeBtng = (n) => {
@@ -55,7 +73,7 @@ const Properties = () => {
     }
 
     const mostrandoPropiedades = () =>{
-        console.log("propiedades: " , propiedades1)
+        console.log("propiedades: " , propiedadesTodas)
     }
 
     
@@ -69,7 +87,7 @@ const Properties = () => {
 
 
         const product = {
-            title: 'TITULO PROBANDO',
+            // title: 'TITULO PROBANDO',
             formatted_amount : '14,900,500'
         }; 
 
@@ -84,7 +102,7 @@ const Properties = () => {
 
     return (
         <>
-
+          
 
             <section className="divtitulo">
 
@@ -151,12 +169,9 @@ const Properties = () => {
                         </div>
 
                     </section>
-                    <section className="righttotal"> 
-                    {console.log("propiedades1", propiedades1)}
-                    {console.log("arrayprop", arrayprop)}
-                           {/* { propiedades1.map((product) => {
-                            return <> */}
-                           
+                    <section className="righttotal">  
+                    
+                    
                         <div >
                             <ul className="listabox2">
                                 <li className="listaclassbox2">
@@ -376,8 +391,8 @@ const Properties = () => {
                         </div>
 
 
-                        {/* </>
-                        })} */}
+                          {/* </>
+                        })}   */}
 
 
                         
