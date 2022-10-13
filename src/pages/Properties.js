@@ -167,7 +167,7 @@ const Properties = () => {
  
                                         {console.log ("cadaUna", cadaUna)}
                                        
-                                        <Link  to={`/productos/${cadaUna.public_id}`}  estapropiedad={cadaUna}><div className="divsubtitle"> <p className="subtitle ssss" onClick={() => consoleLog()}>  {cadaUna.title}  </p> </div>
+                                        <Link  to={`/productos/${cadaUna.public_id}`} ><div className="divsubtitle"> <p className="subtitle ssss" onClick={() => consoleLog()}>  {cadaUna.title}  </p> </div>
                                         
                                         </Link>
 

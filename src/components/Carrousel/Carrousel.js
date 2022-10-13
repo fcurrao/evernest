@@ -2,7 +2,7 @@
 import Carousel from 'react-bootstrap/Carousel';
 import React from 'react';
 
-const Carrousel = ( ) =>{
+const Carrousel = ({urlPropImg} ) =>{
 
 
   // se pasa por prop o context el array de fotos
@@ -11,9 +11,10 @@ const Carrousel = ( ) =>{
   return(<>
   <div>
 
-
-
-
+    {/*  se cambia el numero de antes del id y hay mas fotos 
+     "https://assets.easybroker.com/property_images/979769/14711126/EB-CS9769.jpg?version=1552076728"
+  "https://assets.easybroker.com/property_images/979769/14711127/EB-CS9769.jpg?version=1552076728"
+  "https://assets.easybroker.com/property_images/979769/14711128/EB-CS9769.jpg?version=1552076728" */}
 
   <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="true">
   <div className="carousel-indicators">
@@ -23,13 +24,13 @@ const Carrousel = ( ) =>{
   </div>
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src="https://www.ankararealestate.mx/wp-content/uploads/2022/01/Casa_Los-Arboles-03-670x417.jpg" className="d-block w-100" alt="..."/>
+      <img src={urlPropImg} className="d-block w-100" alt="..."/>
     </div>
     <div className="carousel-item">
-      <img src="https://www.ankararealestate.mx/wp-content/uploads/2022/01/Casa_Los-Arboles-06-670x417.jpg" className="d-block w-100" alt="..."/>
+      <img src={urlPropImg} className="d-block w-100" alt="..."/>
     </div>
     <div className="carousel-item">
-      <img src="https://www.ankararealestate.mx/wp-content/uploads/2022/01/Casa_Los-Arboles-09-670x417.jpg" className="d-block w-100" alt="..."/>
+      <img src={urlPropImg} className="d-block w-100" alt="..."/>
     </div>
   </div>
   <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

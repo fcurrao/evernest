@@ -68,6 +68,9 @@ p {
     text-align: center;
 }
 
+.dfx{
+display: flex;
+}
 .corri{
     margin: 6% 0%;
 }
