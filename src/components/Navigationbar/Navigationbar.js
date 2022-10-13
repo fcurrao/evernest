@@ -1,6 +1,5 @@
 import './Navigationbar.css'
-import { Link } from 'react-router-dom'
-
+import { Link } from 'react-router-dom' 
 const Navigationbar = () => {
 
     
@@ -10,7 +9,7 @@ const Navigationbar = () => {
         <section className="navbar">
 
 <div className='divlogobar'>
-<Link to="/home"> <img  className='logobar' src="https://www.ankararealestate.mx/wp-content/uploads/2022/01/logo-ankara-1.png" alt="logo"></img> </Link>
+<Link to="/home"> <img  className='logobar' src="../../../public/logo-ankara-1.png" alt="logo"></img> </Link>
 </div>   
         
 
