@@ -29,7 +29,7 @@ function App() {
           <Route path="/propiedades" element={<Properties />} />
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
-          <Route path="/productos/details" element={<Details />} />
+          {/* <Route path="/productos/details" element={<Details />} /> */}
           <Route path="/productos/:id" element={<Details />} /> 
          
           <Route path="*" element={<Error404 />}   />

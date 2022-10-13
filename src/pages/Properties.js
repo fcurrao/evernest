@@ -2,6 +2,7 @@
 import { faWindowRestore } from "@fortawesome/free-solid-svg-icons"
 import { useState } from "react"
 import { useEffect } from "react"
+import Details from "./Details"
 import { Link } from "react-router-dom"
 
 
@@ -163,9 +164,11 @@ const Properties = () => {
                                         {/* {pagestate.limit * (pagestate.page - 1) + index} */}
                                         <div className="margintop5 mgt55"> ID: {cadaUna.public_id} <img className="pictureProp altpic" src={cadaUna.title_image_full} alt="pictureProp" />
                                         </div>
-
-
-                                        <Link to="/productos/details" ><div className="divsubtitle"> <p className="subtitle ssss" onClick={() => consoleLog()}>  {cadaUna.title}  </p> </div>
+ 
+                                        {console.log ("cadaUna", cadaUna)}
+                                       
+                                        <Link  to={`/productos/${cadaUna.public_id}`}  estapropiedad={cadaUna}><div className="divsubtitle"> <p className="subtitle ssss" onClick={() => consoleLog()}>  {cadaUna.title}  </p> </div>
+                                        
                                         </Link>
 
                                         <div className="location"> <a className="location" >
