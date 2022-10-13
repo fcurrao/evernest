@@ -56,6 +56,12 @@ p {
     font-family: 'Poppins', sans-serif !important;
 }
 
+
+.txtxtx{
+    position: relative !important;
+    margin-left: -10px !important;
+    font-size: 11px !important;
+}
 .gngng {
     margin: 10% 0%;
     font-weight: 600;
@@ -292,8 +298,7 @@ a {
     display: flex !important;
     justify-content: space-evenly !important;
 }
-
-.sbsb {}
+ 
 
 .sss {
 
@@ -698,6 +703,13 @@ a {
     padding-right: 5%;
 }
 
+.lbxx{
+    margin: 5% !important;
+    width: 360px !important;
+    height: 590px !important;
+    margin-right: 10% !important; 
+}
+
 .ml2 {
     margin-left: 2% !important;
 }
@@ -722,27 +734,65 @@ a {
 .listaclassbox2 {
     list-style: none;
     visibility: visible;
-    width: 42%;
+    width: 100%;
     animation-name: fadeInUp;
     margin-top: 30px;
     background: #fff;
     padding: 18px;
     box-shadow: 0 0 20px rgb(0 0 0 / 15%);
-    -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp;
     margin: 6px;
     padding: 0;
     box-sizing: border-box;
+    height: 510px;
 }
 
 
+
+
+.leftotra{
+    width: 40%;
+    margin-left: 6%;
+    margin-bottom: 4%;
+    height: 510px;
+}
+
+.sindecoration{
+    text-decoration: none !important;
+    color: #000 !important;
+}
+.leftotra2{
+    display: flex;
+    width: 100%;
+    /* margin-left: 6%; */
+    margin-bottom: 6%;
+    height: 510px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 8%;
+    margin-left: 5%;
+}
+
+.quito{
+    padding-left: 0%;  
+      padding-right: 0%;
+}
+
+
+.altpic{
+    height: 185px;
+}
+
+.floatleft{
+    float: left !important;
+}
 .stylebutton1 {
     margin-top: 3%;
     color: #2b2727 !important;
     content: "" !important;
     background: #ffb900;
     width: 50% !important;
-    height: 32px !important;
+    height: 45px !important;
     margin: 0% !important;
 }
 
@@ -752,7 +802,7 @@ a {
     content: "" !important;
     background: #2b2727;
     width: 50% !important;
-    height: 32px !important;
+    height: 45px !important;
     margin: 0% !important;
 }
 
@@ -807,8 +857,6 @@ a {
     margin-left: 5%;
     width: 90%;
 }
-
-
 
 
 
@@ -1694,15 +1742,21 @@ a {
         margin-left: 10%; 
 }
 
-.listabox2 {
+.righttotal{
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.listabox2 {
+    /* display: flex;
+    justify-content: center;
     align-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     padding-left: 0% !important;
-    margin-top: 4% !important;
+    margin-top: 4% !important; */
 }
 
 .pages {
@@ -1728,6 +1782,13 @@ a {
 
 
 }
+
+.circlepages:focus{
+    cursor: pointer;
+    color: white !important;
+    background-color: #ffb900;
+}
+
 
 .circlepages:hover {
     cursor: pointer;

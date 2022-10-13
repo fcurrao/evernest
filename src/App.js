@@ -1,7 +1,6 @@
 
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Buybar from './components/Buybar/Buybar';
 import Contactbar from './components/Contactbar/Contactbar';
 import Navigationbar from './components/Navigationbar/Navigationbar';
 import Contact from './pages/Contact'
@@ -11,8 +10,6 @@ import Home from './pages/Home';
 import Aboutus from './pages/Aboutus';
 import Error404 from './pages/Error404';
 import Properties from './pages/Properties';
-
-import { CartContext } from './context/CartContext';
 import CartProvider from './context/CartContext';  
 
 
@@ -33,7 +30,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/productos/details" element={<Details />} />
-          <Route path="/productos/:id" element={<Details />} />
+          <Route path="/productos/:id" element={<Details />} /> 
+         
           <Route path="*" element={<Error404 />}   />
         </Routes>
 
