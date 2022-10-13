@@ -1,12 +1,17 @@
-import { createContext, useState } from "react";
+import { createContext } from "react";
+import { useState, useEffect } from "react";
+import { useParams } from "react-router-dom";
+
 
 const CartContext = createContext()
 
 const CartProvider = ({ children }) => {
 
-
+     
+    const [pageofthis, setPageofthis] = useState(1)
     const [modalOnOff, setModalOnOff] = useState(false)
     const [btng4, setBtng4] = useState(1)
+ 
 
     const changeBtng = (n) => {
         setBtng4(n)
@@ -78,7 +83,7 @@ const CartProvider = ({ children }) => {
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
     /////////////////////
     // ACA TRAIGO EL API ???
-    /////////////////////
+ 
 
 
     ////////////////////////////////////////////////////////////////////////////////////
@@ -91,7 +96,11 @@ const CartProvider = ({ children }) => {
         setBtng4,
         changeBtng,
         setTextoParaFoto,
-        textoParaFoto
+        textoParaFoto,
+        setPageofthis,
+        pageofthis
+     
+
 
     }
 

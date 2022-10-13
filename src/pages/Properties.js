@@ -4,16 +4,17 @@ import { useState } from "react"
 import { useEffect } from "react"
 import Details from "./Details"
 import { Link } from "react-router-dom"
-
+import { useContext } from "react"
+import { CartContext } from "../context/CartContext"
 
 const Properties = () => {
-
-    const [btng4, setBtng4] = useState(1)
+ 
     const [propiedadesTodas, setPropiedadesTodas] = useState([])
-    const [pagestate, setPagestate] = useState()
+    const [pagestate, setPagestate] = useState() 
+    const { pageofthis, setPageofthis , textoParaFoto, setTextoParaFoto, modalOnOff, setModalOnOff, btng4, setBtng4, changeBtng } = useContext(CartContext)
+   
 
-
-
+    
 
 
     const componentGetMount = async (page = 1) => {
@@ -28,6 +29,7 @@ const Properties = () => {
                 console.log("PROPIEDADES :", data)
                 setPropiedadesTodas(data.content)
                 setPagestate(data.pagination)
+                setPageofthis(page)
                 // setLocations(data.content.location)
                 // query||
             })

@@ -9,14 +9,15 @@ import { CartContext } from "../context/CartContext"
 import { Carousel } from "bootstrap";
 // import Carousel from 'react-bootstrap/Carousel'
 import Carrousel from "../components/Carrousel/Carrousel"
-import { useParams } from 'react-router-dom'
+import { useParams } from 'react-router-dom' 
 
 const Details = () => {
 
 
 
-    const { textoParaFoto, setTextoParaFoto, modalOnOff, setModalOnOff, btng4, setBtng4, changeBtng } = useContext(CartContext)
-
+    const { pageofthis, setPageofthis, textoParaFoto, setTextoParaFoto, modalOnOff, setModalOnOff, btng4, setBtng4, changeBtng } = useContext(CartContext)
+   
+    // const {estaProp, setEstaProp,valor, setValor } = useContext(CartContext)
     const { id } = useParams()
     const [propiedadesTodas, setPropiedadesTodas] = useState([])
     const [estaProp, setEstaProp] = useState([])
@@ -26,10 +27,10 @@ const Details = () => {
 
 
 
-    const componentGetMount = async (page = 1) => {
+    const componentGetMount = async (pageofthis) => {
 
 
-        const propiedadesTotales = await fetch(` https://api-easybroker.onrender.com/properties`)
+        const propiedadesTotales = await fetch(` https://api-easybroker.onrender.com/properties?page=${pageofthis}&limit=20`)
             .then((response) => {
                 return response.json()
             })
@@ -40,14 +41,17 @@ const Details = () => {
                 setEstaProp(found)   
                 setValor(found.operations[0].formatted_amount)
             })
-
+                      console.log("estaProp",estaProp )
 
 
     }
 
 
     useEffect(() => {
-        componentGetMount()
+        componentGetMount(pageofthis)
+    //     for (var i=1 ; i=10 ; i++){
+    //     componentGetMount(i)
+    // }
 
     }, [])
 
