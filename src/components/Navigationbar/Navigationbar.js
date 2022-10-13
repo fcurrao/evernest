@@ -9,7 +9,7 @@ const Navigationbar = () => {
         <section className="navbar">
 
 <div className='divlogobar'>
-<Link to="/home"> <img  className='logobar' src="../../../public/logo-ankara-1.png" alt="logo"></img> </Link>
+<Link to="/home"> <img  className='logobar' src="https://i.im.ge/2022/10/14/2sAlfF.logo-ankara-1.png" alt="logo"></img> </Link> 
 </div>   
         
 

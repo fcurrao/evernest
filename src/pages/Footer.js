@@ -13,7 +13,7 @@ const Footer = () => {
 
 
 <section className="footer1">
-<div className="margintop5"> <img className="logo" src="../../public/logo-ankara-1.png" alt="pictureProp" /></div>
+<div className="margintop5"> <img className="logo" src="https://i.im.ge/2022/10/14/2sAlfF.logo-ankara-1.png" alt="pictureProp" /></div>
 <p className='pfoot'>Ankara es una empresa que nace de la necesidad de crear una experiencia exclusiva al cliente en una búsqueda de un hogar único, exclusivo y prestigioso.
 </p>
 <Link to="/nosotros"  className='ptextfooter bmmmn'>    <button className="buttonsearch2 bmmm">    <p className="text5"> NOSOTROS </p> </button> </Link>
