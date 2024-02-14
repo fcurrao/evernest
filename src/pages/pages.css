@@ -979,7 +979,7 @@ a {
 
 .buyorsell {
     display: flex;
-    background: url(http://malikhassan.com/html/evernest/images/house-bg.jpg) no-repeat top;
+    background: rgba(17, 17, 17, 0.582);
     text-align: center;
     background-size: cover;
     padding: 70px 0 80px 0;

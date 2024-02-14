@@ -221,7 +221,10 @@ const Home = () => {
                         <h3 className="text2">Nuestros clientes son lo mas importante para nosotros.</h3> </div>
                     <div className="leftotra2" >
     <img className="imggg imghovdiag" src="https://assets.easybroker.com/property_images/828155/12491650/EB-CD8155.jpg?version=1537234270" ></img>
-    
+    <img className="imggg imghovdiag" src="https://assets.easybroker.com/property_images/865066/13037766/EB-CH5066.jpg?version=1540964482" ></img>
+    <img className="imggg imghovdiag" src="https://assets.easybroker.com/property_images/753530/11433685/EB-BW3530.jpg?version=1530304048" ></img>
+         <img className="imggg imghovdiag" src="https://assets.easybroker.com/property_images/865026/13037367/EB-CH5026.jpg?version=1540961126" ></img>
+                  
 
                         {propiedadesTodas.filter(cadaUna => cadaUna.public_id == 'EB-DQ9333' ||
                             cadaUna.public_id == 'EB-GD1708' ||
@@ -280,8 +283,8 @@ const Home = () => {
 
 
                 <section className="buyorsell">
-                    <h1 className="">En decoración coloca siempre una pieza controvertida. </h1>
-                    <h1 className="">Dará tema de conversación a tus invitados </h1>
+                    <h1 className="sliderh2">En decoración coloca siempre una pieza controvertida. </h1>
+                    <h1 className="sliderh2">Dará tema de conversación a tus invitados </h1>
 
                     <br></br>  <br></br>
                     <p className="textwhite">     Total de propiedades vendidas en los últimos 6 meses:
