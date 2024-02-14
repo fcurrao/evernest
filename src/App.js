@@ -7,7 +7,7 @@ import Contact from './pages/Contact'
 import Footer from './pages/Footer';
 import Details from './pages/Details';
 import Home from './pages/Home';
-import Aboutus from './pages/Aboutus';
+import Aboutus from './pages/AboutUs';
 import Error404 from './pages/Error404';
 import Properties from './pages/Properties';
 import CartProvider from './context/CartContext';  

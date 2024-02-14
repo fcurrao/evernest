@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
-import OurTeam from './OurTeam';
-import GeneralContainer from "../components/GeneralContainer/GeneralContainer";
+import OurTeam from './OurTeam'; 
 import './pages.css'
 import { Link } from "react-router-dom";
 
@@ -220,8 +219,11 @@ const Home = () => {
 
                         <h3 className="text2">Nuestros clientes son lo mas importante para nosotros.</h3> </div>
                     <div className="leftotra2" >
-
-
+    <img className="imggg imghovdiag" src="https://assets.easybroker.com/property_images/828155/12491650/EB-CD8155.jpg?version=1537234270" ></img>
+    <img className="imggg imghovdiag" src="https://assets.easybroker.com/property_images/865066/13037766/EB-CH5066.jpg?version=1540964482" ></img>
+    <img className="imggg imghovdiag" src="https://assets.easybroker.com/property_images/753530/11433685/EB-BW3530.jpg?version=1530304048" ></img>
+         <img className="imggg imghovdiag" src="https://assets.easybroker.com/property_images/865026/13037367/EB-CH5026.jpg?version=1540961126" ></img>
+                  
 
                         {propiedadesTodas.filter(cadaUna => cadaUna.public_id == 'EB-DQ9333' ||
                             cadaUna.public_id == 'EB-GD1708' ||
@@ -280,13 +282,13 @@ const Home = () => {
 
 
                 <section className="buyorsell">
-                    <h1 className="sliderh2">En decoración coloca siempre una pieza controvertida. </h1>
-                    <h1 className="sliderh2">Dará tema de conversación a tus invitados </h1>
+                    <h1 className="sliderh2 bckblack">En decoración coloca siempre una pieza controvertida. </h1>
+                    <h1 className="sliderh2 bckblack">Dará tema de conversación a tus invitados </h1>
 
                     <br></br>  <br></br>
-                    <p className="textwhite">     Total de propiedades vendidas en los últimos 6 meses:
+                    <p className="textwhite bckblack">     Total de propiedades vendidas en los últimos 6 meses:
                     </p>
-                    <div className="dflex ">
+                    <div className="dflex bckblack ">
 
                         <div className="circll">  25 </div>
                         <p className="mleft">  PROPIEDADES PREMIUM</p>
@@ -300,10 +302,10 @@ const Home = () => {
 
 
                 <section className="sold">
-                    <img className="imggg imghovdiag" src=" https://www.ankararealestate.mx/wp-content/uploads/2022/01/WhatsApp-Image-2022-01-24-at-9.01.31-AM-480x331.jpeg" ></img>
-                    <img className="imggg imghovdiag" src="https://www.ankararealestate.mx/wp-content/uploads/2022/01/WhatsApp-Image-2022-01-24-at-9.01.11-AM-480x331.jpeg" ></img>
-                    <img className="imggg imghovdiag" src="https://www.ankararealestate.mx/wp-content/uploads/2022/01/WhatsApp-Image-2022-01-24-at-9.00.55-AM-480x331.jpeg" ></img>
-                    <img className="imggg imghovdiag" src="https://www.ankararealestate.mx/wp-content/uploads/2022/01/WhatsApp-Image-2022-01-24-at-9.00.16-AM-480x331.jpeg" ></img>
+                    <img className="imggg imghovdiag" src="https://assets.easybroker.com/property_images/753530/11433685/EB-BW3530.jpg?version=1530304048" ></img>
+                    <img className="imggg imghovdiag" src="https://assets.easybroker.com/property_images/828155/12491650/EB-CD8155.jpg?version=1537234270" ></img>
+                    <img className="imggg imghovdiag" src="https://assets.easybroker.com/property_images/865026/13037367/EB-CH5026.jpg?version=1540961126" ></img>
+                    <img className="imggg imghovdiag" src="https://assets.easybroker.com/property_images/865066/13037766/EB-CH5066.jpg?version=1540964482" ></img>
 
                 </section>
 

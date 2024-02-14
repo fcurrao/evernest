@@ -75,6 +75,9 @@ display: flex;
     margin: 6% 0%;
 }
 
+.bckblack{
+    background-color: black;
+}
 .ptextn {
     color: black !important;
     font-family: 'Poppins', sans-serif;
